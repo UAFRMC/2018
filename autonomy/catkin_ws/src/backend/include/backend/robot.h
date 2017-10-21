@@ -13,18 +13,7 @@
 #include <string>
 #include <vector>
 
-// ***** Serial port helper code ***** //
-// Struct to store configuration of robot's serial port
-struct serial_config_t {
-	std::string port;
-	uint32_t baudrate;
-	serial::Timeout timeout;
-	serial::bytesize_t bytesize;
-	serial::parity_t parity;
-	serial::stopbits_t stopbits;
-	serial::flowcontrol_t flowcontrol;
-};
-
+// ***** Serial port helper function ***** //
 // find_device()
 // Given an identifier string, searches through an enumerated list of serial
 //     ports for a matching device. Returns the first such device found, or
@@ -55,8 +44,9 @@ class Robot{
 	private:
 		ros::NodeHandle nh_;
 		serial::Serial* serial_port_;
-		serial_config_t serial_config_;
 		ros::Subscriber cmd_vel_sub_;
+
+		void connectToSerial();
 
 		void cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel);
 

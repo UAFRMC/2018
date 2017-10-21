@@ -9,7 +9,7 @@
 Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 	// ***** Setup the Serial Port ***** //
 	// Set serial configuration
-	serial_config_ = {
+	serial_port_ = new serial::Serial(
 		"",										// Port name. Found during enumeration
 		57600,									// Baud rate
 		serial::Timeout::simpleTimeout(1000),
@@ -17,33 +17,9 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 		serial::parity_none,
 		serial::stopbits_one,
 		serial::flowcontrol_none
-	};
-
-	// Find Arduino Port
-	while(serial_config_.port == "") {
-		serial_config_.port = find_device("Arduino");
-		if(serial_config_.port == "") {
-			ROS_INFO("Error: Could not find the Arduino. Retrying...");
-		}
-	}
-
-	// Open the serial port
-	ROS_INFO("Connecting to port '%s'", serial_config_.port.c_str());
-	serial_port_ = new serial::Serial(
-		serial_config_.port,
-		serial_config_.baudrate,
-		serial_config_.timeout,
-		serial_config_.bytesize,
-		serial_config_.parity,
-		serial_config_.stopbits,
-		serial_config_.flowcontrol
 	);
-	if(serial_port_ -> isOpen()) {
-		ROS_INFO("Connecting to port '%s' succeeded.", serial_config_.port.c_str());
-	}
-	else {
-		ROS_INFO("Error connecting to port.");
-	}
+
+	connectToSerial();
 	// ********** //
 
 	// ***** Setup Publishers and Subscribers ***** //
@@ -51,20 +27,59 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 	// ********** //
 }
 
-void::Robot::update() {
+void Robot::update() {
 	// If there are bytes available on the serial port, read them in.
-	if(serial_port_ -> available()) {
-		size_t size = serial_port_ -> available();
-		uint8_t* buffer = new uint8_t[size];
-		size_t bytes_read = serial_port_ -> read(buffer, size);
-		for(int i=0; i<bytes_read; ++i)
-			printf("%02X ", buffer[i]);
-		printf("\n");
+	try{
+		if(serial_port_ -> available()) {
+			size_t size = serial_port_ -> available();
+			uint8_t* buffer = new uint8_t[size];
+			size_t bytes_read = serial_port_ -> read(buffer, size);
+			for(int i=0; i<bytes_read; ++i)
+				printf("%02X ", buffer[i]);
+			printf("\n");
 
-		// Process the packet
+			// Process the packet
 
-		delete [] buffer;
+			delete [] buffer;
+		}
 	}
+	// We have lost connection to the Arduino, attempt to reconnect
+	catch(serial::IOException & e) { 
+		while(true) {
+			try{
+				connectToSerial();
+				break;
+			}
+			catch(serial::IOException & e) {
+				ROS_INFO("Error Connecting to serial port.");
+			}
+		}
+	}
+}
+
+void Robot::connectToSerial() {
+	// Find Arduino Port
+	do {
+		serial_port_ -> setPort(find_device("Arduino"));
+		if(serial_port_ -> getPort() == "") {
+			ROS_INFO("Error: Could not find the Arduino. Retrying...");
+		}
+	} while(serial_port_ -> getPort() == "");
+
+	// Open the serial port
+	while(true) {
+		try {
+			ROS_INFO("Connecting to port '%s'", serial_port_ -> getPort().c_str());
+			serial_port_ -> open();
+			if(serial_port_ -> isOpen()) {
+				break;
+			}
+		}
+		catch(serial::IOException & e) {
+			ROS_INFO("Error connecting to port '%s'. Retrying...", serial_port_ -> getPort().c_str());
+		}
+	}
+	ROS_INFO("Connecting to port '%s' succeeded.", serial_port_ -> getPort().c_str());	
 }
 
 void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
