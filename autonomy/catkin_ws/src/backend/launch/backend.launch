@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="backend" type="backend_node" name="backend_node" output="screen"/>
+</launch>
