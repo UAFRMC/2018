@@ -9,6 +9,7 @@
 
 #include <ros/ros.h>
 #include <serial/serial.h>
+#include <geometry_msgs/Twist.h>
 #include <string>
 #include <vector>
 
@@ -50,10 +51,16 @@ static std::string find_device(std::string id) {
 class Robot{
 	public:
 		Robot(ros::NodeHandle nh);
+		void update();
 	private:
 		ros::NodeHandle nh_;
+		serial::Serial* serial_port_;
+		serial_config_t serial_config_;
 		ros::Subscriber cmd_vel_sub_;
-		serial_config_t serial_config;
+
+		void cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel);
+
+
 }; // End class Robot
 
 #endif // ROBOT_H_INCLUDED

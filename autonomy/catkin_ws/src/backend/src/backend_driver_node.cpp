@@ -15,6 +15,7 @@ int main(int argc, char** argv) {
 	Robot robot(nh);
 
 	while(true) { // Main  program loop
+		robot.update();
 		ros::spinOnce();
 	}
 
