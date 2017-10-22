@@ -45,41 +45,33 @@ void Robot::update() {
 	}
 	// We have lost connection to the Arduino, attempt to reconnect
 	catch(serial::IOException & e) { 
-		while(true) {
-			try{
-				connectToSerial();
-				break;
-			}
-			catch(serial::IOException & e) {
-				ROS_INFO("Error Connecting to serial port.");
-			}
-		}
+		connectToSerial();
 	}
 }
 
 void Robot::connectToSerial() {
 	// Find Arduino Port
-	do {
-		serial_port_ -> setPort(find_device("Arduino"));
-		if(serial_port_ -> getPort() == "") {
-			ROS_INFO("Error: Could not find the Arduino. Retrying...");
-		}
-	} while(serial_port_ -> getPort() == "");
-
-	// Open the serial port
 	while(true) {
-		try {
+		try{
+			do {
+				serial_port_ -> setPort(find_device("Arduino"));
+				if(serial_port_ -> getPort() == "") {
+					ROS_INFO("Error: Could not find the Arduino. Retrying...");
+				}
+			} while(serial_port_ -> getPort() == "");
+
 			ROS_INFO("Connecting to port '%s'", serial_port_ -> getPort().c_str());
 			serial_port_ -> open();
-			if(serial_port_ -> isOpen()) {
-				break;
-			}
+			ROS_INFO("Connecting to port '%s' succeeded.", serial_port_ -> getPort().c_str());
+			break;
 		}
 		catch(serial::IOException & e) {
-			ROS_INFO("Error connecting to port '%s'. Retrying...", serial_port_ -> getPort().c_str());
+			ROS_INFO("Error Connecting to serial port. Retrying...");
 		}
-	}
-	ROS_INFO("Connecting to port '%s' succeeded.", serial_port_ -> getPort().c_str());	
+		catch(std::invalid_argument & e) {
+			ROS_INFO("Error Connecting to serial port. Retrying...");
+		}
+	}	
 }
 
 void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
