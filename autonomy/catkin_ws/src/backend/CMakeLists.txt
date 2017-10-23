@@ -9,6 +9,7 @@ add_compile_options(-std=c++11)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
+  nav_msgs
   roscpp
   serial
   roslaunch
@@ -39,6 +40,7 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${CMAKE_BINARY_DIR}/../../../firmware/
 )
 
 ## Declare a C++ executable

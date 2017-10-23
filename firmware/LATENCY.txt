@@ -1,0 +1,25 @@
+2014-04-05:
+
+For blinky detection, I need to do one A/D conversion every millisecond, with good synchronization.  This means timing is important.
+
+
+Call send_motors repeatedly: 20ms(!)
+Call send_motors every 25ms: 240us (tx buffer has room => fast!)
+Call read_packet and handle_packet: 760us
+Call micros(): 12us
+One analogRead: 100us(!)
+
+Adding a low latency probe in read_packet loop: no change
+Adding probes in handle_packet (around read_sensors): to 580us
+Adding probes between every 2 analogReads in read_sensors: 230us
+Adding probes between every analogRead in read_sensors: 140us
+
+
+
+I'm going to get bad latency if I don't limit my serial bandwidth use.
+	57600 baud -> 5KB/sec, about 5 bytes/ms
+	1 10-bit sample / ms
+	3 10-bit samples -> one 4-byte payload -> one 6-byte A_packet
+	6 samples -> 8 byte payload -> one 10-byte A-packet every 6ms (fine)
+
+

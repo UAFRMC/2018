@@ -2,7 +2,7 @@
 
 // Author: Ryker Dial
 // Date Created: October 19, 2017
-// Last Modified: October 20, 2017
+// Last Modified: October 22, 2017
 
 #include <backend/robot.h>
 
@@ -22,8 +22,13 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 	connectToSerial();
 	// ********** //
 
+	pkt_ = new A_packet_formatter<serial::Serial>(*serial_port_);
+
 	// ***** Setup Publishers and Subscribers ***** //
 	cmd_vel_sub_ = nh_.subscribe("cmd_vel", 1, &Robot::cmdVelCallback, this);
+
+	heartbeat_pub_ = nh_.advertise<std_msgs::UInt8>("heartbeat", 1);
+	odom_pub_ = nh_.advertise<nav_msgs::Odometry>("odom", 30);
 	// ********** //
 }
 
@@ -31,16 +36,38 @@ void Robot::update() {
 	// If there are bytes available on the serial port, read them in.
 	try{
 		if(serial_port_ -> available()) {
-			size_t size = serial_port_ -> available();
-			uint8_t* buffer = new uint8_t[size];
-			size_t bytes_read = serial_port_ -> read(buffer, size);
-			for(int i=0; i<bytes_read; ++i)
-				printf("%02X ", buffer[i]);
-			printf("\n");
+			A_packet p;
+			while(-1 == pkt_ -> read_packet(p)) {}
 
-			// Process the packet
-
-			delete [] buffer;
+			if (p.valid)
+			{
+				if (p.command==0)
+				{
+					ROS_INFO("Got echo packet back from robot");
+				}
+				else if (p.command==0xE)
+				{
+					ROS_INFO("Got ERROR (0xE) packet back from robot (length %d)", p.length);
+				}
+				else if (p.command==0x3)
+				{
+					ROS_INFO("0x3");
+					// sensor data
+					if (!p.get(sensor))
+					{
+						ROS_INFO("Size mismatch on arduino -> PC sensor packet (expected %lu, got %d)",sizeof(sensor),p.length);
+					}
+					else // Process Sensor Data
+					{
+						heartbeat_msg_.data = sensor.heartbeat;
+						heartbeat_pub_.publish(heartbeat_msg_);
+					}
+				}
+				else
+				{ // unknown packet type?!
+					ROS_INFO("Got unknown packet type 0x%x length %d from robot",p.command,p.length);
+				}
+			}
 		}
 	}
 	// We have lost connection to the Arduino, attempt to reconnect
@@ -49,10 +76,17 @@ void Robot::update() {
 	}
 }
 
+// Testing function to get sensor data
+void Robot::requestSensors() {
+	power.stop();
+	pkt_ -> write_packet(0x7,sizeof(power),&power);
+}
+
+// Attempts to connect to the Arduino over serial.
 void Robot::connectToSerial() {
-	// Find Arduino Port
 	while(true) {
 		try{
+			// Find the Arduino Port
 			do {
 				serial_port_ -> setPort(find_device("Arduino"));
 				if(serial_port_ -> getPort() == "") {
@@ -60,6 +94,7 @@ void Robot::connectToSerial() {
 				}
 			} while(serial_port_ -> getPort() == "");
 
+			// Connect to the Arduino
 			ROS_INFO("Connecting to port '%s'", serial_port_ -> getPort().c_str());
 			serial_port_ -> open();
 			ROS_INFO("Connecting to port '%s' succeeded.", serial_port_ -> getPort().c_str());

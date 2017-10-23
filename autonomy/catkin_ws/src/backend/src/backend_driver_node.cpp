@@ -14,7 +14,14 @@ int main(int argc, char** argv) {
 
 	Robot robot(nh);
 
+	ros::Time time_last_request = ros::Time::now();
+
 	while(true) { // Main  program loop
+		if(ros::Time::now().toSec() - time_last_request.toSec() >= 2.0) {
+			robot.requestSensors();
+			time_last_request = ros::Time::now();
+		}
+
 		robot.update();
 		ros::spinOnce();
 	}
