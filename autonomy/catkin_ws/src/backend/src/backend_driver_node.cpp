@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 
 	ros::Time time_last_request = ros::Time::now();
 
-	while(true) { // Main  program loop
+	while(ros::ok()) { // Main  program loop
 		if(ros::Time::now().toSec() - time_last_request.toSec() >= 0.25) {
 			robot.requestSensors();
 			time_last_request = ros::Time::now();
