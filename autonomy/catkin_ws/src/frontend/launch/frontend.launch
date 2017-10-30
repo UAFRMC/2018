@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="frontend" type="teleop_node" name="teleop_node" output="screen">
+		<param name="scale_angular" type="double" value="0.3"/>
+		<param name="scale_linear" type="double" value="0.3"/>
+	</node>
+	<node pkg="joy" type="joy_node" name="joy_node"/>
+</launch>
