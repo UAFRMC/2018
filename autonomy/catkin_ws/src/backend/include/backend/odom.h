@@ -9,6 +9,7 @@
 
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #include <tf2/LinearMath/Quaternion.h>
+#include <Eigen/Dense>
 #include <nav_msgs/Odometry.h>
 
 class Odom {
@@ -19,14 +20,13 @@ class Odom {
 	private:
 		double wheelbase_, meters_per_tick_;
 
-		// 
+		// Time we last updated the odometry (for velocity estimation)
 		ros::Time time_last_update_;
 
 		// Robot state information
 		double pose_x_, pose_y_, pose_yaw_;
-		double pose_covariance_[9];
 		double velocity_x_, velocity_yaw_;
-		double velocity_covariance_[9];
+		Eigen::MatrixXd pose_covariance_; // Pose covariance is integrated, so need to store previous value
 };
 
 #endif // ODOM_H_INCLUDED
