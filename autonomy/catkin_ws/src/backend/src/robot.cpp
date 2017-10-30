@@ -24,12 +24,23 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 
 	pkt_ = new A_packet_formatter<serial::Serial>(*serial_port_);
 
+	// Configure Odometry
+	double wheelbase = 0.13; // Separation of tracks in meters
+	double meters_per_tick = 9*(19.0/27.0)*0.050/36*100.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
+	odom_ = new Odom(wheelbase, meters_per_tick);
+
 	// ***** Setup Publishers and Subscribers ***** //
 	cmd_vel_sub_ = nh_.subscribe("cmd_vel", 1, &Robot::cmdVelCallback, this);
 
 	heartbeat_pub_ = nh_.advertise<std_msgs::UInt8>("heartbeat", 1);
 	odom_pub_ = nh_.advertise<nav_msgs::Odometry>("odom", 30);
 	// ********** //
+}
+
+Robot::~Robot() {
+	delete serial_port_;
+	delete pkt_;
+	delete odom_;
 }
 
 void Robot::update() {
@@ -61,6 +72,12 @@ void Robot::update() {
 					{
 						heartbeat_msg_.data = sensor.heartbeat;
 						heartbeat_pub_.publish(heartbeat_msg_);
+
+						// For each side, choose the max of the encoder ticks
+						int16_t ticks_left = std::max(sensor.DL1count, sensor.DL2count);
+						int16_t ticks_right = std::max(sensor.DR1count, sensor.DR2count);
+						odom_ -> updateOdom(ticks_left, ticks_right);
+						odom_pub_.publish(odom_ -> odom_msg_);
 					}
 				}
 				else

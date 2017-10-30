@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   serial
   roslaunch
   std_msgs
+  tf2
 )
 
 roslaunch_add_file_check(launch)
@@ -46,7 +47,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(${PROJECT_NAME}_node src/backend_driver_node.cpp src/robot.cpp)
+add_executable(${PROJECT_NAME}_node src/backend_driver_node.cpp src/robot.cpp src/odom.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above

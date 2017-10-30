@@ -10,12 +10,14 @@
 #include <ros/ros.h>
 #include <serial/serial.h>
 #include <backend/serial_packet.h>
+#include <backend/odom.h>
 #include <robot_base.h>
 #include <std_msgs/UInt8.h>
 #include <geometry_msgs/Twist.h>
 #include <nav_msgs/Odometry.h>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 // ***** Serial port helper function ***** //
 // find_device()
@@ -43,12 +45,14 @@ static std::string find_device(std::string id) {
 class Robot: public robot_base {
 	public:
 		Robot(ros::NodeHandle nh);
+		~Robot();
 		void update();
 		void requestSensors();
 	private:
 		ros::NodeHandle nh_;
 		serial::Serial* serial_port_;
 		A_packet_formatter<serial::Serial>* pkt_;
+		Odom* odom_;
 
 		// Subscribers
 		ros::Subscriber cmd_vel_sub_;
@@ -57,14 +61,12 @@ class Robot: public robot_base {
 		ros::Publisher heartbeat_pub_;
 		ros::Publisher odom_pub_;
 
-		nav_msgs::Odometry odom_msg_;
-
 		// Messages
 		std_msgs::UInt8 heartbeat_msg_;
 
 		void connectToSerial();
 
-		void updateOdom(uint16_t ticks_left, uint16_t ticks_right);
+		void updateOdom(uint8_t ticks_left, uint8_t ticks_right);
 		void cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel);
 
 
