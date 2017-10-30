@@ -14,11 +14,13 @@ int main(int argc, char** argv) {
 
 	Robot robot(nh);
 
+	// Loop Timing Information
+	const double power_command_rate = 5; // Frequency to send power commands to the robotw
 	ros::Time time_last_request = ros::Time::now();
 
 	while(ros::ok()) { // Main  program loop
-		if(ros::Time::now().toSec() - time_last_request.toSec() >= 0.25) {
-			robot.requestSensors();
+		if(ros::Time::now().toSec() - time_last_request.toSec() >= 1.0/power_command_rate) {
+			robot.sendPower();
 			time_last_request = ros::Time::now();
 		}
 

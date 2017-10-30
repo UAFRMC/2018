@@ -47,12 +47,13 @@ class Robot: public robot_base {
 		Robot(ros::NodeHandle nh);
 		~Robot();
 		void update();
-		void requestSensors();
+		void sendPower();
 	private:
 		ros::NodeHandle nh_;
 		serial::Serial* serial_port_;
 		A_packet_formatter<serial::Serial>* pkt_;
 		Odom* odom_;
+		const double MAX_VEL;
 
 		// Subscribers
 		ros::Subscriber cmd_vel_sub_;

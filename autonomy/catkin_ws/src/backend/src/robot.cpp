@@ -6,7 +6,7 @@
 
 #include <backend/robot.h>
 
-Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
+Robot::Robot(ros::NodeHandle nh) : nh_(nh), MAX_VEL(1.0) {
 	// ***** Setup the Serial Port ***** //
 	// Set serial configuration
 	serial_port_ = new serial::Serial(
@@ -93,11 +93,8 @@ void Robot::update() {
 	}
 }
 
-// Testing function to get sensor data
-void Robot::requestSensors() {
-	power.stop();
-	power.left = 127;
-	power.right = 127;
+// Transmit the current power packet
+void Robot::sendPower() {
 	pkt_ -> write_packet(0x7,sizeof(power),&power);
 }
 
@@ -133,4 +130,8 @@ void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
 	double left_vel = cmd_vel -> linear.x - wheelbase/2.0*(cmd_vel -> angular.z);
 	double right_vel = cmd_vel -> linear.x + wheelbase/2.0*(cmd_vel -> angular.z);
 
+	// Convert the left and right velocities to power commands
+	double max_power_percentage = 0.3; // Never go above this percentage of full power
+	power.left = (uint8_t) max_power_percentage*(left_vel/MAX_VEL*63+64);
+	power.right = (uint8_t) max_power_percentage*(left_vel/MAX_VEL*63+64);
 }
