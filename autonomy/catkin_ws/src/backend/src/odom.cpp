@@ -71,6 +71,17 @@ void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
 	while (pose_yaw_ < -M_PI) pose_yaw_ += 2*M_PI;
 	while (pose_yaw_ > M_PI) pose_yaw_ -= 2*M_PI;
 
+	// Update Covariances
+	// Ref: "Introduction to Autonomous Mobile Robots" (Siegwart 2004, page 189)
+	double kr = 1.0;
+	double kl = 1.0;
+	double cos_yaw_and_half_delta = cos(pose_yaw_ + (delta_yaw/2.0));
+	double sin_yaw_and_half_delta = sin(pose_yaw_ + (delta_yaw/2.0));
+	double dist_over_two_wb = delta_dist/(2*wheelbase_);
+
+
+
+
 	// ***** Move the data into the ROS Message ***** //
 	// Populate Position Info
 	tf2::Quaternion quat;
@@ -83,5 +94,23 @@ void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
 	odom_msg_.twist.twist.linear.x = velocity_x_;
 	odom_msg_.twist.twist.angular.z = velocity_yaw_;
 
-	// Update Covariances
+	// Update covariances
+	odom_msg_.pose.covariance[0] = pose_covariance_[0];
+	odom_msg_.pose.covariance[1] = pose_covariance_[1];
+	odom_msg_.pose.covariance[5] = pose_covariance_[2];
+	odom_msg_.pose.covariance[6] = pose_covariance_[3];
+	odom_msg_.pose.covariance[7] = pose_covariance_[4];
+	odom_msg_.pose.covariance[11] = pose_covariance_[5];
+	odom_msg_.pose.covariance[30] = pose_covariance_[6];
+	odom_msg_.pose.covariance[31] = pose_covariance_[7];
+	odom_msg_.pose.covariance[35] = pose_covariance_[8];
+	odom_msg_.twist.covariance[0] = velocity_covariance_[0];
+	odom_msg_.twist.covariance[1] = velocity_covariance_[1];
+	odom_msg_.twist.covariance[5] = velocity_covariance_[2];
+	odom_msg_.twist.covariance[6] = velocity_covariance_[3];
+	odom_msg_.twist.covariance[7] = velocity_covariance_[4];
+	odom_msg_.twist.covariance[11] = velocity_covariance_[5];
+	odom_msg_.twist.covariance[30] = velocity_covariance_[6];
+	odom_msg_.twist.covariance[31] = velocity_covariance_[7];
+	odom_msg_.twist.covariance[35] = velocity_covariance_[8];	
 }

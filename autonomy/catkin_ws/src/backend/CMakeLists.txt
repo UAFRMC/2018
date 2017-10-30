@@ -8,6 +8,7 @@ add_compile_options(-std=c++11)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  cmake_modules
   geometry_msgs
   nav_msgs
   roscpp
@@ -16,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf2
 )
+find_package(Eigen REQUIRED)
 
 roslaunch_add_file_check(launch)
 
@@ -30,6 +32,7 @@ roslaunch_add_file_check(launch)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS include
+  DEPENDS Eigen
 )
 
 ###########
@@ -41,6 +44,7 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${Eigen_INCLUDE_DIRS}
   ${CMAKE_BINARY_DIR}/../../../firmware/
 )
 
