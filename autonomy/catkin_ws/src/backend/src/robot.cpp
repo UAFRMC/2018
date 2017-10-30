@@ -2,7 +2,7 @@
 
 // Author: Ryker Dial
 // Date Created: October 19, 2017
-// Last Modified: October 22, 2017
+// Last Modified: October 30, 2017
 
 #include <backend/robot.h>
 
@@ -103,7 +103,7 @@ void Robot::requestSensors() {
 
 // Attempts to connect to the Arduino over serial.
 void Robot::connectToSerial() {
-	while(true) {
+	while(ros::ok()) {
 		try{
 			// Find the Arduino Port
 			do {
