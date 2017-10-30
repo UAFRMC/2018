@@ -146,14 +146,6 @@ void send_motor_power(int power64,BTS_motor_t &motor,encoder_t &enc) {
   motor.drive(power64);
 }
 
-void reset_drive_encoders()
-{
-  encoder_DL1.reset_count_dir();
-  encoder_DL2.reset_count_dir();
-  encoder_DR1.reset_count_dir();
-  encoder_DR2.reset_count_dir();
-}
-
 // Send current power values to the motors
 void send_motors(void)
 {
@@ -205,7 +197,6 @@ void handle_packet(A_packet_formatter<HardwareSerial> &pkt,const A_packet &p)
       read_sensors();
       low_latency_ops();
       pkt.write_packet(0x3,sizeof(robot.sensor),&robot.sensor);
-      reset_drive_encoders(); // Set drive encoders to 0 after every update
       robot.sensor.latency=0; // reset latency metric
       low_latency_ops();
     }
