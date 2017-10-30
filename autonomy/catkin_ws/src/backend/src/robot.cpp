@@ -62,7 +62,7 @@ void Robot::update() {
 				}
 				else if (p.command==0x3)
 				{
-					ROS_INFO("0x3");
+					ROS_INFO("Got Sensor Data");
 					// sensor data
 					if (!p.get(sensor))
 					{
@@ -96,6 +96,8 @@ void Robot::update() {
 // Testing function to get sensor data
 void Robot::requestSensors() {
 	power.stop();
+	power.left = 127;
+	power.right = 127;
 	pkt_ -> write_packet(0x7,sizeof(power),&power);
 }
 

@@ -49,11 +49,11 @@ public:
 	uint32_t Mspeed:8; /// Current milliseconds per encoder tick for mining head left motor (255==stopped)
 	uint32_t Mcount:8; /// Encoder tick count for mining head left motor
 
-	int32_t DL1count:9; /// Encoder tick count for front left drive wheel
-	int32_t DL2count:9; /// Encoder tick count for back left drive wheel
-	int32_t DR1count:9; /// Encoder tick count for right drive wheel
-	int32_t DR2count:9; /// Encoder tick count for back right drive wheel
-  int32_t padding:4;
+	int32_t DL1count:16; /// Encoder tick count for front left drive wheel
+	int32_t DL2count:16; /// Encoder tick count for back left drive wheel
+	int32_t DR1count:16; /// Encoder tick count for right drive wheel
+	int32_t DR2count:16; /// Encoder tick count for back right drive wheel
+        //int32_t padding:4;
 
 	int32_t Rcount:16; /// Encoder tick for bag roll motor
 

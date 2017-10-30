@@ -16,9 +16,12 @@ Odom::Odom(double wheelbase, double meters_per_tick)
 		velocity_covariance_[i] = 0;
 	}
 
+	// Initialize ROS Message
+	odom_msg_.header.frame_id = "odom";
+
 	// Initialize last odometry update time. Assuming we enter the update loop before the robot moves,
 	//     this should be ok.
-	time_last_update_ = ros::Time::now(); 
+	time_last_update_ = ros::Time::now();
 }
 
 void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
