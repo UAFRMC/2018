@@ -129,5 +129,8 @@ void Robot::connectToSerial() {
 }
 
 void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
+	double wheelbase = odom_ -> getWheelbase();
+	double left_vel = cmd_vel -> linear.x - wheelbase/2.0*(cmd_vel -> angular.z);
+	double right_vel = cmd_vel -> linear.x + wheelbase/2.0*(cmd_vel -> angular.z);
 
 }

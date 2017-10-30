@@ -7,8 +7,8 @@
 #define _USE_MATH_DEFINES
 
 Odom::Odom(double wheelbase, double meters_per_tick) 
-	: wheelbase_(wheelbase), meters_per_tick_(meters_per_tick), pose_x_(0), pose_y_(0), pose_yaw_(0),
-	velocity_x_(0), velocity_yaw_(0), pose_covariance_(3,3)
+	: wheelbase_(wheelbase), meters_per_tick_(meters_per_tick), prev_ticks_left_(0), prev_ticks_right_(0),
+	pose_x_(0), pose_y_(0), pose_yaw_(0), velocity_x_(0), velocity_yaw_(0), pose_covariance_(3,3)
 {
 	// Initialize ROS Message
 	odom_msg_.header.frame_id = "odom";
@@ -20,7 +20,7 @@ Odom::Odom(double wheelbase, double meters_per_tick)
 	time_last_update_ = ros::Time::now();
 }
 
-void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
+void Odom::updateOdom(uint8_t ticks_left, uint8_t ticks_right) {
 	// Update the wheel odometry. This code is inspired by libcreate and create_autonomy
 
 	//***** Estimate Pose and Velocity ***** //
@@ -28,9 +28,15 @@ void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
 	double delta_t = (ros::Time::now() - time_last_update_).toSec();
 	time_last_update_ = ros::Time::now();
 
+	double delta_ticks_left = fixWrap256(ticks_left - prev_ticks_left_);
+	double delta_ticks_right = fixWrap256(ticks_right - prev_ticks_right_);
+
+	prev_ticks_left_ = ticks_left;
+	prev_ticks_right_ = ticks_right;
+
 	// Compute the distance travelled by each wheel
-	double left_wheel_dist = ticks_left*meters_per_tick_;
-	double right_wheel_dist = ticks_right*meters_per_tick_;
+	double left_wheel_dist = delta_ticks_left*meters_per_tick_;
+	double right_wheel_dist = delta_ticks_right*meters_per_tick_;
 	double delta_dist = (left_wheel_dist + right_wheel_dist)/2.0;
 
 	// Compute the change in yaw of the robot
@@ -147,4 +153,13 @@ void Odom::updateOdom(int16_t ticks_left, int16_t ticks_right) {
 	odom_msg_.twist.covariance[30] = vel_covar(2,0);
 	odom_msg_.twist.covariance[31] = vel_covar(2,1);
 	odom_msg_.twist.covariance[35] = vel_covar(2,2);
+}
+
+double Odom::fixWrap256(unsigned char diff) {
+	if(diff>128) return diff-256;
+	else return diff;
+}
+
+double Odom::getWheelbase() {
+	return wheelbase_;
 }

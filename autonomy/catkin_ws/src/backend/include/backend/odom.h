@@ -15,10 +15,13 @@
 class Odom {
 	public:
 		Odom(double wheelbase, double meters_per_tick);
-		void updateOdom(int16_t ticks_left, int16_t ticks_right);
+		void updateOdom(uint8_t ticks_left, uint8_t ticks_right);
+		double fixWrap256(unsigned char diff);
+		double getWheelbase();
 		nav_msgs::Odometry odom_msg_;
 	private:
 		double wheelbase_, meters_per_tick_;
+		uint8_t prev_ticks_left_, prev_ticks_right_;
 
 		// Time we last updated the odometry (for velocity estimation)
 		ros::Time time_last_update_;
