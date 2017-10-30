@@ -26,7 +26,7 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh) {
 
 	// Configure Odometry
 	double wheelbase = 0.13; // Separation of tracks in meters
-	double meters_per_tick = 9*(19.0/27.0)*0.050/36*100.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
+	double meters_per_tick = 9*(19.0/27.0)*0.050/36.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
 	odom_ = new Odom(wheelbase, meters_per_tick);
 
 	// ***** Setup Publishers and Subscribers ***** //
