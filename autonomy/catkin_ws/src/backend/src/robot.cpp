@@ -146,8 +146,8 @@ void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
 
 	// Convert the left and right velocities to power commands
 	double max_power_percentage = 0.3; // Never go above this percentage of full power
-	power.left = clamp(max_power_percentage*(left_vel/MAX_VEL*63+64));
-	power.right = clamp(max_power_percentage*(right_vel/MAX_VEL*63+64));
+	power.left = clamp(max_power_percentage*(left_vel/MAX_VEL*63)+64);
+	power.right = clamp(max_power_percentage*(right_vel/MAX_VEL*63)+64);
 
 	if(left_vel==0 || right_vel ==0 )
 	{
