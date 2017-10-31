@@ -1,7 +1,6 @@
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h>
 #include <sensor_msgs/Joy.h>
-#include <std_msgs/UInt8.h>
 #include <frontend/power.h>
 
 class telop_node
