@@ -11,7 +11,9 @@ find_package(catkin REQUIRED COMPONENTS
   joy
   geometry_msgs
   sensor_msgs
+  std_msgs
   roscpp
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -48,11 +50,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+add_message_files(
+   FILES
+   power.msg
+ )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -69,10 +70,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   std_msgs  # Or other packages containing msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -108,6 +109,7 @@ catkin_package(
 #  LIBRARIES frontend
 #  CATKIN_DEPENDS joy roscpp
 #  DEPENDS system_lib
+CATKIN_DEPENDS message_runtime
 )
 
 ###########
@@ -119,6 +121,7 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${CMAKE_BINARY_DIR}/../../../firmware/
 )
 
 ## Declare a C++ library
