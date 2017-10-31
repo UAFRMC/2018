@@ -4,6 +4,6 @@
 		<param name="linear_scale" type="double" value="1.0"/>
 	</node>
 	<node pkg="joy" type="joy_node" name="joy_node" output="screen">
-		<param name="dev_name" type="string" value="Saitek"/>
+		<param name="dev_name" type="string" value="Saitek PLC Saitek P2500 Rumble Force Pad"/>
 	</node>
 </launch>
