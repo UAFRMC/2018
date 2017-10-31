@@ -48,6 +48,7 @@ class Robot: public robot_base {
 		~Robot();
 		void update();
 		void sendPower();
+		int clamp (double);
 	private:
 		ros::NodeHandle nh_;
 		serial::Serial* serial_port_;

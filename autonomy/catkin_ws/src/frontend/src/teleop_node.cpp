@@ -18,7 +18,7 @@ private:
 
 };
 
-telop_node::telop_node():linear_axis(1),angular_axis(0),linear_scale(2),angular_scale(2)
+telop_node::telop_node():linear_axis(1),angular_axis(0),linear_scale(1),angular_scale(1)
 {
 	nh.param("axis_linear",linear_axis,linear_axis);
 	nh.param("axis_angular",angular_axis,angular_axis);

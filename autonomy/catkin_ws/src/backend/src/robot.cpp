@@ -23,7 +23,9 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh), MAX_VEL(1.0) {
 	// ********** //
 
 	pkt_ = new A_packet_formatter<serial::Serial>(*serial_port_);
-
+	//Configure power
+	uint8_t current_left;
+	uint8_t current_right;
 	// Configure Odometry
 	double wheelbase = 0.13; // Separation of tracks in meters
 	double meters_per_tick = 9*(19.0/27.0)*0.050/36.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
@@ -95,6 +97,7 @@ void Robot::update() {
 
 // Transmit the current power packet
 void Robot::sendPower() {
+	ROS_INFO("Sending power: left:'%d',right:'%d",power.left,power.right);
 	pkt_ -> write_packet(0x7,sizeof(power),&power);
 }
 
@@ -125,13 +128,30 @@ void Robot::connectToSerial() {
 	}	
 }
 
+int Robot::clamp(double value)
+{
+	ROS_INFO("Raw value: %f",value);
+	if (value>127) value=127;
+	else if(value<0) value=0;
+	return int(value);
+
+}
+
 void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
+	ROS_INFO("Recieived command velocity");
 	double wheelbase = odom_ -> getWheelbase();
 	double left_vel = cmd_vel -> linear.x - wheelbase/2.0*(cmd_vel -> angular.z);
 	double right_vel = cmd_vel -> linear.x + wheelbase/2.0*(cmd_vel -> angular.z);
+	ROS_INFO("left_vel: '%f',right_vel: '%f'",left_vel,right_vel);
 
 	// Convert the left and right velocities to power commands
 	double max_power_percentage = 0.3; // Never go above this percentage of full power
-	power.left = (uint8_t) max_power_percentage*(left_vel/MAX_VEL*63+64);
-	power.right = (uint8_t) max_power_percentage*(left_vel/MAX_VEL*63+64);
+	power.left = clamp(max_power_percentage*(left_vel/MAX_VEL*63+64));
+	power.right = clamp(max_power_percentage*(right_vel/MAX_VEL*63+64));
+
+	if(left_vel==0 || right_vel ==0 )
+	{
+		power.left=power.right=64; //Stop when released
+	}
+	ROS_INFO("left: '%d',right: '%d'",power.left,power.right);
 }
