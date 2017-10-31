@@ -25,12 +25,13 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh), MAX_VEL(1.0) {
 	pkt_ = new A_packet_formatter<serial::Serial>(*serial_port_);
 
 	// Configure Odometry
-	double wheelbase = 0.13; // Separation of tracks in meters
+	double wheelbase = 1.3; // Separation of tracks in meters
 	double meters_per_tick = 9*(19.0/27.0)*0.050/36.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
 	odom_ = new Odom(wheelbase, meters_per_tick);
 
 	// ***** Setup Publishers and Subscribers ***** //
 	cmd_vel_sub_ = nh_.subscribe("cmd_vel", 1, &Robot::cmdVelCallback, this);
+	current_power_sub = nh_.subscribe("current_power",1,&Robot::currentPowerCallback,this);
 
 	heartbeat_pub_ = nh_.advertise<std_msgs::UInt8>("heartbeat", 1);
 	odom_pub_ = nh_.advertise<nav_msgs::Odometry>("odom", 30);
@@ -96,6 +97,7 @@ void Robot::update() {
 // Transmit the current power packet
 void Robot::sendPower() {
 	ROS_INFO("Sending power: left:'%d',right:'%d",power.left,power.right);
+	ROS_INFO("Sending power: mine:'%d',roll:'%d, dump:%d",power.mine,power.roll,power.dump);
 	pkt_ -> write_packet(0x7,sizeof(power),&power);
 }
 
@@ -129,7 +131,6 @@ void Robot::connectToSerial() {
 
 int Robot::clamp(double value)
 {
-	ROS_INFO("Raw value: %f",value);
 	if (value>127) value=127;
 	else if(value<0) value=0;
 	return int(value);
@@ -137,11 +138,11 @@ int Robot::clamp(double value)
 }
 
 void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
-	ROS_INFO("Recieived command velocity");
+	//ROS_INFO("Received command velocity");
 	double wheelbase = odom_ -> getWheelbase();
 	double left_vel = cmd_vel -> linear.x - wheelbase/2.0*(cmd_vel -> angular.z);
 	double right_vel = cmd_vel -> linear.x + wheelbase/2.0*(cmd_vel -> angular.z);
-	ROS_INFO("left_vel: '%f',right_vel: '%f'",left_vel,right_vel);
+	//ROS_INFO("left_vel: '%f',right_vel: '%f'",left_vel,right_vel);
 
 	// Convert the left and right velocities to power commands
 	double max_power_percentage = 0.3; // Never go above this percentage of full power
@@ -152,5 +153,16 @@ void Robot::cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel) {
 	{
 		power.left=power.right=64; //Stop when released
 	}
-	ROS_INFO("left: '%d',right: '%d'",power.left,power.right);
+	//ROS_INFO("left: '%d',right: '%d'",power.left,power.right);
+}
+
+void Robot::currentPowerCallback(const frontend::power &current_power)
+{
+	//ROS_INFO("Received Power from pilot");
+	//ROS_INFO("mine:%f,dump:%f,roll:%f",current_power.mine,current_power.dump,current_power.roll);
+	double max_mine_percentage=0.3;
+	power.mine = clamp((max_mine_percentage*(current_power.mine*63))+64);
+	power.dump = clamp((current_power.dump*63)+64);
+	power.roll = clamp((current_power.roll*63) +64);
+	//ROS_INFO("mine:%d,dump:%d,roll:%d",power.mine,power.dump,power.roll);
 }

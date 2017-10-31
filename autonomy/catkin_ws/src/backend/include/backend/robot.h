@@ -11,6 +11,7 @@
 #include <serial/serial.h>
 #include <backend/serial_packet.h>
 #include <backend/odom.h>
+#include <frontend/power.h>
 #include <robot_base.h>
 #include <std_msgs/UInt8.h>
 #include <geometry_msgs/Twist.h>
@@ -58,6 +59,7 @@ class Robot: public robot_base {
 
 		// Subscribers
 		ros::Subscriber cmd_vel_sub_;
+		ros::Subscriber current_power_sub;
 
 		// Publishers
 		ros::Publisher heartbeat_pub_;
@@ -70,7 +72,7 @@ class Robot: public robot_base {
 
 		void updateOdom(uint8_t ticks_left, uint8_t ticks_right);
 		void cmdVelCallback(const geometry_msgs::TwistConstPtr & cmd_vel);
-
+		void currentPowerCallback(const frontend::power &current_power);
 
 }; // End class Robot
 

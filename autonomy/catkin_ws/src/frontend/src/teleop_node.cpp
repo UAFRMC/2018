@@ -35,7 +35,7 @@ telop_node::telop_node(ros::NodeHandle nh, ros::NodeHandle pr_nh)
 	pr_nh_.param("scale_linear",linear_scale,linear_scale);
 	pr_nh_.param("scale_linear",angular_scale,angular_scale);
 	pr_nh_.param("scale_actuators",actuators_scale,actuators_scale);
-	pr_nh_.param("scale_actuators",mining_scale,mining_scale);
+	pr_nh_.param("scale_mining",mining_scale,mining_scale);
 
 	velocity_pub = nh_.advertise<geometry_msgs::Twist>("cmd_vel",1);
 	powers_pub = nh_.advertise<frontend::power>("current_power",1);
