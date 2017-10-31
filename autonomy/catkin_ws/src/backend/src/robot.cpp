@@ -23,9 +23,7 @@ Robot::Robot(ros::NodeHandle nh) : nh_(nh), MAX_VEL(1.0) {
 	// ********** //
 
 	pkt_ = new A_packet_formatter<serial::Serial>(*serial_port_);
-	//Configure power
-	uint8_t current_left;
-	uint8_t current_right;
+
 	// Configure Odometry
 	double wheelbase = 0.13; // Separation of tracks in meters
 	double meters_per_tick = 9*(19.0/27.0)*0.050/36.0; // meters of driving per wheel encoder tick, ==9 sprocket drive pegs at 50mm apart, 36 encoder counts per revolution
@@ -76,8 +74,8 @@ void Robot::update() {
 						heartbeat_pub_.publish(heartbeat_msg_);
 
 						// For each side, choose the max of the encoder ticks
-						int16_t ticks_left = std::max(sensor.DL1count, sensor.DL2count);
-						int16_t ticks_right = std::max(sensor.DR1count, sensor.DR2count);
+						uint8_t ticks_left = std::max(sensor.DL1count, sensor.DL2count);
+						uint8_t ticks_right = std::max(sensor.DR1count, sensor.DR2count);
 						odom_ -> updateOdom(ticks_left, ticks_right);
 						odom_pub_.publish(odom_ -> odom_msg_);
 					}
@@ -117,6 +115,7 @@ void Robot::connectToSerial() {
 			ROS_INFO("Connecting to port '%s'", serial_port_ -> getPort().c_str());
 			serial_port_ -> open();
 			ROS_INFO("Connecting to port '%s' succeeded.", serial_port_ -> getPort().c_str());
+			ros::Duration(1.0).sleep();
 			break;
 		}
 		catch(serial::IOException & e) {

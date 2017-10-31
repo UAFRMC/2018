@@ -15,11 +15,11 @@ int main(int argc, char** argv) {
 	Robot robot(nh);
 
 	// Loop Timing Information
-	const double power_command_rate = 5; // Frequency to send power commands to the robotw
+	const double POWER_COMMAND_RATE = 10; // Frequency to send power commands to the robot
 	ros::Time time_last_request = ros::Time::now();
 
 	while(ros::ok()) { // Main  program loop
-		if(ros::Time::now().toSec() - time_last_request.toSec() >= 1.0/power_command_rate) {
+		if(ros::Time::now().toSec() - time_last_request.toSec() >= 1.0/POWER_COMMAND_RATE) {
 			robot.sendPower();
 			time_last_request = ros::Time::now();
 		}
