@@ -6,4 +6,13 @@
 	<node pkg="joy" type="joy_node" name="joy_node" output="screen">
 		<param name="dev_name" type="string" value="Saitek PLC Saitek P2500 Rumble Force Pad"/>
 	</node>
+
+		<!-- Publish Trajectory of both odom and odom_combined -->
+	<node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server_odom" output="screen">
+		<param name="target_frame_name" type="string" value="odom"/>
+		<param name="source_frame_name" type="string" value="base_link"/>
+		<param name="trajectory_publish_rate" type="double" value="0.25"/>
+		<remap from="trajectory" to="trajectory_odom"/>
+	</node>
+
 </launch>

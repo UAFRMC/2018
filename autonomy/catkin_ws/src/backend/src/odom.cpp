@@ -7,11 +7,20 @@
 #define _USE_MATH_DEFINES
 
 Odom::Odom(double wheelbase, double meters_per_tick) 
-	: wheelbase_(wheelbase), meters_per_tick_(meters_per_tick), prev_ticks_left_(0), prev_ticks_right_(0),
+	: pr_nh_("~"), wheelbase_(wheelbase), meters_per_tick_(meters_per_tick), prev_ticks_left_(0), prev_ticks_right_(0),
 	pose_x_(0), pose_y_(0), pose_yaw_(0), velocity_x_(0), velocity_yaw_(0), pose_covariance_(3,3)
 {
+	// Get Parameters
+	pr_nh_.param<std::string>("base_frame", base_frame_, "base_footprint");
+	pr_nh_.param<std::string>("odom_frame", odom_frame_, "odom");
+	pr_nh_.param<bool>("publish_tf", publish_tf_, true);
+
 	// Initialize ROS Message
-	odom_msg_.header.frame_id = "odom";
+	odom_msg_.header.frame_id = odom_frame_;
+
+	// Initialize odom tf
+	tf_odom_.header.frame_id = odom_frame_;
+	tf_odom_.child_frame_id = base_frame_;
 
 	pose_covariance_ = Eigen::MatrixXd::Constant(3,3,0.0); // Initialize pose covariance to all zeros
 
@@ -153,6 +162,14 @@ void Odom::updateOdom(uint8_t ticks_left, uint8_t ticks_right) {
 	odom_msg_.twist.covariance[30] = vel_covar(2,0);
 	odom_msg_.twist.covariance[31] = vel_covar(2,1);
 	odom_msg_.twist.covariance[35] = vel_covar(2,2);
+
+	if(publish_tf_) {
+		tf_odom_.header.stamp = ros::Time::now();
+		tf_odom_.transform.translation.x = pose_x_;
+		tf_odom_.transform.translation.y = pose_y_;
+		tf_odom_.transform.rotation = tf2::toMsg(quat);
+		tf_broadcaster_.sendTransform(tf_odom_);
+	}
 }
 
 double Odom::fixWrap256(unsigned char diff) {

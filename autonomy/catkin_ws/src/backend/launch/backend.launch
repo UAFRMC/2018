@@ -1,3 +1,9 @@
 <launch>
-	<node pkg="backend" type="backend_node" name="backend_node" output="screen"/>
+	<node pkg="backend" type="backend_node" name="backend_node" output="screen">
+		<param name="publish_tf" type="bool" value="true"/>
+	</node>
+
+	<!-- Static Transforms for Robot Coordinate System -->
+	<node pkg="tf2_ros" type="static_transform_publisher" name="base_footprint_to_base_link" args="0 0 0 0 0 0 /base_footprint /base_link"/>
+
 </launch>

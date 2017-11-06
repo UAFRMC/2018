@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   roslaunch
   std_msgs
   tf2
+  tf2_ros
 )
 find_package(Eigen REQUIRED)
 
