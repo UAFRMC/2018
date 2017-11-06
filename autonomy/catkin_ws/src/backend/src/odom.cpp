@@ -86,7 +86,7 @@ void Odom::updateOdom(uint8_t ticks_left, uint8_t ticks_right) {
 	// Transfer pose and velocity info to odom_msg_
 	// Populate Position Info
 	tf2::Quaternion quat;
-	quat.setEuler(pose_yaw_,0,0);
+	quat.setRPY(0, 0, pose_yaw_);
 	odom_msg_.pose.pose.position.x = pose_x_;
 	odom_msg_.pose.pose.position.y = pose_y_;
 	odom_msg_.pose.pose.orientation = tf2::toMsg(quat);
