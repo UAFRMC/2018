@@ -9,8 +9,8 @@ Aurora Robotics is The University of Alaska, Fiarbanks' team in the annual [NASA
 - [Jim Samson](https://github.com/FromAlaska)
 
 ### For more information contact
-- Arsh Chauhan achauhan@alaska.edu
-- Dr Orion Lawlor lawlor@alaska.edu
+- Arsh Chauhan achauhan[@]alaska.edu
+- Dr Orion Lawlor lawlor[@]alaska.edu
 
 ## What is different from 2017 ?
 2018 is our first year using [ROS](http://www.ros.org/). We decided to use ROS since [Ryker Dial](https://github.com/rykerDial) has worked on a navigation and autonomy stack based on ROS for his master's thesis.
