@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h2>Aurora Robotics RMC UI</h2>
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="grid-x grid-padding-x">
+            <div class="large-6 cell" style="height: 38rem;">
+              <div class="callout" style="height: inherit;">
+                <p>Field view goes here</p>
+              </div>
+            </div>
+            <div class="large-6 cell" style="height: 38rem;">
+              <div class="callout" style="height: inherit;">
+                  <p>Stats go here. Toggleable?</p>
+                  <div class="grid-x grid-padding-x">
+                    <ul>
+                      <li><button onmousedown="frontend_ros.publishDriveCommands('forward')" onmouseup="frontend_ros.publishDriveCommands('stop')"><p class="button secondary" id="front"><img id="front_img" src="img/arrow.png" alt="Front" title="Front" /></p></button></li>
+                    </ul>
+
+                    <ul>
+                      <li><button onmousedown="frontend_ros.publishDriveCommands('left')" onmouseup="frontend_ros.publishDriveCommands('stop')"><p class="button secondary" id="left"><img id="left_img" src="img/arrow.png" alt="Left" title="Left" /></p></button></li>
+                      <li><button onmousedown="frontend_ros.publishDriveCommands('right')" onmouseup="frontend_ros.publishDriveCommands('stop')"><p class="button secondary" id="right"><img id="right_img" src="img/arrow.png" alt="Right" title="Right" /></p></button></li>
+                    </ul>
+
+                    <ul>
+                      <li><button onmousedown="frontend_ros.publishDriveCommands('backward')" onmouseup="frontend_ros.publishDriveCommands('stop')"><p class="button secondary" id="back"><img id="back_img" src="img/arrow.png" alt="Back" title="Back" /></p></button></li>
+                    </ul>
+                  </div>
+                <div class="large-12 medium-12 cell">
+                  <div class="callout" style="height: inherit">
+                    <p>Side view of bot?</p>
+                    <!--label>Checkboxes?</label>
+                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                    <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/roslib.min.js"></script>
+    <script src="js/eventemitter2.min.js"></script>
+    <script src="js/frontend.js"></script>
+  </body>
+</html>
