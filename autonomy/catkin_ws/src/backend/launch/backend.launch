@@ -1,9 +1,24 @@
 <launch>
-	<node pkg="backend" type="backend_node" name="backend_node" output="screen">
+	<!-- Backend driver. Sends power commands, gets robot sensor data . -->
+<!-- 	<node pkg="backend" type="backend_node" name="backend_node" output="screen">
 		<param name="publish_tf" type="bool" value="true"/>
+	</node> -->
+	<!-- Driver for 3D LIDAR System -->
+<!-- 	<include file="$(find vslidar)/launch/vslidar.launch"/> -->
+
+	<!-- Rosbridge server for frontend interface -->
+	<node name="rosbridge_udp" pkg="rosbridge_server" type="rosbridge_udp" output="screen">
+		<param name="authenticate" value="false"/>
+		<param name="port" value="9090"/>
+		<param name="interface" value=""/>
+		<param name="fragment_timeout" value="600"/>
+		<param name="delay_between_messages" value="0"/>
+		<param name="max_message_size" value="None"/>
 	</node>
+	<node name="rosapi" pkg="rosapi" type="rosapi_node"/>
+
 
 	<!-- Static Transforms for Robot Coordinate System -->
-	<node pkg="tf2_ros" type="static_transform_publisher" name="base_footprint_to_base_link" args="0 0 0 0 0 0 /base_footprint /base_link"/>
+<!-- 	<node pkg="tf2_ros" type="static_transform_publisher" name="base_footprint_to_base_link" args="0 0 0 0 0 0 /base_footprint /base_link"/> -->
 
 </launch>
