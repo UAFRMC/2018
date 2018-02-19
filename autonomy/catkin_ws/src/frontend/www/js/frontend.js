@@ -1,40 +1,79 @@
-// Set URL of rosbridge server
-var ros = new ROSLIB.Ros({
-	url : 'ws://localhost:9090'
-});
+class FrontendROS {
+	constructor(ros_master_ip) {
+		// Connect to the ROS Master
+		this.ros = new ROSLIB.Ros({
+			url : 'ws://' + ros_master_ip +':9090'
+		});
 
-// Set up command velocity publisher
-var cmd_vel_pub = new ROSLIB.Topic({
-	ros : ros,
-	name : 'cmd_vel',
-	messageType : 'geometry_msgs/Twist'
-});
+		// Setup node callbacks
+		this.ros.on('connection', function() {
+			console.log('Connected to websocket Server');
+		});
 
-function publishDriveCommands() {
-	var twist = new ROSLIB.message ({
-		linear : {
-			x : 0.1,
-			y : 0.0,
-		 	z : 0.0
-		},
-		angular : {
-			x : 0.0,
-			y : 0.0,
-			z : 2.0
-		}
-	});
+		this.ros.on('error', function(error) {
+			console.log('Error connecting to websocket server', error);
+		});
 
-	cmd_vel_pub.publish(twist);
+		this.ros.on('close', function() {
+			console.log('Connection to websocket server closed.');
+		});
+
+		// Create Publishers and Subscribers
+		this.cmd_vel_pub = new ROSLIB.Topic({
+			ros : this.ros,
+			name : 'cmd_vel',
+			messageType : 'geometry_msgs/Twist'
+		});
+
+	}
+
+	publishDriveCommands(command) {
+		clearInterval(this.interval);
+		this.interval = setInterval( function() {
+			var twist = new ROSLIB.Message ({
+				linear : {
+					x : 0.0,
+					y : 0.0,
+				 	z : 0.0
+				},
+				angular : {
+					x : 0.0,
+					y : 0.0,
+					z : 0.0
+				}
+			});
+
+			if(command === "forward") {
+				twist.linear.x = 0.25;
+				twist.angular.z = 0.0;
+			}
+			else if(command === "backward") {
+				twist.linear.x = -0.25;
+				twist.angular.z = 0.0;
+			}
+			else if(command === "left") {
+				twist.linear.x = 0.0;
+				twist.angular.z = -2.0;
+			}
+			else if(command === "right") {
+				twist.linear.x = 0.0;
+				twist.angular.z = 2.0;
+			}
+			else if(command === "stop") {
+				twist.linear.x = 0.0;
+				twist.angular.z = 0.0;				
+			}
+
+			frontend_ros.cmd_vel_pub.publish(twist);			
+		}, 100);
+	}
 }
 
-ros.on('connection', function() {
-	console.log('Connected to UDP Server');
-});
+var frontend_ros;
 
-ros.on('error', function(error) {
-	console.log('Error connecting to UDP server', error);
-});
+function initialize_ros(ip) {
+	frontend_ros = new FrontendROS(ip);
+}
 
-ros.on('close', function() {
-	console.log('Connection to UDP server closed.');
-});
+initialize_ros("10.10.10.101")
+

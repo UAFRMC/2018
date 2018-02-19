@@ -4,10 +4,10 @@
 		<param name="publish_tf" type="bool" value="true"/>
 	</node> -->
 	<!-- Driver for 3D LIDAR System -->
-<!-- 	<include file="$(find vslidar)/launch/vslidar.launch"/> -->
+	<include file="$(find vslidar)/launch/vslidar.launch"/>
 
 	<!-- Rosbridge server for frontend interface -->
-	<node name="rosbridge_udp" pkg="rosbridge_server" type="rosbridge_udp" output="screen">
+	<node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
 		<param name="authenticate" value="false"/>
 		<param name="port" value="9090"/>
 		<param name="interface" value=""/>

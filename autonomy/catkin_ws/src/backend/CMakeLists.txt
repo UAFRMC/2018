@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   serial
   roslaunch
+  frontend
   std_msgs
   tf2
   tf2_ros
