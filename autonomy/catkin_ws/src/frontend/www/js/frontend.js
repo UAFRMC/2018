@@ -2,7 +2,7 @@ class FrontendROS {
 	constructor(ros_master_ip) {
 		// Connect to the ROS Master
 		this.ros = new ROSLIB.Ros({
-			url : 'ws://' + ros_master_ip +':9090'
+			url : 'ws://' + ros_master_ip + ':9090'
 		});
 
 		// Setup node callbacks
@@ -53,11 +53,11 @@ class FrontendROS {
 			}
 			else if(command === "left") {
 				twist.linear.x = 0.0;
-				twist.angular.z = -2.0;
+				twist.angular.z = 2.0;
 			}
 			else if(command === "right") {
 				twist.linear.x = 0.0;
-				twist.angular.z = 2.0;
+				twist.angular.z = -2.0;
 			}
 			else if(command === "stop") {
 				twist.linear.x = 0.0;
@@ -75,5 +75,7 @@ function initialize_ros(ip) {
 	frontend_ros = new FrontendROS(ip);
 }
 
+// This should actually be called by some sort of IP entry box, 
+//     unless we set a static IP for the robot.
 initialize_ros("10.10.10.101")
 

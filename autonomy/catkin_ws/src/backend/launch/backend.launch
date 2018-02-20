@@ -4,7 +4,7 @@
 		<param name="publish_tf" type="bool" value="true"/>
 	</node> -->
 	<!-- Driver for 3D LIDAR System -->
-	<include file="$(find vslidar)/launch/vslidar.launch"/>
+	<include file="$(find vslidar_autonomy)/launch/vslidar_autonomy.launch"/>
 
 	<!-- Rosbridge server for frontend interface -->
 	<node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
