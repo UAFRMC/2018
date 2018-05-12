@@ -79,9 +79,13 @@ public:
       digitalWrite(L,HIGH);
       digitalWrite(R,0);
     }
-    else {
+    else if (speed255>0) {
       digitalWrite(L,0);
       digitalWrite(R,HIGH);
+    }
+    else {
+      digitalWrite(L,0);
+      digitalWrite(R,0);     
     }
   }
 };

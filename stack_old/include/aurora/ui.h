@@ -166,16 +166,16 @@ void robot_ui::update(int keys[],const robot_base &robot) {
 	}
 	// else spacebar not down--check other keys for manual control
 
-/* scale back, so things die away when key is released.
+	/* scale back, so things die away when key is released.
    It'd be better to detect key-up here, and stop, but that's ncurses. */
-        left*=0.80;
-        right*=0.80;
-        front*=0.5;
+	left*=0.80;
+	right*=0.80;
+	front*=0.5;
 	mine*=0.5;
-        dump*=0.5;
-        roll*=0.5;
+	dump*=0.5;
+	roll*=0.5;
 
-
+	head_extend=0.0;
 
 
 	static bool joyDrive=false;
