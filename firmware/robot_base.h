@@ -44,7 +44,7 @@ public:
 	uint32_t DRstall:1;
 
 	uint32_t stop:1; ///< EMERGENCY STOP button engaged
-  	uint32_t heartbeat:3;
+  uint32_t heartbeat:3;
 
 	uint32_t Mspeed:8; /// Current milliseconds per encoder tick for mining head left motor (255==stopped)
 	uint32_t Mcount:8; /// Encoder tick count for mining head left motor
@@ -56,10 +56,10 @@ public:
 
 	int32_t Rcount:16; /// Encoder tick for bag roll motor
 
-  	uint32_t limit_top:8;
-  	uint32_t limit_bottom:8;
-  
-  	uint32_t encoder_raw:16;
+	uint32_t limit_top:8;
+	uint32_t limit_bottom:8;
+
+	uint32_t encoder_raw:16;
 };
 
 /**
@@ -95,10 +95,12 @@ public:
 	unsigned char roll:7; //Roll bag
 	unsigned char paddingRoll:1;
 
+  unsigned char head_extend:7; // Extend mining head linear
+  unsigned char padding_extend:1; 
 
 	robot_power() { stop(); }
 	void stop(void) {
-		left=right=mine=dump=roll=drive_stop; // all-stop
+		left=right=mine=dump=roll=head_extend=drive_stop; // all-stop
 		high=dumpMode=mineMode=torqueControl=mineHooks=mineDump=mineEncoderReset=0;
 	}
 };

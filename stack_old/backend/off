@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Laptop is going to sleep: close lid now"
+sudo pm-suspend
+echo "Laptop is now awake again"
+

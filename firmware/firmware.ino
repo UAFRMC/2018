@@ -17,10 +17,11 @@ namespace aurora {
 int bts_enable_pin=22;
 // Hardware pin wiring (for Mega)
 BTS_motor_t motor_M(10,11,200);
-BTS_motor_t motor_D(12,3,255); //Bag rolling motor
+BTS_motor_t motor_D(12,3,255); // Box raise/lower motor
 BTS_motor_t motor_L(8,9,60);
 BTS_motor_t motor_R(4,5,60);
 BTS_motor_t motor_F(6,7,255);
+BTS_motor_digital_t motor_front_linear(31,33, 255); // mining head extend linear
 
 // Call this function frequently--it's for minimum-latency operations
 void low_latency_ops();
@@ -42,20 +43,31 @@ public:
     last_read=milli;
     next_send=milli;
   }
-
+  bool toggle = false;
   bool read_packet(A_packet &p) {
     p.valid=0;
+    //digitalWrite(13, HIGH);
     if (backend.available()) {
       while (-1==pkt.read_packet(p)) {
         low_latency_ops(); /* while reading packet */
+        //toggle = !toggle;
+        //digitalWrite(13, toggle);
       }
       if (p.valid && p.length>0) {
         last_read=milli;
         next_send=milli;
         is_connected=true; // got valid packet
         //digitalWrite(13,HIGH); // !!(milli&(1<<8))); // blink while getting good data
+        //digitalWrite(13, LOW);
         return true;
       }
+      else
+      {
+         pkt.write_packet(0xE,0,0);
+      }
+    }
+    else {
+       //digitalWrite(13, HIGH);
     }
     if (milli-next_send>500) { // read timeout
       next_send=milli;
@@ -65,6 +77,7 @@ public:
 
       //digitalWrite(13,0); // LED off if disconnected
     }
+   
     return false;
   }
 };
@@ -181,6 +194,7 @@ void send_motors(void)
   send_motor_power(mine,motor_M,encoder_M);
 
   motor_F.drive(robot.power.dump);
+  motor_front_linear.drive(robot.power.head_extend);
 }
 
 // Structured communication with PC:
@@ -203,6 +217,10 @@ void handle_packet(A_packet_formatter<HardwareSerial> &pkt,const A_packet &p)
   }
   else if (p.command==0) { // ping request
     pkt.write_packet(0,p.length,p.data); // ping reply
+  }
+  else 
+  {
+    pkt.write_packet(0xE,0,0);
   }
 }
 
@@ -257,15 +275,15 @@ void low_latency_ops() {
 
 void setup()
 {
-  aurora::PCport.begin(57600); // Control connection to PC via USB
+   //aurora::PCport.begin(57600); // Control connection to PC via USB
 
   // Our ONE debug LED!
-  //pinMode(13,OUTPUT);
+  pinMode(13,OUTPUT);
   //digitalWrite(13,LOW);
 
   // BTS Enable Pin (Controls all pins)
-  pinMode(aurora::bts_enable_pin,OUTPUT);
-  digitalWrite(aurora::bts_enable_pin,HIGH);
+//  pinMode(aurora::bts_enable_pin,OUTPUT);
+//  digitalWrite(aurora::bts_enable_pin,HIGH);
 
 }
 
@@ -274,16 +292,17 @@ milli_t milli;
 milli_t next_milli_send=0;
 void loop()
 {
-  aurora::low_latency_ops();
-
-  A_packet p;
-  if (aurora::PC.read_packet(p)) aurora::handle_packet(aurora::PC.pkt,p);
-  if (!(aurora::PC.is_connected)) aurora::robot.power.stop(); // disconnected?
-
-  if (milli-next_milli_send>=5)
-  { // Send commands to motors
-    aurora::send_motors();
-    next_milli_send=milli; // send_motors every 5ms
-  }
+  digitalWrite(13, LOW);
+//  aurora::low_latency_ops();
+//
+//  A_packet p;
+//  if (aurora::PC.read_packet(p)) aurora::handle_packet(aurora::PC.pkt,p);
+//  if (!(aurora::PC.is_connected)) aurora::robot.power.stop(); // disconnected?
+//
+//  if (milli-next_milli_send>=5)
+//  { // Send commands to motors
+//    aurora::send_motors();
+//    next_milli_send=milli; // send_motors every 5ms
+//  }
 }
 

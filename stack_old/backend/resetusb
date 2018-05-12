@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo su << EOF
+# Run as root to reset the ehci USB bus, allowing devices to connect again.
+echo "0000:00:14.0" > /sys/bus/pci/drivers/xhci_hcd/unbind
+echo "0000:00:1d.0" > /sys/bus/pci/drivers/ehci-pci/unbind
+echo "0000:00:14.0" > /sys/bus/pci/drivers/xhci_hcd/bind
+echo "0000:00:1d.0" > /sys/bus/pci/drivers/ehci-pci/bind
+EOF
+

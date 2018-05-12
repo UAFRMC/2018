@@ -1,0 +1,43 @@
+This File contains the current UI setup for the operating the robot.
+
+Keyboard:
+Driving:
+
+forward:w
+reverse:s
+left:a
+right:d
+Stop: space
+
+Special Commands:
+
+Lower Front wheels: v
+Raise Front wheels: f
+Raise dump bucket: UP_ARROW
+Lower Dump bucket: DOWN_ARROW
+Toggle mining mode: m
+Run mining head in reverse: j
+Toggle high power mode: p
+Toggle dump mode: KEY_LEFT
+Toggle Demo mode (Only to be used during public demo's): D
+
+
+Joystick Buttons:
+
+Driving:
+Forward/Reverse : left Y
+Left/Right: left X
+stop: 3
+
+Special Commands:
+Lower Front wheels: 5
+Raise Front wheels: 6
+Raise/Lower Dump bucket: right Y
+Toggle miing mode: 1
+Run mining head: right +X (-X : reverse)
+
+
+
+
+
+

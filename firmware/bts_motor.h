@@ -44,4 +44,46 @@ public:
   }
 };
 
+class BTS_motor_digital_t
+{
+public:
+  int L,R; // pins for left and right control channels
+  int max_power;
+  BTS_motor_digital_t(int L_,int R_,int max_power_) :
+  L(L_), R(R_), max_power(max_power_) {
+    pinMode(L_, OUTPUT);
+    pinMode(R_, OUTPUT);
+    stop();
+  }
+
+  void stop() {
+    digitalWrite(L,0);
+    digitalWrite(R,0);
+  }
+
+  /* Drive from Sabertooth-style command:
+   64 means stop
+   1 means full reverse
+   127 means full forward
+   */
+  void drive(int speed64) {
+    int speed255=(speed64-64)*4;
+    
+    if(speed255<-max_power)
+      speed255=-max_power;
+    if(speed255>max_power)
+      speed255=max_power;
+    
+    
+    if (speed255<0) {
+      digitalWrite(L,HIGH);
+      digitalWrite(R,0);
+    }
+    else {
+      digitalWrite(L,0);
+      digitalWrite(R,HIGH);
+    }
+  }
+};
+
 #endif

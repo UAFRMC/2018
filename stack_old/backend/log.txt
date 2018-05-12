@@ -1,0 +1,6002 @@
+0.078 Left Mining Motor : speed 0, counter 0
+0.079 Track front encoder ticks 0 L 0 R
+0.079 Track back encoder ticks 0 L 0 R
+0.079 Roll motor encoder ticks 0
+0.079 "The Box" limit ticks 1 1
+0.079 "The Box" is lowered
+0.079 Encoder Raw 0000000000000000
+0.079 Arduino not connected
+0.079 Arduino Heartbeat: 0
+0.079 UI:
+  speed control
+
+0.090 Connection Lost
+0.091 Attempting to connect
+0.141 Sending telemetry, waiting for command
+0.145 Left Mining Motor : speed 0, counter 0
+0.145 Track front encoder ticks 0 L 0 R
+0.145 Track back encoder ticks 0 L 0 R
+0.145 Roll motor encoder ticks 0
+0.145 "The Box" limit ticks 1 1
+0.146 "The Box" is lowered
+0.146 Encoder Raw 0000000000000000
+0.146 Arduino not connected
+0.146 Arduino Heartbeat: 0
+0.146 UI:
+  speed control
+
+0.156 Connection Lost
+0.157 Attempting to connect
+0.207 Sending telemetry, waiting for command
+0.209 Left Mining Motor : speed 0, counter 0
+0.209 Track front encoder ticks 0 L 0 R
+0.209 Track back encoder ticks 0 L 0 R
+0.209 Roll motor encoder ticks 0
+0.210 "The Box" limit ticks 1 1
+0.210 "The Box" is lowered
+0.210 Encoder Raw 0000000000000000
+0.210 Arduino not connected
+0.210 Arduino Heartbeat: 0
+0.210 UI:
+  speed control
+
+0.220 Connection Lost
+0.221 Attempting to connect
+0.271 Sending telemetry, waiting for command
+0.273 Left Mining Motor : speed 0, counter 0
+0.273 Track front encoder ticks 0 L 0 R
+0.273 Track back encoder ticks 0 L 0 R
+0.273 Roll motor encoder ticks 0
+0.273 "The Box" limit ticks 1 1
+0.273 "The Box" is lowered
+0.273 Encoder Raw 0000000000000000
+0.273 Arduino not connected
+0.273 Arduino Heartbeat: 0
+0.273 UI:
+  speed control
+
+0.283 Connection Lost
+0.284 Attempting to connect
+0.334 Sending telemetry, waiting for command
+0.336 Left Mining Motor : speed 0, counter 0
+0.336 Track front encoder ticks 0 L 0 R
+0.336 Track back encoder ticks 0 L 0 R
+0.336 Roll motor encoder ticks 0
+0.336 "The Box" limit ticks 1 1
+0.336 "The Box" is lowered
+0.336 Encoder Raw 0000000000000000
+0.336 Arduino not connected
+0.336 Arduino Heartbeat: 0
+0.336 UI:
+  speed control
+
+0.346 Connection Lost
+0.347 Attempting to connect
+0.397 Sending telemetry, waiting for command
+0.398 Left Mining Motor : speed 0, counter 0
+0.399 Track front encoder ticks 0 L 0 R
+0.399 Track back encoder ticks 0 L 0 R
+0.399 Roll motor encoder ticks 0
+0.399 "The Box" limit ticks 1 1
+0.399 "The Box" is lowered
+0.399 Encoder Raw 0000000000000000
+0.399 Arduino not connected
+0.399 Arduino Heartbeat: 0
+0.399 UI:
+  speed control
+
+0.409 Connection Lost
+0.410 Attempting to connect
+0.460 Sending telemetry, waiting for command
+0.462 Left Mining Motor : speed 0, counter 0
+0.462 Track front encoder ticks 0 L 0 R
+0.462 Track back encoder ticks 0 L 0 R
+0.462 Roll motor encoder ticks 0
+0.462 "The Box" limit ticks 1 1
+0.462 "The Box" is lowered
+0.462 Encoder Raw 0000000000000000
+0.463 Arduino not connected
+0.463 Arduino Heartbeat: 0
+0.463 UI:
+  speed control
+
+0.473 Connection Lost
+0.474 Attempting to connect
+0.524 Sending telemetry, waiting for command
+0.525 Left Mining Motor : speed 0, counter 0
+0.525 Track front encoder ticks 0 L 0 R
+0.525 Track back encoder ticks 0 L 0 R
+0.526 Roll motor encoder ticks 0
+0.526 "The Box" limit ticks 1 1
+0.526 "The Box" is lowered
+0.526 Encoder Raw 0000000000000000
+0.526 Arduino not connected
+0.526 Arduino Heartbeat: 0
+0.526 UI:
+  speed control
+
+0.536 Connection Lost
+0.537 Attempting to connect
+0.587 Sending telemetry, waiting for command
+0.588 Left Mining Motor : speed 0, counter 0
+0.589 Track front encoder ticks 0 L 0 R
+0.589 Track back encoder ticks 0 L 0 R
+0.589 Roll motor encoder ticks 0
+0.589 "The Box" limit ticks 1 1
+0.589 "The Box" is lowered
+0.589 Encoder Raw 0000000000000000
+0.589 Arduino not connected
+0.589 Arduino Heartbeat: 0
+0.589 UI:
+  speed control
+
+0.599 Connection Lost
+0.600 Attempting to connect
+0.650 Sending telemetry, waiting for command
+0.652 Left Mining Motor : speed 0, counter 0
+0.652 Track front encoder ticks 0 L 0 R
+0.652 Track back encoder ticks 0 L 0 R
+0.652 Roll motor encoder ticks 0
+0.652 "The Box" limit ticks 1 1
+0.652 "The Box" is lowered
+0.652 Encoder Raw 0000000000000000
+0.652 Arduino not connected
+0.652 Arduino Heartbeat: 0
+0.652 UI:
+  speed control
+
+0.662 Connection Lost
+0.663 Attempting to connect
+0.713 Sending telemetry, waiting for command
+0.715 Left Mining Motor : speed 0, counter 0
+0.715 Track front encoder ticks 0 L 0 R
+0.715 Track back encoder ticks 0 L 0 R
+0.715 Roll motor encoder ticks 0
+0.715 "The Box" limit ticks 1 1
+0.715 "The Box" is lowered
+0.715 Encoder Raw 0000000000000000
+0.715 Arduino not connected
+0.715 Arduino Heartbeat: 0
+0.715 UI:
+  speed control
+
+0.726 Connection Lost
+0.726 Attempting to connect
+0.777 Sending telemetry, waiting for command
+0.778 Left Mining Motor : speed 0, counter 0
+0.778 Track front encoder ticks 0 L 0 R
+0.778 Track back encoder ticks 0 L 0 R
+0.778 Roll motor encoder ticks 0
+0.778 "The Box" limit ticks 1 1
+0.778 "The Box" is lowered
+0.778 Encoder Raw 0000000000000000
+0.778 Arduino not connected
+0.779 Arduino Heartbeat: 0
+0.779 UI:
+  speed control
+
+0.789 Connection Lost
+0.790 Attempting to connect
+0.840 Sending telemetry, waiting for command
+0.842 Left Mining Motor : speed 0, counter 0
+0.842 Track front encoder ticks 0 L 0 R
+0.842 Track back encoder ticks 0 L 0 R
+0.842 Roll motor encoder ticks 0
+0.842 "The Box" limit ticks 1 1
+0.842 "The Box" is lowered
+0.842 Encoder Raw 0000000000000000
+0.842 Arduino not connected
+0.842 Arduino Heartbeat: 0
+0.842 UI:
+  speed control
+
+0.852 Connection Lost
+0.854 Attempting to connect
+0.904 Sending telemetry, waiting for command
+0.905 Left Mining Motor : speed 0, counter 0
+0.906 Track front encoder ticks 0 L 0 R
+0.906 Track back encoder ticks 0 L 0 R
+0.906 Roll motor encoder ticks 0
+0.906 "The Box" limit ticks 1 1
+0.906 "The Box" is lowered
+0.906 Encoder Raw 0000000000000000
+0.906 Arduino not connected
+0.906 Arduino Heartbeat: 0
+0.906 UI:
+  speed control
+
+0.916 Connection Lost
+0.917 Attempting to connect
+0.967 Sending telemetry, waiting for command
+0.968 Left Mining Motor : speed 0, counter 0
+0.969 Track front encoder ticks 0 L 0 R
+0.969 Track back encoder ticks 0 L 0 R
+0.969 Roll motor encoder ticks 0
+0.969 "The Box" limit ticks 1 1
+0.969 "The Box" is lowered
+0.969 Encoder Raw 0000000000000000
+0.969 Arduino not connected
+0.969 Arduino Heartbeat: 0
+0.969 UI:
+  speed control
+
+0.979 Connection Lost
+0.980 Attempting to connect
+1.030 Sending telemetry, waiting for command
+1.032 Left Mining Motor : speed 0, counter 0
+1.032 Track front encoder ticks 0 L 0 R
+1.032 Track back encoder ticks 0 L 0 R
+1.032 Roll motor encoder ticks 0
+1.032 "The Box" limit ticks 1 1
+1.032 "The Box" is lowered
+1.032 Encoder Raw 0000000000000000
+1.032 Arduino not connected
+1.032 Arduino Heartbeat: 0
+1.032 UI:
+  speed control
+
+1.042 Connection Lost
+1.043 Attempting to connect
+1.093 Sending telemetry, waiting for command
+1.095 Left Mining Motor : speed 0, counter 0
+1.095 Track front encoder ticks 0 L 0 R
+1.095 Track back encoder ticks 0 L 0 R
+1.095 Roll motor encoder ticks 0
+1.095 "The Box" limit ticks 1 1
+1.095 "The Box" is lowered
+1.095 Encoder Raw 0000000000000000
+1.095 Arduino not connected
+1.095 Arduino Heartbeat: 0
+1.095 UI:
+  speed control
+
+1.106 Connection Lost
+1.106 Attempting to connect
+1.157 Sending telemetry, waiting for command
+1.158 Left Mining Motor : speed 0, counter 0
+1.158 Track front encoder ticks 0 L 0 R
+1.158 Track back encoder ticks 0 L 0 R
+1.158 Roll motor encoder ticks 0
+1.158 "The Box" limit ticks 1 1
+1.158 "The Box" is lowered
+1.158 Encoder Raw 0000000000000000
+1.158 Arduino not connected
+1.159 Arduino Heartbeat: 0
+1.159 UI:
+  speed control
+
+1.169 Connection Lost
+1.169 Attempting to connect
+1.220 Sending telemetry, waiting for command
+1.221 Left Mining Motor : speed 0, counter 0
+1.221 Track front encoder ticks 0 L 0 R
+1.221 Track back encoder ticks 0 L 0 R
+1.221 Roll motor encoder ticks 0
+1.221 "The Box" limit ticks 1 1
+1.221 "The Box" is lowered
+1.222 Encoder Raw 0000000000000000
+1.222 Arduino not connected
+1.222 Arduino Heartbeat: 0
+1.222 UI:
+  speed control
+
+1.232 Connection Lost
+1.233 Attempting to connect
+1.283 Sending telemetry, waiting for command
+1.284 Left Mining Motor : speed 0, counter 0
+1.284 Track front encoder ticks 0 L 0 R
+1.284 Track back encoder ticks 0 L 0 R
+1.285 Roll motor encoder ticks 0
+1.285 "The Box" limit ticks 1 1
+1.285 "The Box" is lowered
+1.285 Encoder Raw 0000000000000000
+1.285 Arduino not connected
+1.285 Arduino Heartbeat: 0
+1.285 UI:
+  speed control
+
+1.295 Connection Lost
+1.296 Attempting to connect
+1.346 Sending telemetry, waiting for command
+1.348 Left Mining Motor : speed 0, counter 0
+1.348 Track front encoder ticks 0 L 0 R
+1.348 Track back encoder ticks 0 L 0 R
+1.348 Roll motor encoder ticks 0
+1.348 "The Box" limit ticks 1 1
+1.348 "The Box" is lowered
+1.348 Encoder Raw 0000000000000000
+1.348 Arduino not connected
+1.349 Arduino Heartbeat: 0
+1.349 UI:
+  speed control
+
+1.359 Connection Lost
+1.360 Attempting to connect
+1.410 Sending telemetry, waiting for command
+1.411 Left Mining Motor : speed 0, counter 0
+1.411 Track front encoder ticks 0 L 0 R
+1.411 Track back encoder ticks 0 L 0 R
+1.411 Roll motor encoder ticks 0
+1.411 "The Box" limit ticks 1 1
+1.412 "The Box" is lowered
+1.412 Encoder Raw 0000000000000000
+1.412 Arduino not connected
+1.412 Arduino Heartbeat: 0
+1.412 UI:
+  speed control
+
+1.422 Connection Lost
+1.423 Attempting to connect
+1.473 Sending telemetry, waiting for command
+1.475 Left Mining Motor : speed 0, counter 0
+1.475 Track front encoder ticks 0 L 0 R
+1.475 Track back encoder ticks 0 L 0 R
+1.475 Roll motor encoder ticks 0
+1.475 "The Box" limit ticks 1 1
+1.475 "The Box" is lowered
+1.475 Encoder Raw 0000000000000000
+1.475 Arduino not connected
+1.475 Arduino Heartbeat: 0
+1.475 UI:
+  speed control
+
+1.485 Connection Lost
+1.486 Attempting to connect
+1.536 Sending telemetry, waiting for command
+1.538 Left Mining Motor : speed 0, counter 0
+1.538 Track front encoder ticks 0 L 0 R
+1.538 Track back encoder ticks 0 L 0 R
+1.538 Roll motor encoder ticks 0
+1.538 "The Box" limit ticks 1 1
+1.538 "The Box" is lowered
+1.538 Encoder Raw 0000000000000000
+1.538 Arduino not connected
+1.538 Arduino Heartbeat: 0
+1.539 UI:
+  speed control
+
+1.549 Connection Lost
+1.549 Attempting to connect
+1.600 Sending telemetry, waiting for command
+1.601 Left Mining Motor : speed 0, counter 0
+1.601 Track front encoder ticks 0 L 0 R
+1.601 Track back encoder ticks 0 L 0 R
+1.601 Roll motor encoder ticks 0
+1.601 "The Box" limit ticks 1 1
+1.601 "The Box" is lowered
+1.601 Encoder Raw 0000000000000000
+1.602 Arduino not connected
+1.602 Arduino Heartbeat: 0
+1.602 UI:
+  speed control
+
+1.612 Connection Lost
+1.613 Attempting to connect
+1.663 Sending telemetry, waiting for command
+1.664 Left Mining Motor : speed 0, counter 0
+1.664 Track front encoder ticks 0 L 0 R
+1.664 Track back encoder ticks 0 L 0 R
+1.665 Roll motor encoder ticks 0
+1.665 "The Box" limit ticks 1 1
+1.665 "The Box" is lowered
+1.665 Encoder Raw 0000000000000000
+1.665 Arduino not connected
+1.665 Arduino Heartbeat: 0
+1.665 UI:
+  speed control
+
+1.675 Connection Lost
+1.676 Attempting to connect
+1.726 Sending telemetry, waiting for command
+1.727 Left Mining Motor : speed 0, counter 0
+1.728 Track front encoder ticks 0 L 0 R
+1.728 Track back encoder ticks 0 L 0 R
+1.728 Roll motor encoder ticks 0
+1.728 "The Box" limit ticks 1 1
+1.728 "The Box" is lowered
+1.728 Encoder Raw 0000000000000000
+1.728 Arduino not connected
+1.728 Arduino Heartbeat: 0
+1.728 UI:
+  speed control
+
+1.738 Connection Lost
+1.739 Attempting to connect
+1.789 Sending telemetry, waiting for command
+1.791 Left Mining Motor : speed 0, counter 0
+1.791 Track front encoder ticks 0 L 0 R
+1.791 Track back encoder ticks 0 L 0 R
+1.791 Roll motor encoder ticks 0
+1.791 "The Box" limit ticks 1 1
+1.791 "The Box" is lowered
+1.791 Encoder Raw 0000000000000000
+1.791 Arduino not connected
+1.791 Arduino Heartbeat: 0
+1.791 UI:
+  speed control
+
+1.801 Connection Lost
+1.802 Attempting to connect
+1.852 Sending telemetry, waiting for command
+1.854 Left Mining Motor : speed 0, counter 0
+1.854 Track front encoder ticks 0 L 0 R
+1.854 Track back encoder ticks 0 L 0 R
+1.854 Roll motor encoder ticks 0
+1.854 "The Box" limit ticks 1 1
+1.854 "The Box" is lowered
+1.854 Encoder Raw 0000000000000000
+1.854 Arduino not connected
+1.854 Arduino Heartbeat: 0
+1.854 UI:
+  speed control
+
+1.865 Connection Lost
+1.865 Attempting to connect
+1.916 Sending telemetry, waiting for command
+1.917 Left Mining Motor : speed 0, counter 0
+1.917 Track front encoder ticks 0 L 0 R
+1.917 Track back encoder ticks 0 L 0 R
+1.917 Roll motor encoder ticks 0
+1.917 "The Box" limit ticks 1 1
+1.917 "The Box" is lowered
+1.917 Encoder Raw 0000000000000000
+1.917 Arduino not connected
+1.917 Arduino Heartbeat: 0
+1.917 UI:
+  speed control
+
+1.928 Connection Lost
+1.929 Attempting to connect
+1.979 Sending telemetry, waiting for command
+1.981 Left Mining Motor : speed 0, counter 0
+1.981 Track front encoder ticks 0 L 0 R
+1.981 Track back encoder ticks 0 L 0 R
+1.981 Roll motor encoder ticks 0
+1.981 "The Box" limit ticks 1 1
+1.981 "The Box" is lowered
+1.981 Encoder Raw 0000000000000000
+1.981 Arduino not connected
+1.981 Arduino Heartbeat: 0
+1.981 UI:
+  speed control
+
+1.991 Connection Lost
+1.992 Attempting to connect
+2.043 Sending telemetry, waiting for command
+2.044 Left Mining Motor : speed 0, counter 0
+2.044 Track front encoder ticks 0 L 0 R
+2.044 Track back encoder ticks 0 L 0 R
+2.044 Roll motor encoder ticks 0
+2.044 "The Box" limit ticks 1 1
+2.044 "The Box" is lowered
+2.044 Encoder Raw 0000000000000000
+2.044 Arduino not connected
+2.045 Arduino Heartbeat: 0
+2.045 UI:
+  speed control
+
+2.055 Connection Lost
+2.055 Attempting to connect
+2.106 Sending telemetry, waiting for command
+2.107 Left Mining Motor : speed 0, counter 0
+2.107 Track front encoder ticks 0 L 0 R
+2.108 Track back encoder ticks 0 L 0 R
+2.108 Roll motor encoder ticks 0
+2.108 "The Box" limit ticks 1 1
+2.108 "The Box" is lowered
+2.108 Encoder Raw 0000000000000000
+2.108 Arduino not connected
+2.108 Arduino Heartbeat: 0
+2.108 UI:
+  speed control
+
+2.118 Connection Lost
+2.119 Attempting to connect
+2.169 Sending telemetry, waiting for command
+2.171 Left Mining Motor : speed 0, counter 0
+2.171 Track front encoder ticks 0 L 0 R
+2.171 Track back encoder ticks 0 L 0 R
+2.171 Roll motor encoder ticks 0
+2.171 "The Box" limit ticks 1 1
+2.171 "The Box" is lowered
+2.171 Encoder Raw 0000000000000000
+2.171 Arduino not connected
+2.172 Arduino Heartbeat: 0
+2.172 UI:
+  speed control
+
+2.182 Connection Lost
+2.182 Attempting to connect
+2.233 Sending telemetry, waiting for command
+2.234 Left Mining Motor : speed 0, counter 0
+2.235 Track front encoder ticks 0 L 0 R
+2.235 Track back encoder ticks 0 L 0 R
+2.235 Roll motor encoder ticks 0
+2.235 "The Box" limit ticks 1 1
+2.235 "The Box" is lowered
+2.235 Encoder Raw 0000000000000000
+2.235 Arduino not connected
+2.235 Arduino Heartbeat: 0
+2.235 UI:
+  speed control
+
+2.245 Connection Lost
+2.246 Attempting to connect
+2.296 Sending telemetry, waiting for command
+2.298 Left Mining Motor : speed 0, counter 0
+2.298 Track front encoder ticks 0 L 0 R
+2.298 Track back encoder ticks 0 L 0 R
+2.298 Roll motor encoder ticks 0
+2.298 "The Box" limit ticks 1 1
+2.299 "The Box" is lowered
+2.299 Encoder Raw 0000000000000000
+2.299 Arduino not connected
+2.299 Arduino Heartbeat: 0
+2.299 UI:
+  speed control
+
+2.309 Connection Lost
+2.310 Attempting to connect
+2.360 Sending telemetry, waiting for command
+2.362 Left Mining Motor : speed 0, counter 0
+2.362 Track front encoder ticks 0 L 0 R
+2.362 Track back encoder ticks 0 L 0 R
+2.362 Roll motor encoder ticks 0
+2.362 "The Box" limit ticks 1 1
+2.362 "The Box" is lowered
+2.362 Encoder Raw 0000000000000000
+2.363 Arduino not connected
+2.363 Arduino Heartbeat: 0
+2.363 UI:
+  speed control
+
+2.373 Connection Lost
+2.374 Attempting to connect
+2.424 Sending telemetry, waiting for command
+2.426 Left Mining Motor : speed 0, counter 0
+2.426 Track front encoder ticks 0 L 0 R
+2.426 Track back encoder ticks 0 L 0 R
+2.426 Roll motor encoder ticks 0
+2.426 "The Box" limit ticks 1 1
+2.426 "The Box" is lowered
+2.426 Encoder Raw 0000000000000000
+2.426 Arduino not connected
+2.426 Arduino Heartbeat: 0
+2.426 UI:
+  speed control
+
+2.437 Connection Lost
+2.438 Attempting to connect
+2.488 Sending telemetry, waiting for command
+2.490 Left Mining Motor : speed 0, counter 0
+2.490 Track front encoder ticks 0 L 0 R
+2.490 Track back encoder ticks 0 L 0 R
+2.490 Roll motor encoder ticks 0
+2.490 "The Box" limit ticks 1 1
+2.490 "The Box" is lowered
+2.490 Encoder Raw 0000000000000000
+2.490 Arduino not connected
+2.490 Arduino Heartbeat: 0
+2.491 UI:
+  speed control
+
+2.501 Connection Lost
+2.501 Attempting to connect
+2.552 Sending telemetry, waiting for command
+2.553 Left Mining Motor : speed 0, counter 0
+2.553 Track front encoder ticks 0 L 0 R
+2.553 Track back encoder ticks 0 L 0 R
+2.553 Roll motor encoder ticks 0
+2.553 "The Box" limit ticks 1 1
+2.553 "The Box" is lowered
+2.554 Encoder Raw 0000000000000000
+2.554 Arduino not connected
+2.554 Arduino Heartbeat: 0
+2.554 UI:
+  speed control
+
+2.564 Connection Lost
+2.565 Attempting to connect
+2.616 Sending telemetry, waiting for command
+2.617 Left Mining Motor : speed 0, counter 0
+2.617 Track front encoder ticks 0 L 0 R
+2.617 Track back encoder ticks 0 L 0 R
+2.617 Roll motor encoder ticks 0
+2.617 "The Box" limit ticks 1 1
+2.617 "The Box" is lowered
+2.617 Encoder Raw 0000000000000000
+2.617 Arduino not connected
+2.618 Arduino Heartbeat: 0
+2.618 UI:
+  speed control
+
+2.628 Connection Lost
+2.629 Attempting to connect
+2.679 Sending telemetry, waiting for command
+2.681 Left Mining Motor : speed 0, counter 0
+2.681 Track front encoder ticks 0 L 0 R
+2.681 Track back encoder ticks 0 L 0 R
+2.681 Roll motor encoder ticks 0
+2.681 "The Box" limit ticks 1 1
+2.681 "The Box" is lowered
+2.681 Encoder Raw 0000000000000000
+2.681 Arduino not connected
+2.682 Arduino Heartbeat: 0
+2.682 UI:
+  speed control
+
+2.692 Connection Lost
+2.693 Attempting to connect
+2.743 Sending telemetry, waiting for command
+2.745 Left Mining Motor : speed 0, counter 0
+2.745 Track front encoder ticks 0 L 0 R
+2.745 Track back encoder ticks 0 L 0 R
+2.745 Roll motor encoder ticks 0
+2.745 "The Box" limit ticks 1 1
+2.745 "The Box" is lowered
+2.745 Encoder Raw 0000000000000000
+2.745 Arduino not connected
+2.745 Arduino Heartbeat: 0
+2.745 UI:
+  speed control
+
+2.755 Connection Lost
+2.756 Attempting to connect
+2.806 Sending telemetry, waiting for command
+2.808 Left Mining Motor : speed 0, counter 0
+2.808 Track front encoder ticks 0 L 0 R
+2.808 Track back encoder ticks 0 L 0 R
+2.808 Roll motor encoder ticks 0
+2.808 "The Box" limit ticks 1 1
+2.808 "The Box" is lowered
+2.808 Encoder Raw 0000000000000000
+2.808 Arduino not connected
+2.808 Arduino Heartbeat: 0
+2.808 UI:
+  speed control
+
+2.819 Connection Lost
+2.819 Attempting to connect
+2.869 Sending telemetry, waiting for command
+2.871 Left Mining Motor : speed 0, counter 0
+2.871 Track front encoder ticks 0 L 0 R
+2.871 Track back encoder ticks 0 L 0 R
+2.871 Roll motor encoder ticks 0
+2.871 "The Box" limit ticks 1 1
+2.871 "The Box" is lowered
+2.871 Encoder Raw 0000000000000000
+2.871 Arduino not connected
+2.872 Arduino Heartbeat: 0
+2.872 UI:
+  speed control
+
+2.882 Connection Lost
+2.882 Attempting to connect
+2.933 Sending telemetry, waiting for command
+2.934 Left Mining Motor : speed 0, counter 0
+2.934 Track front encoder ticks 0 L 0 R
+2.934 Track back encoder ticks 0 L 0 R
+2.934 Roll motor encoder ticks 0
+2.934 "The Box" limit ticks 1 1
+2.935 "The Box" is lowered
+2.935 Encoder Raw 0000000000000000
+2.935 Arduino not connected
+2.935 Arduino Heartbeat: 0
+2.935 UI:
+  speed control
+
+2.945 Connection Lost
+2.946 Attempting to connect
+2.996 Sending telemetry, waiting for command
+2.998 Left Mining Motor : speed 0, counter 0
+2.998 Track front encoder ticks 0 L 0 R
+2.998 Track back encoder ticks 0 L 0 R
+2.998 Roll motor encoder ticks 0
+2.998 "The Box" limit ticks 1 1
+2.998 "The Box" is lowered
+2.998 Encoder Raw 0000000000000000
+2.998 Arduino not connected
+2.998 Arduino Heartbeat: 0
+2.998 UI:
+  speed control
+
+3.008 Connection Lost
+3.009 Attempting to connect
+3.059 Sending telemetry, waiting for command
+3.061 Left Mining Motor : speed 0, counter 0
+3.061 Track front encoder ticks 0 L 0 R
+3.061 Track back encoder ticks 0 L 0 R
+3.061 Roll motor encoder ticks 0
+3.061 "The Box" limit ticks 1 1
+3.061 "The Box" is lowered
+3.061 Encoder Raw 0000000000000000
+3.061 Arduino not connected
+3.061 Arduino Heartbeat: 0
+3.061 UI:
+  speed control
+
+3.072 Connection Lost
+3.072 Attempting to connect
+3.123 Sending telemetry, waiting for command
+3.124 Left Mining Motor : speed 0, counter 0
+3.124 Track front encoder ticks 0 L 0 R
+3.124 Track back encoder ticks 0 L 0 R
+3.124 Roll motor encoder ticks 0
+3.124 "The Box" limit ticks 1 1
+3.124 "The Box" is lowered
+3.124 Encoder Raw 0000000000000000
+3.124 Arduino not connected
+3.125 Arduino Heartbeat: 0
+3.125 UI:
+  speed control
+
+3.135 Connection Lost
+3.136 Attempting to connect
+3.186 Sending telemetry, waiting for command
+3.188 Left Mining Motor : speed 0, counter 0
+3.188 Track front encoder ticks 0 L 0 R
+3.188 Track back encoder ticks 0 L 0 R
+3.188 Roll motor encoder ticks 0
+3.188 "The Box" limit ticks 1 1
+3.188 "The Box" is lowered
+3.188 Encoder Raw 0000000000000000
+3.188 Arduino not connected
+3.188 Arduino Heartbeat: 0
+3.188 UI:
+  speed control
+
+3.199 Connection Lost
+3.200 Attempting to connect
+3.250 Sending telemetry, waiting for command
+3.251 Left Mining Motor : speed 0, counter 0
+3.252 Track front encoder ticks 0 L 0 R
+3.252 Track back encoder ticks 0 L 0 R
+3.252 Roll motor encoder ticks 0
+3.252 "The Box" limit ticks 1 1
+3.252 "The Box" is lowered
+3.252 Encoder Raw 0000000000000000
+3.252 Arduino not connected
+3.252 Arduino Heartbeat: 0
+3.252 UI:
+  speed control
+
+3.262 Connection Lost
+3.263 Attempting to connect
+3.313 Sending telemetry, waiting for command
+3.315 Left Mining Motor : speed 0, counter 0
+3.315 Track front encoder ticks 0 L 0 R
+3.315 Track back encoder ticks 0 L 0 R
+3.315 Roll motor encoder ticks 0
+3.315 "The Box" limit ticks 1 1
+3.315 "The Box" is lowered
+3.315 Encoder Raw 0000000000000000
+3.315 Arduino not connected
+3.315 Arduino Heartbeat: 0
+3.315 UI:
+  speed control
+
+3.325 Connection Lost
+3.326 Attempting to connect
+3.376 Sending telemetry, waiting for command
+3.378 Left Mining Motor : speed 0, counter 0
+3.378 Track front encoder ticks 0 L 0 R
+3.378 Track back encoder ticks 0 L 0 R
+3.378 Roll motor encoder ticks 0
+3.378 "The Box" limit ticks 1 1
+3.378 "The Box" is lowered
+3.378 Encoder Raw 0000000000000000
+3.378 Arduino not connected
+3.378 Arduino Heartbeat: 0
+3.378 UI:
+  speed control
+
+3.389 Connection Lost
+3.390 Attempting to connect
+3.440 Sending telemetry, waiting for command
+3.441 Left Mining Motor : speed 0, counter 0
+3.441 Track front encoder ticks 0 L 0 R
+3.441 Track back encoder ticks 0 L 0 R
+3.441 Roll motor encoder ticks 0
+3.442 "The Box" limit ticks 1 1
+3.442 "The Box" is lowered
+3.442 Encoder Raw 0000000000000000
+3.442 Arduino not connected
+3.442 Arduino Heartbeat: 0
+3.442 UI:
+  speed control
+
+3.452 Connection Lost
+3.453 Attempting to connect
+3.503 Sending telemetry, waiting for command
+3.504 Left Mining Motor : speed 0, counter 0
+3.505 Track front encoder ticks 0 L 0 R
+3.505 Track back encoder ticks 0 L 0 R
+3.505 Roll motor encoder ticks 0
+3.505 "The Box" limit ticks 1 1
+3.505 "The Box" is lowered
+3.505 Encoder Raw 0000000000000000
+3.505 Arduino not connected
+3.505 Arduino Heartbeat: 0
+3.505 UI:
+  speed control
+
+3.515 Connection Lost
+3.516 Attempting to connect
+3.566 Sending telemetry, waiting for command
+3.568 Left Mining Motor : speed 0, counter 0
+3.568 Track front encoder ticks 0 L 0 R
+3.568 Track back encoder ticks 0 L 0 R
+3.568 Roll motor encoder ticks 0
+3.568 "The Box" limit ticks 1 1
+3.568 "The Box" is lowered
+3.568 Encoder Raw 0000000000000000
+3.568 Arduino not connected
+3.568 Arduino Heartbeat: 0
+3.568 UI:
+  speed control
+
+3.578 Connection Lost
+3.579 Attempting to connect
+3.629 Sending telemetry, waiting for command
+3.631 Left Mining Motor : speed 0, counter 0
+3.631 Track front encoder ticks 0 L 0 R
+3.631 Track back encoder ticks 0 L 0 R
+3.631 Roll motor encoder ticks 0
+3.631 "The Box" limit ticks 1 1
+3.631 "The Box" is lowered
+3.631 Encoder Raw 0000000000000000
+3.631 Arduino not connected
+3.631 Arduino Heartbeat: 0
+3.631 UI:
+  speed control
+
+3.642 Connection Lost
+3.642 Attempting to connect
+3.693 Sending telemetry, waiting for command
+3.694 Left Mining Motor : speed 0, counter 0
+3.694 Track front encoder ticks 0 L 0 R
+3.694 Track back encoder ticks 0 L 0 R
+3.694 Roll motor encoder ticks 0
+3.694 "The Box" limit ticks 1 1
+3.694 "The Box" is lowered
+3.694 Encoder Raw 0000000000000000
+3.694 Arduino not connected
+3.694 Arduino Heartbeat: 0
+3.695 UI:
+  speed control
+
+3.705 Connection Lost
+3.705 Attempting to connect
+3.756 Sending telemetry, waiting for command
+3.757 Left Mining Motor : speed 0, counter 0
+3.757 Track front encoder ticks 0 L 0 R
+3.757 Track back encoder ticks 0 L 0 R
+3.757 Roll motor encoder ticks 0
+3.757 "The Box" limit ticks 1 1
+3.757 "The Box" is lowered
+3.757 Encoder Raw 0000000000000000
+3.758 Arduino not connected
+3.758 Arduino Heartbeat: 0
+3.758 UI:
+  speed control
+
+3.768 Connection Lost
+3.769 Attempting to connect
+3.819 Sending telemetry, waiting for command
+3.820 Left Mining Motor : speed 0, counter 0
+3.821 Track front encoder ticks 0 L 0 R
+3.821 Track back encoder ticks 0 L 0 R
+3.821 Roll motor encoder ticks 0
+3.821 "The Box" limit ticks 1 1
+3.821 "The Box" is lowered
+3.821 Encoder Raw 0000000000000000
+3.821 Arduino not connected
+3.821 Arduino Heartbeat: 0
+3.821 UI:
+  speed control
+
+3.831 Connection Lost
+3.832 Attempting to connect
+3.882 Sending telemetry, waiting for command
+3.884 Left Mining Motor : speed 0, counter 0
+3.884 Track front encoder ticks 0 L 0 R
+3.884 Track back encoder ticks 0 L 0 R
+3.884 Roll motor encoder ticks 0
+3.884 "The Box" limit ticks 1 1
+3.884 "The Box" is lowered
+3.884 Encoder Raw 0000000000000000
+3.884 Arduino not connected
+3.884 Arduino Heartbeat: 0
+3.884 UI:
+  speed control
+
+3.895 Connection Lost
+3.895 Attempting to connect
+3.945 Sending telemetry, waiting for command
+3.947 Left Mining Motor : speed 0, counter 0
+3.947 Track front encoder ticks 0 L 0 R
+3.948 Track back encoder ticks 0 L 0 R
+3.948 Roll motor encoder ticks 0
+3.948 "The Box" limit ticks 1 1
+3.948 "The Box" is lowered
+3.948 Encoder Raw 0000000000000000
+3.948 Arduino not connected
+3.948 Arduino Heartbeat: 0
+3.948 UI:
+  speed control
+
+3.958 Connection Lost
+3.959 Attempting to connect
+4.009 Sending telemetry, waiting for command
+4.011 Left Mining Motor : speed 0, counter 0
+4.011 Track front encoder ticks 0 L 0 R
+4.011 Track back encoder ticks 0 L 0 R
+4.011 Roll motor encoder ticks 0
+4.011 "The Box" limit ticks 1 1
+4.012 "The Box" is lowered
+4.012 Encoder Raw 0000000000000000
+4.012 Arduino not connected
+4.012 Arduino Heartbeat: 0
+4.012 UI:
+  speed control
+
+4.022 Connection Lost
+4.023 Attempting to connect
+4.073 Sending telemetry, waiting for command
+4.075 Left Mining Motor : speed 0, counter 0
+4.075 Track front encoder ticks 0 L 0 R
+4.075 Track back encoder ticks 0 L 0 R
+4.075 Roll motor encoder ticks 0
+4.075 "The Box" limit ticks 1 1
+4.075 "The Box" is lowered
+4.075 Encoder Raw 0000000000000000
+4.075 Arduino not connected
+4.075 Arduino Heartbeat: 0
+4.075 UI:
+  speed control
+
+4.086 Connection Lost
+4.087 Attempting to connect
+4.137 Sending telemetry, waiting for command
+4.139 Left Mining Motor : speed 0, counter 0
+4.139 Track front encoder ticks 0 L 0 R
+4.139 Track back encoder ticks 0 L 0 R
+4.139 Roll motor encoder ticks 0
+4.139 "The Box" limit ticks 1 1
+4.139 "The Box" is lowered
+4.140 Encoder Raw 0000000000000000
+4.140 Arduino not connected
+4.140 Arduino Heartbeat: 0
+4.140 UI:
+  speed control
+
+4.150 Connection Lost
+4.151 Attempting to connect
+4.201 Sending telemetry, waiting for command
+4.203 Left Mining Motor : speed 0, counter 0
+4.203 Track front encoder ticks 0 L 0 R
+4.203 Track back encoder ticks 0 L 0 R
+4.203 Roll motor encoder ticks 0
+4.203 "The Box" limit ticks 1 1
+4.203 "The Box" is lowered
+4.203 Encoder Raw 0000000000000000
+4.203 Arduino not connected
+4.204 Arduino Heartbeat: 0
+4.204 UI:
+  speed control
+
+4.214 Connection Lost
+4.215 Attempting to connect
+4.265 Sending telemetry, waiting for command
+4.266 Left Mining Motor : speed 0, counter 0
+4.267 Track front encoder ticks 0 L 0 R
+4.267 Track back encoder ticks 0 L 0 R
+4.267 Roll motor encoder ticks 0
+4.267 "The Box" limit ticks 1 1
+4.267 "The Box" is lowered
+4.267 Encoder Raw 0000000000000000
+4.267 Arduino not connected
+4.267 Arduino Heartbeat: 0
+4.267 UI:
+  speed control
+
+4.277 Connection Lost
+4.278 Attempting to connect
+4.328 Sending telemetry, waiting for command
+4.329 Left Mining Motor : speed 0, counter 0
+4.330 Track front encoder ticks 0 L 0 R
+4.330 Track back encoder ticks 0 L 0 R
+4.330 Roll motor encoder ticks 0
+4.330 "The Box" limit ticks 1 1
+4.330 "The Box" is lowered
+4.330 Encoder Raw 0000000000000000
+4.330 Arduino not connected
+4.330 Arduino Heartbeat: 0
+4.330 UI:
+  speed control
+
+4.340 Connection Lost
+4.341 Attempting to connect
+4.391 Sending telemetry, waiting for command
+4.393 Left Mining Motor : speed 0, counter 0
+4.393 Track front encoder ticks 0 L 0 R
+4.393 Track back encoder ticks 0 L 0 R
+4.393 Roll motor encoder ticks 0
+4.393 "The Box" limit ticks 1 1
+4.393 "The Box" is lowered
+4.393 Encoder Raw 0000000000000000
+4.393 Arduino not connected
+4.393 Arduino Heartbeat: 0
+4.393 UI:
+  speed control
+
+4.403 Connection Lost
+4.404 Attempting to connect
+4.454 Sending telemetry, waiting for command
+4.458 Left Mining Motor : speed 0, counter 0
+4.458 Track front encoder ticks 0 L 0 R
+4.458 Track back encoder ticks 0 L 0 R
+4.458 Roll motor encoder ticks 0
+4.459 "The Box" limit ticks 1 1
+4.459 "The Box" is lowered
+4.459 Encoder Raw 0000000000000000
+4.459 Arduino not connected
+4.459 Arduino Heartbeat: 0
+4.459 UI:
+  speed control
+
+4.470 Connection Lost
+4.471 Attempting to connect
+4.521 Sending telemetry, waiting for command
+4.524 Left Mining Motor : speed 0, counter 0
+4.524 Track front encoder ticks 0 L 0 R
+4.525 Track back encoder ticks 0 L 0 R
+4.525 Roll motor encoder ticks 0
+4.525 "The Box" limit ticks 1 1
+4.525 "The Box" is lowered
+4.525 Encoder Raw 0000000000000000
+4.525 Arduino not connected
+4.525 Arduino Heartbeat: 0
+4.525 UI:
+  speed control
+
+4.535 Connection Lost
+4.536 Attempting to connect
+4.586 Sending telemetry, waiting for command
+4.588 Left Mining Motor : speed 0, counter 0
+4.588 Track front encoder ticks 0 L 0 R
+4.588 Track back encoder ticks 0 L 0 R
+4.588 Roll motor encoder ticks 0
+4.588 "The Box" limit ticks 1 1
+4.588 "The Box" is lowered
+4.588 Encoder Raw 0000000000000000
+4.588 Arduino not connected
+4.588 Arduino Heartbeat: 0
+4.589 UI:
+  speed control
+
+4.599 Connection Lost
+4.599 Attempting to connect
+4.650 Sending telemetry, waiting for command
+4.651 Left Mining Motor : speed 0, counter 0
+4.652 Track front encoder ticks 0 L 0 R
+4.652 Track back encoder ticks 0 L 0 R
+4.652 Roll motor encoder ticks 0
+4.652 "The Box" limit ticks 1 1
+4.652 "The Box" is lowered
+4.652 Encoder Raw 0000000000000000
+4.652 Arduino not connected
+4.653 Arduino Heartbeat: 0
+4.653 UI:
+  speed control
+
+4.663 Connection Lost
+4.664 Attempting to connect
+4.714 Sending telemetry, waiting for command
+4.716 Left Mining Motor : speed 0, counter 0
+4.716 Track front encoder ticks 0 L 0 R
+4.716 Track back encoder ticks 0 L 0 R
+4.716 Roll motor encoder ticks 0
+4.716 "The Box" limit ticks 1 1
+4.716 "The Box" is lowered
+4.716 Encoder Raw 0000000000000000
+4.716 Arduino not connected
+4.716 Arduino Heartbeat: 0
+4.716 UI:
+  speed control
+
+4.726 Connection Lost
+4.727 Attempting to connect
+4.777 Sending telemetry, waiting for command
+4.779 Left Mining Motor : speed 0, counter 0
+4.779 Track front encoder ticks 0 L 0 R
+4.779 Track back encoder ticks 0 L 0 R
+4.779 Roll motor encoder ticks 0
+4.779 "The Box" limit ticks 1 1
+4.779 "The Box" is lowered
+4.779 Encoder Raw 0000000000000000
+4.780 Arduino not connected
+4.780 Arduino Heartbeat: 0
+4.780 UI:
+  speed control
+
+4.790 Connection Lost
+4.791 Attempting to connect
+4.841 Sending telemetry, waiting for command
+4.842 Left Mining Motor : speed 0, counter 0
+4.843 Track front encoder ticks 0 L 0 R
+4.843 Track back encoder ticks 0 L 0 R
+4.843 Roll motor encoder ticks 0
+4.843 "The Box" limit ticks 1 1
+4.843 "The Box" is lowered
+4.843 Encoder Raw 0000000000000000
+4.843 Arduino not connected
+4.843 Arduino Heartbeat: 0
+4.843 UI:
+  speed control
+
+4.853 Connection Lost
+4.854 Attempting to connect
+4.904 Sending telemetry, waiting for command
+4.907 Left Mining Motor : speed 0, counter 0
+4.907 Track front encoder ticks 0 L 0 R
+4.907 Track back encoder ticks 0 L 0 R
+4.908 Roll motor encoder ticks 0
+4.908 "The Box" limit ticks 1 1
+4.908 "The Box" is lowered
+4.908 Encoder Raw 0000000000000000
+4.908 Arduino not connected
+4.908 Arduino Heartbeat: 0
+4.908 UI:
+  speed control
+
+4.919 Connection Lost
+4.920 Attempting to connect
+4.970 Sending telemetry, waiting for command
+4.972 Left Mining Motor : speed 0, counter 0
+4.972 Track front encoder ticks 0 L 0 R
+4.972 Track back encoder ticks 0 L 0 R
+4.972 Roll motor encoder ticks 0
+4.972 "The Box" limit ticks 1 1
+4.973 "The Box" is lowered
+4.973 Encoder Raw 0000000000000000
+4.973 Arduino not connected
+4.973 Arduino Heartbeat: 0
+4.973 UI:
+  speed control
+
+4.983 Connection Lost
+4.984 Attempting to connect
+5.034 Sending telemetry, waiting for command
+5.036 Left Mining Motor : speed 0, counter 0
+5.036 Track front encoder ticks 0 L 0 R
+5.036 Track back encoder ticks 0 L 0 R
+5.036 Roll motor encoder ticks 0
+5.036 "The Box" limit ticks 1 1
+5.036 "The Box" is lowered
+5.036 Encoder Raw 0000000000000000
+5.036 Arduino not connected
+5.036 Arduino Heartbeat: 0
+5.036 UI:
+  speed control
+
+5.046 Connection Lost
+5.047 Attempting to connect
+5.097 Sending telemetry, waiting for command
+5.099 Left Mining Motor : speed 0, counter 0
+5.099 Track front encoder ticks 0 L 0 R
+5.099 Track back encoder ticks 0 L 0 R
+5.099 Roll motor encoder ticks 0
+5.099 "The Box" limit ticks 1 1
+5.099 "The Box" is lowered
+5.099 Encoder Raw 0000000000000000
+5.100 Arduino not connected
+5.100 Arduino Heartbeat: 0
+5.100 UI:
+  speed control
+
+5.110 Connection Lost
+5.111 Attempting to connect
+5.161 Sending telemetry, waiting for command
+5.162 Left Mining Motor : speed 0, counter 0
+5.162 Track front encoder ticks 0 L 0 R
+5.162 Track back encoder ticks 0 L 0 R
+5.162 Roll motor encoder ticks 0
+5.163 "The Box" limit ticks 1 1
+5.163 "The Box" is lowered
+5.163 Encoder Raw 0000000000000000
+5.163 Arduino not connected
+5.163 Arduino Heartbeat: 0
+5.163 UI:
+  speed control
+
+5.173 Connection Lost
+5.174 Attempting to connect
+5.224 Sending telemetry, waiting for command
+5.226 Left Mining Motor : speed 0, counter 0
+5.226 Track front encoder ticks 0 L 0 R
+5.226 Track back encoder ticks 0 L 0 R
+5.226 Roll motor encoder ticks 0
+5.226 "The Box" limit ticks 1 1
+5.226 "The Box" is lowered
+5.226 Encoder Raw 0000000000000000
+5.226 Arduino not connected
+5.226 Arduino Heartbeat: 0
+5.226 UI:
+  speed control
+
+5.236 Connection Lost
+5.237 Attempting to connect
+5.287 Sending telemetry, waiting for command
+5.289 Left Mining Motor : speed 0, counter 0
+5.289 Track front encoder ticks 0 L 0 R
+5.289 Track back encoder ticks 0 L 0 R
+5.289 Roll motor encoder ticks 0
+5.289 "The Box" limit ticks 1 1
+5.289 "The Box" is lowered
+5.290 Encoder Raw 0000000000000000
+5.290 Arduino not connected
+5.290 Arduino Heartbeat: 0
+5.290 UI:
+  speed control
+
+5.300 Connection Lost
+5.301 Attempting to connect
+5.351 Sending telemetry, waiting for command
+5.353 Left Mining Motor : speed 0, counter 0
+5.353 Track front encoder ticks 0 L 0 R
+5.353 Track back encoder ticks 0 L 0 R
+5.353 Roll motor encoder ticks 0
+5.353 "The Box" limit ticks 1 1
+5.353 "The Box" is lowered
+5.354 Encoder Raw 0000000000000000
+5.354 Arduino not connected
+5.354 Arduino Heartbeat: 0
+5.354 UI:
+  speed control
+
+5.364 Connection Lost
+5.365 Attempting to connect
+5.415 Sending telemetry, waiting for command
+5.417 Left Mining Motor : speed 0, counter 0
+5.417 Track front encoder ticks 0 L 0 R
+5.417 Track back encoder ticks 0 L 0 R
+5.417 Roll motor encoder ticks 0
+5.417 "The Box" limit ticks 1 1
+5.417 "The Box" is lowered
+5.417 Encoder Raw 0000000000000000
+5.417 Arduino not connected
+5.417 Arduino Heartbeat: 0
+5.417 UI:
+  speed control
+
+5.427 Connection Lost
+5.428 Attempting to connect
+5.478 Sending telemetry, waiting for command
+5.480 Left Mining Motor : speed 0, counter 0
+5.480 Track front encoder ticks 0 L 0 R
+5.480 Track back encoder ticks 0 L 0 R
+5.480 Roll motor encoder ticks 0
+5.480 "The Box" limit ticks 1 1
+5.480 "The Box" is lowered
+5.480 Encoder Raw 0000000000000000
+5.480 Arduino not connected
+5.480 Arduino Heartbeat: 0
+5.480 UI:
+  speed control
+
+5.490 Connection Lost
+5.491 Attempting to connect
+5.542 Sending telemetry, waiting for command
+5.543 Left Mining Motor : speed 0, counter 0
+5.543 Track front encoder ticks 0 L 0 R
+5.543 Track back encoder ticks 0 L 0 R
+5.543 Roll motor encoder ticks 0
+5.543 "The Box" limit ticks 1 1
+5.544 "The Box" is lowered
+5.544 Encoder Raw 0000000000000000
+5.544 Arduino not connected
+5.544 Arduino Heartbeat: 0
+5.544 UI:
+  speed control
+
+5.554 Connection Lost
+5.555 Attempting to connect
+5.605 Sending telemetry, waiting for command
+5.606 Left Mining Motor : speed 0, counter 0
+5.606 Track front encoder ticks 0 L 0 R
+5.606 Track back encoder ticks 0 L 0 R
+5.607 Roll motor encoder ticks 0
+5.607 "The Box" limit ticks 1 1
+5.607 "The Box" is lowered
+5.607 Encoder Raw 0000000000000000
+5.607 Arduino not connected
+5.607 Arduino Heartbeat: 0
+5.607 UI:
+  speed control
+
+5.617 Connection Lost
+5.618 Attempting to connect
+5.668 Sending telemetry, waiting for command
+5.669 Left Mining Motor : speed 0, counter 0
+5.670 Track front encoder ticks 0 L 0 R
+5.670 Track back encoder ticks 0 L 0 R
+5.670 Roll motor encoder ticks 0
+5.670 "The Box" limit ticks 1 1
+5.670 "The Box" is lowered
+5.670 Encoder Raw 0000000000000000
+5.670 Arduino not connected
+5.670 Arduino Heartbeat: 0
+5.670 UI:
+  speed control
+
+5.680 Connection Lost
+5.681 Attempting to connect
+5.731 Sending telemetry, waiting for command
+5.733 Left Mining Motor : speed 0, counter 0
+5.733 Track front encoder ticks 0 L 0 R
+5.733 Track back encoder ticks 0 L 0 R
+5.733 Roll motor encoder ticks 0
+5.733 "The Box" limit ticks 1 1
+5.733 "The Box" is lowered
+5.733 Encoder Raw 0000000000000000
+5.733 Arduino not connected
+5.733 Arduino Heartbeat: 0
+5.733 UI:
+  speed control
+
+5.744 Connection Lost
+5.745 Attempting to connect
+5.795 Sending telemetry, waiting for command
+5.796 Left Mining Motor : speed 0, counter 0
+5.796 Track front encoder ticks 0 L 0 R
+5.797 Track back encoder ticks 0 L 0 R
+5.797 Roll motor encoder ticks 0
+5.797 "The Box" limit ticks 1 1
+5.797 "The Box" is lowered
+5.797 Encoder Raw 0000000000000000
+5.797 Arduino not connected
+5.797 Arduino Heartbeat: 0
+5.797 UI:
+  speed control
+
+5.807 Connection Lost
+5.808 Attempting to connect
+5.858 Sending telemetry, waiting for command
+5.860 Left Mining Motor : speed 0, counter 0
+5.860 Track front encoder ticks 0 L 0 R
+5.860 Track back encoder ticks 0 L 0 R
+5.860 Roll motor encoder ticks 0
+5.860 "The Box" limit ticks 1 1
+5.860 "The Box" is lowered
+5.860 Encoder Raw 0000000000000000
+5.860 Arduino not connected
+5.860 Arduino Heartbeat: 0
+5.860 UI:
+  speed control
+
+5.870 Connection Lost
+5.871 Attempting to connect
+5.921 Sending telemetry, waiting for command
+5.923 Left Mining Motor : speed 0, counter 0
+5.923 Track front encoder ticks 0 L 0 R
+5.923 Track back encoder ticks 0 L 0 R
+5.923 Roll motor encoder ticks 0
+5.923 "The Box" limit ticks 1 1
+5.923 "The Box" is lowered
+5.923 Encoder Raw 0000000000000000
+5.923 Arduino not connected
+5.923 Arduino Heartbeat: 0
+5.923 UI:
+  speed control
+
+5.934 Connection Lost
+5.934 Attempting to connect
+5.984 Sending telemetry, waiting for command
+5.986 Left Mining Motor : speed 0, counter 0
+5.986 Track front encoder ticks 0 L 0 R
+5.986 Track back encoder ticks 0 L 0 R
+5.986 Roll motor encoder ticks 0
+5.986 "The Box" limit ticks 1 1
+5.986 "The Box" is lowered
+5.986 Encoder Raw 0000000000000000
+5.986 Arduino not connected
+5.986 Arduino Heartbeat: 0
+5.987 UI:
+  speed control
+
+5.997 Connection Lost
+5.998 Attempting to connect
+6.048 Sending telemetry, waiting for command
+6.050 Left Mining Motor : speed 0, counter 0
+6.050 Track front encoder ticks 0 L 0 R
+6.050 Track back encoder ticks 0 L 0 R
+6.050 Roll motor encoder ticks 0
+6.050 "The Box" limit ticks 1 1
+6.050 "The Box" is lowered
+6.050 Encoder Raw 0000000000000000
+6.050 Arduino not connected
+6.050 Arduino Heartbeat: 0
+6.050 UI:
+  speed control
+
+6.060 Connection Lost
+6.061 Attempting to connect
+6.111 Sending telemetry, waiting for command
+6.113 Left Mining Motor : speed 0, counter 0
+6.113 Track front encoder ticks 0 L 0 R
+6.113 Track back encoder ticks 0 L 0 R
+6.113 Roll motor encoder ticks 0
+6.113 "The Box" limit ticks 1 1
+6.114 "The Box" is lowered
+6.114 Encoder Raw 0000000000000000
+6.114 Arduino not connected
+6.114 Arduino Heartbeat: 0
+6.114 UI:
+  speed control
+
+6.124 Connection Lost
+6.125 Attempting to connect
+6.175 Sending telemetry, waiting for command
+6.177 Left Mining Motor : speed 0, counter 0
+6.177 Track front encoder ticks 0 L 0 R
+6.177 Track back encoder ticks 0 L 0 R
+6.177 Roll motor encoder ticks 0
+6.177 "The Box" limit ticks 1 1
+6.177 "The Box" is lowered
+6.177 Encoder Raw 0000000000000000
+6.177 Arduino not connected
+6.178 Arduino Heartbeat: 0
+6.178 UI:
+  speed control
+
+6.188 Connection Lost
+6.189 Attempting to connect
+6.239 Sending telemetry, waiting for command
+6.240 Left Mining Motor : speed 0, counter 0
+6.241 Track front encoder ticks 0 L 0 R
+6.241 Track back encoder ticks 0 L 0 R
+6.241 Roll motor encoder ticks 0
+6.241 "The Box" limit ticks 1 1
+6.241 "The Box" is lowered
+6.241 Encoder Raw 0000000000000000
+6.241 Arduino not connected
+6.241 Arduino Heartbeat: 0
+6.241 UI:
+  speed control
+
+6.251 Connection Lost
+6.252 Attempting to connect
+6.302 Sending telemetry, waiting for command
+6.304 Left Mining Motor : speed 0, counter 0
+6.304 Track front encoder ticks 0 L 0 R
+6.304 Track back encoder ticks 0 L 0 R
+6.305 Roll motor encoder ticks 0
+6.305 "The Box" limit ticks 1 1
+6.305 "The Box" is lowered
+6.305 Encoder Raw 0000000000000000
+6.305 Arduino not connected
+6.305 Arduino Heartbeat: 0
+6.305 UI:
+  speed control
+
+6.315 Connection Lost
+6.316 Attempting to connect
+6.366 Sending telemetry, waiting for command
+6.368 Left Mining Motor : speed 0, counter 0
+6.368 Track front encoder ticks 0 L 0 R
+6.368 Track back encoder ticks 0 L 0 R
+6.368 Roll motor encoder ticks 0
+6.368 "The Box" limit ticks 1 1
+6.368 "The Box" is lowered
+6.368 Encoder Raw 0000000000000000
+6.368 Arduino not connected
+6.368 Arduino Heartbeat: 0
+6.368 UI:
+  speed control
+
+6.378 Connection Lost
+6.379 Attempting to connect
+6.429 Sending telemetry, waiting for command
+6.432 Left Mining Motor : speed 0, counter 0
+6.433 Track front encoder ticks 0 L 0 R
+6.433 Track back encoder ticks 0 L 0 R
+6.433 Roll motor encoder ticks 0
+6.433 "The Box" limit ticks 1 1
+6.434 "The Box" is lowered
+6.434 Encoder Raw 0000000000000000
+6.434 Arduino not connected
+6.434 Arduino Heartbeat: 0
+6.434 UI:
+  speed control
+
+6.445 Connection Lost
+6.446 Attempting to connect
+6.496 Sending telemetry, waiting for command
+6.498 Left Mining Motor : speed 0, counter 0
+6.498 Track front encoder ticks 0 L 0 R
+6.499 Track back encoder ticks 0 L 0 R
+6.499 Roll motor encoder ticks 0
+6.499 "The Box" limit ticks 1 1
+6.499 "The Box" is lowered
+6.499 Encoder Raw 0000000000000000
+6.499 Arduino not connected
+6.499 Arduino Heartbeat: 0
+6.499 UI:
+  speed control
+
+6.510 Connection Lost
+6.510 Attempting to connect
+6.561 Sending telemetry, waiting for command
+6.562 Left Mining Motor : speed 0, counter 0
+6.563 Track front encoder ticks 0 L 0 R
+6.563 Track back encoder ticks 0 L 0 R
+6.563 Roll motor encoder ticks 0
+6.563 "The Box" limit ticks 1 1
+6.563 "The Box" is lowered
+6.563 Encoder Raw 0000000000000000
+6.563 Arduino not connected
+6.563 Arduino Heartbeat: 0
+6.563 UI:
+  speed control
+
+6.573 Connection Lost
+6.574 Attempting to connect
+6.625 Sending telemetry, waiting for command
+6.626 Left Mining Motor : speed 0, counter 0
+6.626 Track front encoder ticks 0 L 0 R
+6.627 Track back encoder ticks 0 L 0 R
+6.627 Roll motor encoder ticks 0
+6.627 "The Box" limit ticks 1 1
+6.627 "The Box" is lowered
+6.627 Encoder Raw 0000000000000000
+6.628 Arduino not connected
+6.628 Arduino Heartbeat: 0
+6.628 UI:
+  speed control
+
+6.638 Connection Lost
+6.639 Attempting to connect
+6.689 Sending telemetry, waiting for command
+6.691 Left Mining Motor : speed 0, counter 0
+6.691 Track front encoder ticks 0 L 0 R
+6.691 Track back encoder ticks 0 L 0 R
+6.691 Roll motor encoder ticks 0
+6.691 "The Box" limit ticks 1 1
+6.691 "The Box" is lowered
+6.691 Encoder Raw 0000000000000000
+6.691 Arduino not connected
+6.691 Arduino Heartbeat: 0
+6.691 UI:
+  speed control
+
+6.702 Connection Lost
+6.702 Attempting to connect
+6.752 Sending telemetry, waiting for command
+6.754 Left Mining Motor : speed 0, counter 0
+6.754 Track front encoder ticks 0 L 0 R
+6.754 Track back encoder ticks 0 L 0 R
+6.754 Roll motor encoder ticks 0
+6.754 "The Box" limit ticks 1 1
+6.754 "The Box" is lowered
+6.754 Encoder Raw 0000000000000000
+6.754 Arduino not connected
+6.754 Arduino Heartbeat: 0
+6.755 UI:
+  speed control
+
+6.765 Connection Lost
+6.766 Attempting to connect
+6.816 Sending telemetry, waiting for command
+6.817 Left Mining Motor : speed 0, counter 0
+6.818 Track front encoder ticks 0 L 0 R
+6.818 Track back encoder ticks 0 L 0 R
+6.818 Roll motor encoder ticks 0
+6.818 "The Box" limit ticks 1 1
+6.818 "The Box" is lowered
+6.818 Encoder Raw 0000000000000000
+6.818 Arduino not connected
+6.818 Arduino Heartbeat: 0
+6.818 UI:
+  speed control
+
+6.828 Connection Lost
+6.829 Attempting to connect
+6.879 Sending telemetry, waiting for command
+6.881 Left Mining Motor : speed 0, counter 0
+6.881 Track front encoder ticks 0 L 0 R
+6.881 Track back encoder ticks 0 L 0 R
+6.881 Roll motor encoder ticks 0
+6.881 "The Box" limit ticks 1 1
+6.881 "The Box" is lowered
+6.882 Encoder Raw 0000000000000000
+6.882 Arduino not connected
+6.882 Arduino Heartbeat: 0
+6.882 UI:
+  speed control
+
+6.892 Connection Lost
+6.893 Attempting to connect
+6.943 Sending telemetry, waiting for command
+6.944 Left Mining Motor : speed 0, counter 0
+6.945 Track front encoder ticks 0 L 0 R
+6.945 Track back encoder ticks 0 L 0 R
+6.945 Roll motor encoder ticks 0
+6.945 "The Box" limit ticks 1 1
+6.945 "The Box" is lowered
+6.945 Encoder Raw 0000000000000000
+6.945 Arduino not connected
+6.945 Arduino Heartbeat: 0
+6.945 UI:
+  speed control
+
+6.955 Connection Lost
+6.956 Attempting to connect
+7.006 Sending telemetry, waiting for command
+7.008 Left Mining Motor : speed 0, counter 0
+7.008 Track front encoder ticks 0 L 0 R
+7.008 Track back encoder ticks 0 L 0 R
+7.008 Roll motor encoder ticks 0
+7.008 "The Box" limit ticks 1 1
+7.008 "The Box" is lowered
+7.008 Encoder Raw 0000000000000000
+7.008 Arduino not connected
+7.008 Arduino Heartbeat: 0
+7.008 UI:
+  speed control
+
+7.019 Connection Lost
+7.020 Attempting to connect
+7.070 Sending telemetry, waiting for command
+7.071 Left Mining Motor : speed 0, counter 0
+7.071 Track front encoder ticks 0 L 0 R
+7.071 Track back encoder ticks 0 L 0 R
+7.072 Roll motor encoder ticks 0
+7.072 "The Box" limit ticks 1 1
+7.072 "The Box" is lowered
+7.072 Encoder Raw 0000000000000000
+7.072 Arduino not connected
+7.072 Arduino Heartbeat: 0
+7.072 UI:
+  speed control
+
+7.082 Connection Lost
+7.083 Attempting to connect
+7.133 Sending telemetry, waiting for command
+7.134 Left Mining Motor : speed 0, counter 0
+7.135 Track front encoder ticks 0 L 0 R
+7.135 Track back encoder ticks 0 L 0 R
+7.135 Roll motor encoder ticks 0
+7.135 "The Box" limit ticks 1 1
+7.135 "The Box" is lowered
+7.135 Encoder Raw 0000000000000000
+7.135 Arduino not connected
+7.135 Arduino Heartbeat: 0
+7.135 UI:
+  speed control
+
+7.145 Connection Lost
+7.146 Attempting to connect
+7.197 Sending telemetry, waiting for command
+7.198 Left Mining Motor : speed 0, counter 0
+7.198 Track front encoder ticks 0 L 0 R
+7.198 Track back encoder ticks 0 L 0 R
+7.198 Roll motor encoder ticks 0
+7.198 "The Box" limit ticks 1 1
+7.198 "The Box" is lowered
+7.198 Encoder Raw 0000000000000000
+7.199 Arduino not connected
+7.199 Arduino Heartbeat: 0
+7.199 UI:
+  speed control
+
+7.209 Connection Lost
+7.210 Attempting to connect
+7.260 Sending telemetry, waiting for command
+7.261 Left Mining Motor : speed 0, counter 0
+7.261 Track front encoder ticks 0 L 0 R
+7.261 Track back encoder ticks 0 L 0 R
+7.261 Roll motor encoder ticks 0
+7.261 "The Box" limit ticks 1 1
+7.262 "The Box" is lowered
+7.262 Encoder Raw 0000000000000000
+7.262 Arduino not connected
+7.262 Arduino Heartbeat: 0
+7.262 UI:
+  speed control
+
+7.272 Connection Lost
+7.273 Attempting to connect
+7.323 Sending telemetry, waiting for command
+7.324 Left Mining Motor : speed 0, counter 0
+7.324 Track front encoder ticks 0 L 0 R
+7.325 Track back encoder ticks 0 L 0 R
+7.325 Roll motor encoder ticks 0
+7.325 "The Box" limit ticks 1 1
+7.325 "The Box" is lowered
+7.325 Encoder Raw 0000000000000000
+7.325 Arduino not connected
+7.325 Arduino Heartbeat: 0
+7.325 UI:
+  speed control
+
+7.335 Connection Lost
+7.336 Attempting to connect
+7.386 Sending telemetry, waiting for command
+7.388 Left Mining Motor : speed 0, counter 0
+7.388 Track front encoder ticks 0 L 0 R
+7.388 Track back encoder ticks 0 L 0 R
+7.388 Roll motor encoder ticks 0
+7.388 "The Box" limit ticks 1 1
+7.388 "The Box" is lowered
+7.389 Encoder Raw 0000000000000000
+7.389 Arduino not connected
+7.389 Arduino Heartbeat: 0
+7.389 UI:
+  speed control
+
+7.399 Connection Lost
+7.400 Attempting to connect
+7.450 Sending telemetry, waiting for command
+7.452 Left Mining Motor : speed 0, counter 0
+7.452 Track front encoder ticks 0 L 0 R
+7.452 Track back encoder ticks 0 L 0 R
+7.452 Roll motor encoder ticks 0
+7.452 "The Box" limit ticks 1 1
+7.452 "The Box" is lowered
+7.452 Encoder Raw 0000000000000000
+7.452 Arduino not connected
+7.452 Arduino Heartbeat: 0
+7.452 UI:
+  speed control
+
+7.462 Connection Lost
+7.463 Attempting to connect
+7.513 Sending telemetry, waiting for command
+7.515 Left Mining Motor : speed 0, counter 0
+7.515 Track front encoder ticks 0 L 0 R
+7.515 Track back encoder ticks 0 L 0 R
+7.516 Roll motor encoder ticks 0
+7.516 "The Box" limit ticks 1 1
+7.516 "The Box" is lowered
+7.516 Encoder Raw 0000000000000000
+7.516 Arduino not connected
+7.516 Arduino Heartbeat: 0
+7.516 UI:
+  speed control
+
+7.526 Connection Lost
+7.527 Attempting to connect
+7.577 Sending telemetry, waiting for command
+7.579 Left Mining Motor : speed 0, counter 0
+7.579 Track front encoder ticks 0 L 0 R
+7.579 Track back encoder ticks 0 L 0 R
+7.579 Roll motor encoder ticks 0
+7.579 "The Box" limit ticks 1 1
+7.579 "The Box" is lowered
+7.579 Encoder Raw 0000000000000000
+7.579 Arduino not connected
+7.579 Arduino Heartbeat: 0
+7.579 UI:
+  speed control
+
+7.590 Connection Lost
+7.590 Attempting to connect
+7.641 Sending telemetry, waiting for command
+7.642 Left Mining Motor : speed 0, counter 0
+7.642 Track front encoder ticks 0 L 0 R
+7.642 Track back encoder ticks 0 L 0 R
+7.642 Roll motor encoder ticks 0
+7.642 "The Box" limit ticks 1 1
+7.642 "The Box" is lowered
+7.643 Encoder Raw 0000000000000000
+7.643 Arduino not connected
+7.643 Arduino Heartbeat: 0
+7.643 UI:
+  speed control
+
+7.653 Connection Lost
+7.654 Attempting to connect
+7.704 Sending telemetry, waiting for command
+7.705 Left Mining Motor : speed 0, counter 0
+7.705 Track front encoder ticks 0 L 0 R
+7.705 Track back encoder ticks 0 L 0 R
+7.705 Roll motor encoder ticks 0
+7.705 "The Box" limit ticks 1 1
+7.706 "The Box" is lowered
+7.706 Encoder Raw 0000000000000000
+7.706 Arduino not connected
+7.706 Arduino Heartbeat: 0
+7.706 UI:
+  speed control
+
+7.716 Connection Lost
+7.717 Attempting to connect
+7.767 Sending telemetry, waiting for command
+7.768 Left Mining Motor : speed 0, counter 0
+7.769 Track front encoder ticks 0 L 0 R
+7.769 Track back encoder ticks 0 L 0 R
+7.769 Roll motor encoder ticks 0
+7.769 "The Box" limit ticks 1 1
+7.769 "The Box" is lowered
+7.769 Encoder Raw 0000000000000000
+7.769 Arduino not connected
+7.769 Arduino Heartbeat: 0
+7.769 UI:
+  speed control
+
+7.779 Connection Lost
+7.780 Attempting to connect
+7.830 Sending telemetry, waiting for command
+7.832 Left Mining Motor : speed 0, counter 0
+7.832 Track front encoder ticks 0 L 0 R
+7.832 Track back encoder ticks 0 L 0 R
+7.832 Roll motor encoder ticks 0
+7.832 "The Box" limit ticks 1 1
+7.832 "The Box" is lowered
+7.832 Encoder Raw 0000000000000000
+7.832 Arduino not connected
+7.832 Arduino Heartbeat: 0
+7.832 UI:
+  speed control
+
+7.843 Connection Lost
+7.843 Attempting to connect
+7.893 Sending telemetry, waiting for command
+7.895 Left Mining Motor : speed 0, counter 0
+7.895 Track front encoder ticks 0 L 0 R
+7.895 Track back encoder ticks 0 L 0 R
+7.895 Roll motor encoder ticks 0
+7.895 "The Box" limit ticks 1 1
+7.895 "The Box" is lowered
+7.895 Encoder Raw 0000000000000000
+7.895 Arduino not connected
+7.895 Arduino Heartbeat: 0
+7.895 UI:
+  speed control
+
+7.906 Connection Lost
+7.907 Attempting to connect
+7.957 Sending telemetry, waiting for command
+7.958 Left Mining Motor : speed 0, counter 0
+7.958 Track front encoder ticks 0 L 0 R
+7.958 Track back encoder ticks 0 L 0 R
+7.959 Roll motor encoder ticks 0
+7.959 "The Box" limit ticks 1 1
+7.959 "The Box" is lowered
+7.959 Encoder Raw 0000000000000000
+7.959 Arduino not connected
+7.959 Arduino Heartbeat: 0
+7.959 UI:
+  speed control
+
+7.969 Connection Lost
+7.970 Attempting to connect
+8.020 Sending telemetry, waiting for command
+8.021 Left Mining Motor : speed 0, counter 0
+8.022 Track front encoder ticks 0 L 0 R
+8.022 Track back encoder ticks 0 L 0 R
+8.022 Roll motor encoder ticks 0
+8.022 "The Box" limit ticks 1 1
+8.022 "The Box" is lowered
+8.022 Encoder Raw 0000000000000000
+8.022 Arduino not connected
+8.022 Arduino Heartbeat: 0
+8.022 UI:
+  speed control
+
+8.032 Connection Lost
+8.034 Attempting to connect
+8.084 Sending telemetry, waiting for command
+8.086 Left Mining Motor : speed 0, counter 0
+8.086 Track front encoder ticks 0 L 0 R
+8.086 Track back encoder ticks 0 L 0 R
+8.086 Roll motor encoder ticks 0
+8.086 "The Box" limit ticks 1 1
+8.086 "The Box" is lowered
+8.086 Encoder Raw 0000000000000000
+8.086 Arduino not connected
+8.086 Arduino Heartbeat: 0
+8.086 UI:
+  speed control
+
+8.096 Connection Lost
+8.097 Attempting to connect
+8.147 Sending telemetry, waiting for command
+8.149 Left Mining Motor : speed 0, counter 0
+8.149 Track front encoder ticks 0 L 0 R
+8.149 Track back encoder ticks 0 L 0 R
+8.149 Roll motor encoder ticks 0
+8.149 "The Box" limit ticks 1 1
+8.149 "The Box" is lowered
+8.149 Encoder Raw 0000000000000000
+8.149 Arduino not connected
+8.149 Arduino Heartbeat: 0
+8.149 UI:
+  speed control
+
+8.160 Connection Lost
+8.160 Attempting to connect
+8.210 Sending telemetry, waiting for command
+8.212 Left Mining Motor : speed 0, counter 0
+8.212 Track front encoder ticks 0 L 0 R
+8.212 Track back encoder ticks 0 L 0 R
+8.212 Roll motor encoder ticks 0
+8.212 "The Box" limit ticks 1 1
+8.212 "The Box" is lowered
+8.212 Encoder Raw 0000000000000000
+8.212 Arduino not connected
+8.213 Arduino Heartbeat: 0
+8.213 UI:
+  speed control
+
+8.223 Connection Lost
+8.224 Attempting to connect
+8.274 Sending telemetry, waiting for command
+8.275 Left Mining Motor : speed 0, counter 0
+8.275 Track front encoder ticks 0 L 0 R
+8.275 Track back encoder ticks 0 L 0 R
+8.275 Roll motor encoder ticks 0
+8.275 "The Box" limit ticks 1 1
+8.276 "The Box" is lowered
+8.276 Encoder Raw 0000000000000000
+8.276 Arduino not connected
+8.276 Arduino Heartbeat: 0
+8.276 UI:
+  speed control
+
+8.286 Connection Lost
+8.287 Attempting to connect
+8.337 Sending telemetry, waiting for command
+8.339 Left Mining Motor : speed 0, counter 0
+8.339 Track front encoder ticks 0 L 0 R
+8.339 Track back encoder ticks 0 L 0 R
+8.339 Roll motor encoder ticks 0
+8.339 "The Box" limit ticks 1 1
+8.339 "The Box" is lowered
+8.339 Encoder Raw 0000000000000000
+8.339 Arduino not connected
+8.339 Arduino Heartbeat: 0
+8.340 UI:
+  speed control
+
+8.350 Connection Lost
+8.350 Attempting to connect
+8.401 Sending telemetry, waiting for command
+8.402 Left Mining Motor : speed 0, counter 0
+8.402 Track front encoder ticks 0 L 0 R
+8.402 Track back encoder ticks 0 L 0 R
+8.403 Roll motor encoder ticks 0
+8.403 "The Box" limit ticks 1 1
+8.403 "The Box" is lowered
+8.403 Encoder Raw 0000000000000000
+8.403 Arduino not connected
+8.403 Arduino Heartbeat: 0
+8.403 UI:
+  speed control
+
+8.413 Connection Lost
+8.414 Attempting to connect
+8.464 Sending telemetry, waiting for command
+8.466 Left Mining Motor : speed 0, counter 0
+8.466 Track front encoder ticks 0 L 0 R
+8.466 Track back encoder ticks 0 L 0 R
+8.466 Roll motor encoder ticks 0
+8.466 "The Box" limit ticks 1 1
+8.466 "The Box" is lowered
+8.466 Encoder Raw 0000000000000000
+8.466 Arduino not connected
+8.466 Arduino Heartbeat: 0
+8.466 UI:
+  speed control
+
+8.477 Connection Lost
+8.477 Attempting to connect
+8.528 Sending telemetry, waiting for command
+8.529 Left Mining Motor : speed 0, counter 0
+8.529 Track front encoder ticks 0 L 0 R
+8.529 Track back encoder ticks 0 L 0 R
+8.529 Roll motor encoder ticks 0
+8.529 "The Box" limit ticks 1 1
+8.529 "The Box" is lowered
+8.529 Encoder Raw 0000000000000000
+8.529 Arduino not connected
+8.530 Arduino Heartbeat: 0
+8.530 UI:
+  speed control
+
+8.540 Connection Lost
+8.541 Attempting to connect
+8.591 Sending telemetry, waiting for command
+8.592 Left Mining Motor : speed 0, counter 0
+8.592 Track front encoder ticks 0 L 0 R
+8.592 Track back encoder ticks 0 L 0 R
+8.592 Roll motor encoder ticks 0
+8.592 "The Box" limit ticks 1 1
+8.593 "The Box" is lowered
+8.593 Encoder Raw 0000000000000000
+8.593 Arduino not connected
+8.593 Arduino Heartbeat: 0
+8.593 UI:
+  speed control
+
+8.603 Connection Lost
+8.604 Attempting to connect
+8.654 Sending telemetry, waiting for command
+8.655 Left Mining Motor : speed 0, counter 0
+8.655 Track front encoder ticks 0 L 0 R
+8.656 Track back encoder ticks 0 L 0 R
+8.656 Roll motor encoder ticks 0
+8.656 "The Box" limit ticks 1 1
+8.656 "The Box" is lowered
+8.656 Encoder Raw 0000000000000000
+8.656 Arduino not connected
+8.656 Arduino Heartbeat: 0
+8.656 UI:
+  speed control
+
+8.666 Connection Lost
+8.667 Attempting to connect
+8.717 Sending telemetry, waiting for command
+8.718 Left Mining Motor : speed 0, counter 0
+8.719 Track front encoder ticks 0 L 0 R
+8.719 Track back encoder ticks 0 L 0 R
+8.719 Roll motor encoder ticks 0
+8.719 "The Box" limit ticks 1 1
+8.719 "The Box" is lowered
+8.719 Encoder Raw 0000000000000000
+8.719 Arduino not connected
+8.719 Arduino Heartbeat: 0
+8.719 UI:
+  speed control
+
+8.729 Connection Lost
+8.730 Attempting to connect
+8.781 Sending telemetry, waiting for command
+8.782 Left Mining Motor : speed 0, counter 0
+8.782 Track front encoder ticks 0 L 0 R
+8.782 Track back encoder ticks 0 L 0 R
+8.782 Roll motor encoder ticks 0
+8.782 "The Box" limit ticks 1 1
+8.782 "The Box" is lowered
+8.783 Encoder Raw 0000000000000000
+8.783 Arduino not connected
+8.783 Arduino Heartbeat: 0
+8.783 UI:
+  speed control
+
+8.793 Connection Lost
+8.794 Attempting to connect
+8.844 Sending telemetry, waiting for command
+8.845 Left Mining Motor : speed 0, counter 0
+8.845 Track front encoder ticks 0 L 0 R
+8.845 Track back encoder ticks 0 L 0 R
+8.845 Roll motor encoder ticks 0
+8.846 "The Box" limit ticks 1 1
+8.846 "The Box" is lowered
+8.846 Encoder Raw 0000000000000000
+8.846 Arduino not connected
+8.846 Arduino Heartbeat: 0
+8.846 UI:
+  speed control
+
+8.856 Connection Lost
+8.857 Attempting to connect
+8.907 Sending telemetry, waiting for command
+8.908 Left Mining Motor : speed 0, counter 0
+8.909 Track front encoder ticks 0 L 0 R
+8.909 Track back encoder ticks 0 L 0 R
+8.909 Roll motor encoder ticks 0
+8.909 "The Box" limit ticks 1 1
+8.909 "The Box" is lowered
+8.909 Encoder Raw 0000000000000000
+8.909 Arduino not connected
+8.909 Arduino Heartbeat: 0
+8.909 UI:
+  speed control
+
+8.919 Connection Lost
+8.920 Attempting to connect
+8.970 Sending telemetry, waiting for command
+8.971 Left Mining Motor : speed 0, counter 0
+8.972 Track front encoder ticks 0 L 0 R
+8.972 Track back encoder ticks 0 L 0 R
+8.972 Roll motor encoder ticks 0
+8.972 "The Box" limit ticks 1 1
+8.972 "The Box" is lowered
+8.972 Encoder Raw 0000000000000000
+8.972 Arduino not connected
+8.972 Arduino Heartbeat: 0
+8.972 UI:
+  speed control
+
+8.982 Connection Lost
+8.983 Attempting to connect
+9.034 Sending telemetry, waiting for command
+9.035 Left Mining Motor : speed 0, counter 0
+9.035 Track front encoder ticks 0 L 0 R
+9.035 Track back encoder ticks 0 L 0 R
+9.035 Roll motor encoder ticks 0
+9.035 "The Box" limit ticks 1 1
+9.035 "The Box" is lowered
+9.035 Encoder Raw 0000000000000000
+9.035 Arduino not connected
+9.036 Arduino Heartbeat: 0
+9.036 UI:
+  speed control
+
+9.046 Connection Lost
+9.046 Attempting to connect
+9.097 Sending telemetry, waiting for command
+9.098 Left Mining Motor : speed 0, counter 0
+9.098 Track front encoder ticks 0 L 0 R
+9.098 Track back encoder ticks 0 L 0 R
+9.098 Roll motor encoder ticks 0
+9.098 "The Box" limit ticks 1 1
+9.099 "The Box" is lowered
+9.099 Encoder Raw 0000000000000000
+9.099 Arduino not connected
+9.099 Arduino Heartbeat: 0
+9.099 UI:
+  speed control
+
+9.109 Connection Lost
+9.110 Attempting to connect
+9.160 Sending telemetry, waiting for command
+9.161 Left Mining Motor : speed 0, counter 0
+9.161 Track front encoder ticks 0 L 0 R
+9.161 Track back encoder ticks 0 L 0 R
+9.162 Roll motor encoder ticks 0
+9.162 "The Box" limit ticks 1 1
+9.162 "The Box" is lowered
+9.162 Encoder Raw 0000000000000000
+9.162 Arduino not connected
+9.162 Arduino Heartbeat: 0
+9.162 UI:
+  speed control
+
+9.172 Connection Lost
+9.173 Attempting to connect
+9.223 Sending telemetry, waiting for command
+9.224 Left Mining Motor : speed 0, counter 0
+9.225 Track front encoder ticks 0 L 0 R
+9.225 Track back encoder ticks 0 L 0 R
+9.225 Roll motor encoder ticks 0
+9.225 "The Box" limit ticks 1 1
+9.225 "The Box" is lowered
+9.225 Encoder Raw 0000000000000000
+9.225 Arduino not connected
+9.225 Arduino Heartbeat: 0
+9.225 UI:
+  speed control
+
+9.235 Connection Lost
+9.236 Attempting to connect
+9.286 Sending telemetry, waiting for command
+9.288 Left Mining Motor : speed 0, counter 0
+9.288 Track front encoder ticks 0 L 0 R
+9.288 Track back encoder ticks 0 L 0 R
+9.288 Roll motor encoder ticks 0
+9.288 "The Box" limit ticks 1 1
+9.288 "The Box" is lowered
+9.288 Encoder Raw 0000000000000000
+9.288 Arduino not connected
+9.288 Arduino Heartbeat: 0
+9.288 UI:
+  speed control
+
+9.298 Connection Lost
+9.300 Attempting to connect
+9.350 Sending telemetry, waiting for command
+9.351 Left Mining Motor : speed 0, counter 0
+9.351 Track front encoder ticks 0 L 0 R
+9.351 Track back encoder ticks 0 L 0 R
+9.351 Roll motor encoder ticks 0
+9.351 "The Box" limit ticks 1 1
+9.352 "The Box" is lowered
+9.352 Encoder Raw 0000000000000000
+9.352 Arduino not connected
+9.352 Arduino Heartbeat: 0
+9.352 UI:
+  speed control
+
+9.362 Connection Lost
+9.363 Attempting to connect
+9.413 Sending telemetry, waiting for command
+9.414 Left Mining Motor : speed 0, counter 0
+9.415 Track front encoder ticks 0 L 0 R
+9.415 Track back encoder ticks 0 L 0 R
+9.415 Roll motor encoder ticks 0
+9.415 "The Box" limit ticks 1 1
+9.415 "The Box" is lowered
+9.415 Encoder Raw 0000000000000000
+9.415 Arduino not connected
+9.415 Arduino Heartbeat: 0
+9.415 UI:
+  speed control
+
+9.425 Connection Lost
+9.426 Attempting to connect
+9.476 Sending telemetry, waiting for command
+9.478 Left Mining Motor : speed 0, counter 0
+9.478 Track front encoder ticks 0 L 0 R
+9.478 Track back encoder ticks 0 L 0 R
+9.478 Roll motor encoder ticks 0
+9.478 "The Box" limit ticks 1 1
+9.478 "The Box" is lowered
+9.478 Encoder Raw 0000000000000000
+9.478 Arduino not connected
+9.478 Arduino Heartbeat: 0
+9.478 UI:
+  speed control
+
+9.489 Connection Lost
+9.490 Attempting to connect
+9.540 Sending telemetry, waiting for command
+9.542 Left Mining Motor : speed 0, counter 0
+9.542 Track front encoder ticks 0 L 0 R
+9.542 Track back encoder ticks 0 L 0 R
+9.542 Roll motor encoder ticks 0
+9.542 "The Box" limit ticks 1 1
+9.542 "The Box" is lowered
+9.542 Encoder Raw 0000000000000000
+9.542 Arduino not connected
+9.542 Arduino Heartbeat: 0
+9.542 UI:
+  speed control
+
+9.553 Connection Lost
+9.554 Attempting to connect
+9.604 Sending telemetry, waiting for command
+9.605 Left Mining Motor : speed 0, counter 0
+9.606 Track front encoder ticks 0 L 0 R
+9.606 Track back encoder ticks 0 L 0 R
+9.606 Roll motor encoder ticks 0
+9.607 "The Box" limit ticks 1 1
+9.607 "The Box" is lowered
+9.607 Encoder Raw 0000000000000000
+9.607 Arduino not connected
+9.607 Arduino Heartbeat: 0
+9.608 UI:
+  speed control
+
+9.618 Connection Lost
+9.619 Attempting to connect
+9.669 Sending telemetry, waiting for command
+9.671 Left Mining Motor : speed 0, counter 0
+9.671 Track front encoder ticks 0 L 0 R
+9.671 Track back encoder ticks 0 L 0 R
+9.671 Roll motor encoder ticks 0
+9.671 "The Box" limit ticks 1 1
+9.671 "The Box" is lowered
+9.671 Encoder Raw 0000000000000000
+9.672 Arduino not connected
+9.672 Arduino Heartbeat: 0
+9.672 UI:
+  speed control
+
+9.682 Connection Lost
+9.683 Attempting to connect
+9.733 Sending telemetry, waiting for command
+9.735 Left Mining Motor : speed 0, counter 0
+9.735 Track front encoder ticks 0 L 0 R
+9.735 Track back encoder ticks 0 L 0 R
+9.735 Roll motor encoder ticks 0
+9.735 "The Box" limit ticks 1 1
+9.735 "The Box" is lowered
+9.735 Encoder Raw 0000000000000000
+9.735 Arduino not connected
+9.735 Arduino Heartbeat: 0
+9.735 UI:
+  speed control
+
+9.746 Connection Lost
+9.747 Attempting to connect
+9.797 Sending telemetry, waiting for command
+9.799 Left Mining Motor : speed 0, counter 0
+9.799 Track front encoder ticks 0 L 0 R
+9.799 Track back encoder ticks 0 L 0 R
+9.799 Roll motor encoder ticks 0
+9.799 "The Box" limit ticks 1 1
+9.799 "The Box" is lowered
+9.799 Encoder Raw 0000000000000000
+9.799 Arduino not connected
+9.799 Arduino Heartbeat: 0
+9.799 UI:
+  speed control
+
+9.810 Connection Lost
+9.810 Attempting to connect
+9.861 Sending telemetry, waiting for command
+9.862 Left Mining Motor : speed 0, counter 0
+9.863 Track front encoder ticks 0 L 0 R
+9.863 Track back encoder ticks 0 L 0 R
+9.863 Roll motor encoder ticks 0
+9.863 "The Box" limit ticks 1 1
+9.863 "The Box" is lowered
+9.864 Encoder Raw 0000000000000000
+9.864 Arduino not connected
+9.864 Arduino Heartbeat: 0
+9.864 UI:
+  speed control
+
+9.874 Connection Lost
+9.875 Attempting to connect
+9.926 Sending telemetry, waiting for command
+9.927 Left Mining Motor : speed 0, counter 0
+9.927 Track front encoder ticks 0 L 0 R
+9.927 Track back encoder ticks 0 L 0 R
+9.928 Roll motor encoder ticks 0
+9.928 "The Box" limit ticks 1 1
+9.928 "The Box" is lowered
+9.928 Encoder Raw 0000000000000000
+9.928 Arduino not connected
+9.928 Arduino Heartbeat: 0
+9.928 UI:
+  speed control
+
+9.938 Connection Lost
+9.939 Attempting to connect
+9.989 Sending telemetry, waiting for command
+9.991 Left Mining Motor : speed 0, counter 0
+9.991 Track front encoder ticks 0 L 0 R
+9.991 Track back encoder ticks 0 L 0 R
+9.991 Roll motor encoder ticks 0
+9.991 "The Box" limit ticks 1 1
+9.991 "The Box" is lowered
+9.992 Encoder Raw 0000000000000000
+9.992 Arduino not connected
+9.992 Arduino Heartbeat: 0
+9.992 UI:
+  speed control
+
+10.002 Connection Lost
+10.003 Attempting to connect
+10.053 Sending telemetry, waiting for command
+10.055 Left Mining Motor : speed 0, counter 0
+10.055 Track front encoder ticks 0 L 0 R
+10.055 Track back encoder ticks 0 L 0 R
+10.055 Roll motor encoder ticks 0
+10.055 "The Box" limit ticks 1 1
+10.055 "The Box" is lowered
+10.055 Encoder Raw 0000000000000000
+10.055 Arduino not connected
+10.055 Arduino Heartbeat: 0
+10.055 UI:
+  speed control
+
+10.066 Connection Lost
+10.066 Attempting to connect
+10.117 Sending telemetry, waiting for command
+10.118 Left Mining Motor : speed 0, counter 0
+10.118 Track front encoder ticks 0 L 0 R
+10.118 Track back encoder ticks 0 L 0 R
+10.119 Roll motor encoder ticks 0
+10.119 "The Box" limit ticks 1 1
+10.119 "The Box" is lowered
+10.119 Encoder Raw 0000000000000000
+10.119 Arduino not connected
+10.119 Arduino Heartbeat: 0
+10.119 UI:
+  speed control
+
+10.129 Connection Lost
+10.130 Attempting to connect
+10.180 Sending telemetry, waiting for command
+10.182 Left Mining Motor : speed 0, counter 0
+10.182 Track front encoder ticks 0 L 0 R
+10.182 Track back encoder ticks 0 L 0 R
+10.182 Roll motor encoder ticks 0
+10.182 "The Box" limit ticks 1 1
+10.182 "The Box" is lowered
+10.182 Encoder Raw 0000000000000000
+10.182 Arduino not connected
+10.182 Arduino Heartbeat: 0
+10.182 UI:
+  speed control
+
+10.193 Connection Lost
+10.194 Attempting to connect
+10.244 Sending telemetry, waiting for command
+10.246 Left Mining Motor : speed 0, counter 0
+10.246 Track front encoder ticks 0 L 0 R
+10.246 Track back encoder ticks 0 L 0 R
+10.246 Roll motor encoder ticks 0
+10.246 "The Box" limit ticks 1 1
+10.246 "The Box" is lowered
+10.246 Encoder Raw 0000000000000000
+10.246 Arduino not connected
+10.246 Arduino Heartbeat: 0
+10.246 UI:
+  speed control
+
+10.257 Connection Lost
+10.257 Attempting to connect
+10.307 Sending telemetry, waiting for command
+10.309 Left Mining Motor : speed 0, counter 0
+10.309 Track front encoder ticks 0 L 0 R
+10.309 Track back encoder ticks 0 L 0 R
+10.309 Roll motor encoder ticks 0
+10.310 "The Box" limit ticks 1 1
+10.310 "The Box" is lowered
+10.310 Encoder Raw 0000000000000000
+10.310 Arduino not connected
+10.310 Arduino Heartbeat: 0
+10.310 UI:
+  speed control
+
+10.320 Connection Lost
+10.321 Attempting to connect
+10.371 Sending telemetry, waiting for command
+10.373 Left Mining Motor : speed 0, counter 0
+10.373 Track front encoder ticks 0 L 0 R
+10.373 Track back encoder ticks 0 L 0 R
+10.373 Roll motor encoder ticks 0
+10.373 "The Box" limit ticks 1 1
+10.373 "The Box" is lowered
+10.373 Encoder Raw 0000000000000000
+10.373 Arduino not connected
+10.373 Arduino Heartbeat: 0
+10.373 UI:
+  speed control
+
+10.384 Connection Lost
+10.384 Attempting to connect
+10.435 Sending telemetry, waiting for command
+10.436 Left Mining Motor : speed 0, counter 0
+10.436 Track front encoder ticks 0 L 0 R
+10.437 Track back encoder ticks 0 L 0 R
+10.437 Roll motor encoder ticks 0
+10.437 "The Box" limit ticks 1 1
+10.437 "The Box" is lowered
+10.437 Encoder Raw 0000000000000000
+10.437 Arduino not connected
+10.437 Arduino Heartbeat: 0
+10.437 UI:
+  speed control
+
+10.447 Connection Lost
+10.448 Attempting to connect
+10.498 Sending telemetry, waiting for command
+10.500 Left Mining Motor : speed 0, counter 0
+10.500 Track front encoder ticks 0 L 0 R
+10.500 Track back encoder ticks 0 L 0 R
+10.500 Roll motor encoder ticks 0
+10.500 "The Box" limit ticks 1 1
+10.500 "The Box" is lowered
+10.501 Encoder Raw 0000000000000000
+10.501 Arduino not connected
+10.501 Arduino Heartbeat: 0
+10.501 UI:
+  speed control
+
+10.511 Connection Lost
+10.512 Attempting to connect
+10.562 Sending telemetry, waiting for command
+10.564 Left Mining Motor : speed 0, counter 0
+10.564 Track front encoder ticks 0 L 0 R
+10.564 Track back encoder ticks 0 L 0 R
+10.564 Roll motor encoder ticks 0
+10.564 "The Box" limit ticks 1 1
+10.564 "The Box" is lowered
+10.564 Encoder Raw 0000000000000000
+10.564 Arduino not connected
+10.564 Arduino Heartbeat: 0
+10.565 UI:
+  speed control
+
+10.575 Connection Lost
+10.576 Attempting to connect
+10.626 Sending telemetry, waiting for command
+10.627 Left Mining Motor : speed 0, counter 0
+10.628 Track front encoder ticks 0 L 0 R
+10.628 Track back encoder ticks 0 L 0 R
+10.628 Roll motor encoder ticks 0
+10.628 "The Box" limit ticks 1 1
+10.628 "The Box" is lowered
+10.628 Encoder Raw 0000000000000000
+10.628 Arduino not connected
+10.628 Arduino Heartbeat: 0
+10.628 UI:
+  speed control
+
+10.638 Connection Lost
+10.639 Attempting to connect
+10.689 Sending telemetry, waiting for command
+10.691 Left Mining Motor : speed 0, counter 0
+10.691 Track front encoder ticks 0 L 0 R
+10.691 Track back encoder ticks 0 L 0 R
+10.691 Roll motor encoder ticks 0
+10.691 "The Box" limit ticks 1 1
+10.691 "The Box" is lowered
+10.691 Encoder Raw 0000000000000000
+10.691 Arduino not connected
+10.691 Arduino Heartbeat: 0
+10.691 UI:
+  speed control
+
+10.702 Connection Lost
+10.703 Attempting to connect
+10.753 Sending telemetry, waiting for command
+10.754 Left Mining Motor : speed 0, counter 0
+10.754 Track front encoder ticks 0 L 0 R
+10.754 Track back encoder ticks 0 L 0 R
+10.754 Roll motor encoder ticks 0
+10.755 "The Box" limit ticks 1 1
+10.755 "The Box" is lowered
+10.755 Encoder Raw 0000000000000000
+10.755 Arduino not connected
+10.755 Arduino Heartbeat: 0
+10.755 UI:
+  speed control
+
+10.765 Connection Lost
+10.766 Attempting to connect
+10.816 Sending telemetry, waiting for command
+10.818 Left Mining Motor : speed 0, counter 0
+10.818 Track front encoder ticks 0 L 0 R
+10.818 Track back encoder ticks 0 L 0 R
+10.818 Roll motor encoder ticks 0
+10.818 "The Box" limit ticks 1 1
+10.818 "The Box" is lowered
+10.818 Encoder Raw 0000000000000000
+10.819 Arduino not connected
+10.819 Arduino Heartbeat: 0
+10.819 UI:
+  speed control
+
+10.829 Connection Lost
+10.830 Attempting to connect
+10.880 Sending telemetry, waiting for command
+10.882 Left Mining Motor : speed 0, counter 0
+10.882 Track front encoder ticks 0 L 0 R
+10.882 Track back encoder ticks 0 L 0 R
+10.882 Roll motor encoder ticks 0
+10.882 "The Box" limit ticks 1 1
+10.882 "The Box" is lowered
+10.882 Encoder Raw 0000000000000000
+10.882 Arduino not connected
+10.882 Arduino Heartbeat: 0
+10.882 UI:
+  speed control
+
+10.893 Connection Lost
+10.893 Attempting to connect
+10.944 Sending telemetry, waiting for command
+10.945 Left Mining Motor : speed 0, counter 0
+10.945 Track front encoder ticks 0 L 0 R
+10.945 Track back encoder ticks 0 L 0 R
+10.945 Roll motor encoder ticks 0
+10.945 "The Box" limit ticks 1 1
+10.946 "The Box" is lowered
+10.946 Encoder Raw 0000000000000000
+10.946 Arduino not connected
+10.946 Arduino Heartbeat: 0
+10.946 UI:
+  speed control
+
+10.956 Connection Lost
+10.957 Attempting to connect
+11.007 Sending telemetry, waiting for command
+11.008 Left Mining Motor : speed 0, counter 0
+11.009 Track front encoder ticks 0 L 0 R
+11.009 Track back encoder ticks 0 L 0 R
+11.009 Roll motor encoder ticks 0
+11.009 "The Box" limit ticks 1 1
+11.009 "The Box" is lowered
+11.009 Encoder Raw 0000000000000000
+11.009 Arduino not connected
+11.009 Arduino Heartbeat: 0
+11.009 UI:
+  speed control
+
+11.019 Connection Lost
+11.020 Attempting to connect
+11.070 Sending telemetry, waiting for command
+11.072 Left Mining Motor : speed 0, counter 0
+11.072 Track front encoder ticks 0 L 0 R
+11.072 Track back encoder ticks 0 L 0 R
+11.072 Roll motor encoder ticks 0
+11.072 "The Box" limit ticks 1 1
+11.072 "The Box" is lowered
+11.072 Encoder Raw 0000000000000000
+11.072 Arduino not connected
+11.072 Arduino Heartbeat: 0
+11.072 UI:
+  speed control
+
+11.083 Connection Lost
+11.083 Attempting to connect
+11.134 Sending telemetry, waiting for command
+11.135 Left Mining Motor : speed 0, counter 0
+11.135 Track front encoder ticks 0 L 0 R
+11.135 Track back encoder ticks 0 L 0 R
+11.135 Roll motor encoder ticks 0
+11.136 "The Box" limit ticks 1 1
+11.136 "The Box" is lowered
+11.136 Encoder Raw 0000000000000000
+11.136 Arduino not connected
+11.136 Arduino Heartbeat: 0
+11.136 UI:
+  speed control
+
+11.146 Connection Lost
+11.147 Attempting to connect
+11.197 Sending telemetry, waiting for command
+11.199 Left Mining Motor : speed 0, counter 0
+11.199 Track front encoder ticks 0 L 0 R
+11.199 Track back encoder ticks 0 L 0 R
+11.199 Roll motor encoder ticks 0
+11.199 "The Box" limit ticks 1 1
+11.199 "The Box" is lowered
+11.199 Encoder Raw 0000000000000000
+11.199 Arduino not connected
+11.199 Arduino Heartbeat: 0
+11.199 UI:
+  speed control
+
+11.209 Connection Lost
+11.210 Attempting to connect
+11.260 Sending telemetry, waiting for command
+11.262 Left Mining Motor : speed 0, counter 0
+11.262 Track front encoder ticks 0 L 0 R
+11.262 Track back encoder ticks 0 L 0 R
+11.262 Roll motor encoder ticks 0
+11.262 "The Box" limit ticks 1 1
+11.263 "The Box" is lowered
+11.263 Encoder Raw 0000000000000000
+11.263 Arduino not connected
+11.263 Arduino Heartbeat: 0
+11.263 UI:
+  speed control
+
+11.273 Connection Lost
+11.274 Attempting to connect
+11.324 Sending telemetry, waiting for command
+11.326 Left Mining Motor : speed 0, counter 0
+11.326 Track front encoder ticks 0 L 0 R
+11.326 Track back encoder ticks 0 L 0 R
+11.326 Roll motor encoder ticks 0
+11.326 "The Box" limit ticks 1 1
+11.326 "The Box" is lowered
+11.326 Encoder Raw 0000000000000000
+11.326 Arduino not connected
+11.327 Arduino Heartbeat: 0
+11.327 UI:
+  speed control
+
+11.337 Connection Lost
+11.338 Attempting to connect
+11.388 Sending telemetry, waiting for command
+11.389 Left Mining Motor : speed 0, counter 0
+11.390 Track front encoder ticks 0 L 0 R
+11.390 Track back encoder ticks 0 L 0 R
+11.390 Roll motor encoder ticks 0
+11.390 "The Box" limit ticks 1 1
+11.390 "The Box" is lowered
+11.390 Encoder Raw 0000000000000000
+11.390 Arduino not connected
+11.390 Arduino Heartbeat: 0
+11.390 UI:
+  speed control
+
+11.400 Connection Lost
+11.401 Attempting to connect
+11.451 Sending telemetry, waiting for command
+11.453 Left Mining Motor : speed 0, counter 0
+11.453 Track front encoder ticks 0 L 0 R
+11.453 Track back encoder ticks 0 L 0 R
+11.453 Roll motor encoder ticks 0
+11.454 "The Box" limit ticks 1 1
+11.454 "The Box" is lowered
+11.454 Encoder Raw 0000000000000000
+11.454 Arduino not connected
+11.454 Arduino Heartbeat: 0
+11.454 UI:
+  speed control
+
+11.464 Connection Lost
+11.465 Attempting to connect
+11.515 Sending telemetry, waiting for command
+11.517 Left Mining Motor : speed 0, counter 0
+11.517 Track front encoder ticks 0 L 0 R
+11.517 Track back encoder ticks 0 L 0 R
+11.517 Roll motor encoder ticks 0
+11.517 "The Box" limit ticks 1 1
+11.517 "The Box" is lowered
+11.517 Encoder Raw 0000000000000000
+11.517 Arduino not connected
+11.517 Arduino Heartbeat: 0
+11.517 UI:
+  speed control
+
+11.528 Connection Lost
+11.529 Attempting to connect
+11.579 Sending telemetry, waiting for command
+11.580 Left Mining Motor : speed 0, counter 0
+11.580 Track front encoder ticks 0 L 0 R
+11.581 Track back encoder ticks 0 L 0 R
+11.581 Roll motor encoder ticks 0
+11.581 "The Box" limit ticks 1 1
+11.581 "The Box" is lowered
+11.581 Encoder Raw 0000000000000000
+11.581 Arduino not connected
+11.581 Arduino Heartbeat: 0
+11.581 UI:
+  speed control
+
+11.591 Connection Lost
+11.592 Attempting to connect
+11.642 Sending telemetry, waiting for command
+11.644 Left Mining Motor : speed 0, counter 0
+11.644 Track front encoder ticks 0 L 0 R
+11.644 Track back encoder ticks 0 L 0 R
+11.644 Roll motor encoder ticks 0
+11.644 "The Box" limit ticks 1 1
+11.644 "The Box" is lowered
+11.644 Encoder Raw 0000000000000000
+11.644 Arduino not connected
+11.644 Arduino Heartbeat: 0
+11.644 UI:
+  speed control
+
+11.654 Connection Lost
+11.655 Attempting to connect
+11.705 Sending telemetry, waiting for command
+11.707 Left Mining Motor : speed 0, counter 0
+11.707 Track front encoder ticks 0 L 0 R
+11.707 Track back encoder ticks 0 L 0 R
+11.707 Roll motor encoder ticks 0
+11.707 "The Box" limit ticks 1 1
+11.707 "The Box" is lowered
+11.707 Encoder Raw 0000000000000000
+11.707 Arduino not connected
+11.707 Arduino Heartbeat: 0
+11.707 UI:
+  speed control
+
+11.718 Connection Lost
+11.718 Attempting to connect
+11.769 Sending telemetry, waiting for command
+11.770 Left Mining Motor : speed 0, counter 0
+11.770 Track front encoder ticks 0 L 0 R
+11.770 Track back encoder ticks 0 L 0 R
+11.771 Roll motor encoder ticks 0
+11.771 "The Box" limit ticks 1 1
+11.771 "The Box" is lowered
+11.771 Encoder Raw 0000000000000000
+11.771 Arduino not connected
+11.771 Arduino Heartbeat: 0
+11.771 UI:
+  speed control
+
+11.781 Connection Lost
+11.782 Attempting to connect
+11.832 Sending telemetry, waiting for command
+11.833 Left Mining Motor : speed 0, counter 0
+11.833 Track front encoder ticks 0 L 0 R
+11.833 Track back encoder ticks 0 L 0 R
+11.834 Roll motor encoder ticks 0
+11.834 "The Box" limit ticks 1 1
+11.834 "The Box" is lowered
+11.834 Encoder Raw 0000000000000000
+11.834 Arduino not connected
+11.834 Arduino Heartbeat: 0
+11.834 UI:
+  speed control
+
+11.844 Connection Lost
+11.845 Attempting to connect
+11.895 Sending telemetry, waiting for command
+11.897 Left Mining Motor : speed 0, counter 0
+11.897 Track front encoder ticks 0 L 0 R
+11.897 Track back encoder ticks 0 L 0 R
+11.897 Roll motor encoder ticks 0
+11.897 "The Box" limit ticks 1 1
+11.897 "The Box" is lowered
+11.897 Encoder Raw 0000000000000000
+11.897 Arduino not connected
+11.897 Arduino Heartbeat: 0
+11.897 UI:
+  speed control
+
+11.908 Connection Lost
+11.909 Attempting to connect
+11.959 Sending telemetry, waiting for command
+11.960 Left Mining Motor : speed 0, counter 0
+11.960 Track front encoder ticks 0 L 0 R
+11.961 Track back encoder ticks 0 L 0 R
+11.961 Roll motor encoder ticks 0
+11.961 "The Box" limit ticks 1 1
+11.961 "The Box" is lowered
+11.961 Encoder Raw 0000000000000000
+11.961 Arduino not connected
+11.961 Arduino Heartbeat: 0
+11.961 UI:
+  speed control
+
+11.971 Connection Lost
+11.972 Attempting to connect
+12.022 Sending telemetry, waiting for command
+12.024 Left Mining Motor : speed 0, counter 0
+12.024 Track front encoder ticks 0 L 0 R
+12.024 Track back encoder ticks 0 L 0 R
+12.024 Roll motor encoder ticks 0
+12.024 "The Box" limit ticks 1 1
+12.024 "The Box" is lowered
+12.024 Encoder Raw 0000000000000000
+12.024 Arduino not connected
+12.024 Arduino Heartbeat: 0
+12.024 UI:
+  speed control
+
+12.034 Connection Lost
+12.035 Attempting to connect
+12.085 Sending telemetry, waiting for command
+12.087 Left Mining Motor : speed 0, counter 0
+12.087 Track front encoder ticks 0 L 0 R
+12.087 Track back encoder ticks 0 L 0 R
+12.087 Roll motor encoder ticks 0
+12.087 "The Box" limit ticks 1 1
+12.087 "The Box" is lowered
+12.087 Encoder Raw 0000000000000000
+12.087 Arduino not connected
+12.087 Arduino Heartbeat: 0
+12.087 UI:
+  speed control
+
+12.097 Connection Lost
+12.098 Attempting to connect
+12.149 Sending telemetry, waiting for command
+12.150 Left Mining Motor : speed 0, counter 0
+12.150 Track front encoder ticks 0 L 0 R
+12.150 Track back encoder ticks 0 L 0 R
+12.150 Roll motor encoder ticks 0
+12.150 "The Box" limit ticks 1 1
+12.150 "The Box" is lowered
+12.150 Encoder Raw 0000000000000000
+12.151 Arduino not connected
+12.151 Arduino Heartbeat: 0
+12.151 UI:
+  speed control
+
+12.161 Connection Lost
+12.162 Attempting to connect
+12.212 Sending telemetry, waiting for command
+12.213 Left Mining Motor : speed 0, counter 0
+12.213 Track front encoder ticks 0 L 0 R
+12.213 Track back encoder ticks 0 L 0 R
+12.214 Roll motor encoder ticks 0
+12.214 "The Box" limit ticks 1 1
+12.214 "The Box" is lowered
+12.214 Encoder Raw 0000000000000000
+12.214 Arduino not connected
+12.214 Arduino Heartbeat: 0
+12.214 UI:
+  speed control
+
+12.224 Connection Lost
+12.225 Attempting to connect
+12.275 Sending telemetry, waiting for command
+12.277 Left Mining Motor : speed 0, counter 0
+12.277 Track front encoder ticks 0 L 0 R
+12.277 Track back encoder ticks 0 L 0 R
+12.277 Roll motor encoder ticks 0
+12.277 "The Box" limit ticks 1 1
+12.277 "The Box" is lowered
+12.277 Encoder Raw 0000000000000000
+12.277 Arduino not connected
+12.277 Arduino Heartbeat: 0
+12.278 UI:
+  speed control
+
+12.288 Connection Lost
+12.289 Attempting to connect
+12.339 Sending telemetry, waiting for command
+12.340 Left Mining Motor : speed 0, counter 0
+12.341 Track front encoder ticks 0 L 0 R
+12.341 Track back encoder ticks 0 L 0 R
+12.341 Roll motor encoder ticks 0
+12.341 "The Box" limit ticks 1 1
+12.341 "The Box" is lowered
+12.341 Encoder Raw 0000000000000000
+12.341 Arduino not connected
+12.341 Arduino Heartbeat: 0
+12.341 UI:
+  speed control
+
+12.351 Connection Lost
+12.352 Attempting to connect
+12.402 Sending telemetry, waiting for command
+12.404 Left Mining Motor : speed 0, counter 0
+12.404 Track front encoder ticks 0 L 0 R
+12.404 Track back encoder ticks 0 L 0 R
+12.404 Roll motor encoder ticks 0
+12.404 "The Box" limit ticks 1 1
+12.404 "The Box" is lowered
+12.404 Encoder Raw 0000000000000000
+12.404 Arduino not connected
+12.404 Arduino Heartbeat: 0
+12.404 UI:
+  speed control
+
+12.414 Connection Lost
+12.415 Attempting to connect
+12.465 Sending telemetry, waiting for command
+12.467 Left Mining Motor : speed 0, counter 0
+12.467 Track front encoder ticks 0 L 0 R
+12.467 Track back encoder ticks 0 L 0 R
+12.467 Roll motor encoder ticks 0
+12.467 "The Box" limit ticks 1 1
+12.467 "The Box" is lowered
+12.467 Encoder Raw 0000000000000000
+12.467 Arduino not connected
+12.468 Arduino Heartbeat: 0
+12.468 UI:
+  speed control
+
+12.478 Connection Lost
+12.478 Attempting to connect
+12.529 Sending telemetry, waiting for command
+12.530 Left Mining Motor : speed 0, counter 0
+12.531 Track front encoder ticks 0 L 0 R
+12.531 Track back encoder ticks 0 L 0 R
+12.531 Roll motor encoder ticks 0
+12.531 "The Box" limit ticks 1 1
+12.531 "The Box" is lowered
+12.531 Encoder Raw 0000000000000000
+12.531 Arduino not connected
+12.531 Arduino Heartbeat: 0
+12.531 UI:
+  speed control
+
+12.541 Connection Lost
+12.542 Attempting to connect
+12.592 Sending telemetry, waiting for command
+12.594 Left Mining Motor : speed 0, counter 0
+12.594 Track front encoder ticks 0 L 0 R
+12.594 Track back encoder ticks 0 L 0 R
+12.594 Roll motor encoder ticks 0
+12.594 "The Box" limit ticks 1 1
+12.594 "The Box" is lowered
+12.594 Encoder Raw 0000000000000000
+12.594 Arduino not connected
+12.595 Arduino Heartbeat: 0
+12.595 UI:
+  speed control
+
+12.605 Connection Lost
+12.606 Attempting to connect
+12.656 Sending telemetry, waiting for command
+12.658 Left Mining Motor : speed 0, counter 0
+12.658 Track front encoder ticks 0 L 0 R
+12.658 Track back encoder ticks 0 L 0 R
+12.658 Roll motor encoder ticks 0
+12.658 "The Box" limit ticks 1 1
+12.658 "The Box" is lowered
+12.658 Encoder Raw 0000000000000000
+12.658 Arduino not connected
+12.658 Arduino Heartbeat: 0
+12.658 UI:
+  speed control
+
+12.668 Connection Lost
+12.669 Attempting to connect
+12.719 Sending telemetry, waiting for command
+12.721 Left Mining Motor : speed 0, counter 0
+12.721 Track front encoder ticks 0 L 0 R
+12.721 Track back encoder ticks 0 L 0 R
+12.721 Roll motor encoder ticks 0
+12.721 "The Box" limit ticks 1 1
+12.721 "The Box" is lowered
+12.722 Encoder Raw 0000000000000000
+12.722 Arduino not connected
+12.722 Arduino Heartbeat: 0
+12.722 UI:
+  speed control
+
+12.732 Connection Lost
+12.733 Attempting to connect
+12.783 Sending telemetry, waiting for command
+12.784 Left Mining Motor : speed 0, counter 0
+12.784 Track front encoder ticks 0 L 0 R
+12.784 Track back encoder ticks 0 L 0 R
+12.784 Roll motor encoder ticks 0
+12.784 "The Box" limit ticks 1 1
+12.785 "The Box" is lowered
+12.785 Encoder Raw 0000000000000000
+12.785 Arduino not connected
+12.785 Arduino Heartbeat: 0
+12.785 UI:
+  speed control
+
+12.795 Connection Lost
+12.796 Attempting to connect
+12.846 Sending telemetry, waiting for command
+12.848 Left Mining Motor : speed 0, counter 0
+12.848 Track front encoder ticks 0 L 0 R
+12.848 Track back encoder ticks 0 L 0 R
+12.848 Roll motor encoder ticks 0
+12.848 "The Box" limit ticks 1 1
+12.848 "The Box" is lowered
+12.848 Encoder Raw 0000000000000000
+12.848 Arduino not connected
+12.848 Arduino Heartbeat: 0
+12.848 UI:
+  speed control
+
+12.858 Connection Lost
+12.859 Attempting to connect
+12.910 Sending telemetry, waiting for command
+12.911 Left Mining Motor : speed 0, counter 0
+12.911 Track front encoder ticks 0 L 0 R
+12.911 Track back encoder ticks 0 L 0 R
+12.911 Roll motor encoder ticks 0
+12.912 "The Box" limit ticks 1 1
+12.912 "The Box" is lowered
+12.912 Encoder Raw 0000000000000000
+12.912 Arduino not connected
+12.912 Arduino Heartbeat: 0
+12.912 UI:
+  speed control
+
+12.922 Connection Lost
+12.923 Attempting to connect
+12.973 Sending telemetry, waiting for command
+12.974 Left Mining Motor : speed 0, counter 0
+12.975 Track front encoder ticks 0 L 0 R
+12.975 Track back encoder ticks 0 L 0 R
+12.975 Roll motor encoder ticks 0
+12.975 "The Box" limit ticks 1 1
+12.975 "The Box" is lowered
+12.975 Encoder Raw 0000000000000000
+12.975 Arduino not connected
+12.975 Arduino Heartbeat: 0
+12.975 UI:
+  speed control
+
+12.986 Connection Lost
+12.986 Attempting to connect
+13.036 Sending telemetry, waiting for command
+13.038 Left Mining Motor : speed 0, counter 0
+13.038 Track front encoder ticks 0 L 0 R
+13.038 Track back encoder ticks 0 L 0 R
+13.038 Roll motor encoder ticks 0
+13.038 "The Box" limit ticks 1 1
+13.039 "The Box" is lowered
+13.039 Encoder Raw 0000000000000000
+13.039 Arduino not connected
+13.039 Arduino Heartbeat: 0
+13.039 UI:
+  speed control
+
+13.049 Connection Lost
+13.050 Attempting to connect
+13.100 Sending telemetry, waiting for command
+13.102 Left Mining Motor : speed 0, counter 0
+13.102 Track front encoder ticks 0 L 0 R
+13.102 Track back encoder ticks 0 L 0 R
+13.102 Roll motor encoder ticks 0
+13.102 "The Box" limit ticks 1 1
+13.102 "The Box" is lowered
+13.102 Encoder Raw 0000000000000000
+13.102 Arduino not connected
+13.103 Arduino Heartbeat: 0
+13.103 UI:
+  speed control
+
+13.113 Connection Lost
+13.114 Attempting to connect
+13.164 Sending telemetry, waiting for command
+13.165 Left Mining Motor : speed 0, counter 0
+13.166 Track front encoder ticks 0 L 0 R
+13.166 Track back encoder ticks 0 L 0 R
+13.166 Roll motor encoder ticks 0
+13.166 "The Box" limit ticks 1 1
+13.166 "The Box" is lowered
+13.166 Encoder Raw 0000000000000000
+13.166 Arduino not connected
+13.166 Arduino Heartbeat: 0
+13.166 UI:
+  speed control
+
+13.176 Connection Lost
+13.177 Attempting to connect
+13.228 Sending telemetry, waiting for command
+13.229 Left Mining Motor : speed 0, counter 0
+13.229 Track front encoder ticks 0 L 0 R
+13.229 Track back encoder ticks 0 L 0 R
+13.229 Roll motor encoder ticks 0
+13.230 "The Box" limit ticks 1 1
+13.230 "The Box" is lowered
+13.230 Encoder Raw 0000000000000000
+13.230 Arduino not connected
+13.230 Arduino Heartbeat: 0
+13.230 UI:
+  speed control
+
+13.240 Connection Lost
+13.241 Attempting to connect
+13.291 Sending telemetry, waiting for command
+13.293 Left Mining Motor : speed 0, counter 0
+13.293 Track front encoder ticks 0 L 0 R
+13.293 Track back encoder ticks 0 L 0 R
+13.293 Roll motor encoder ticks 0
+13.293 "The Box" limit ticks 1 1
+13.293 "The Box" is lowered
+13.293 Encoder Raw 0000000000000000
+13.294 Arduino not connected
+13.294 Arduino Heartbeat: 0
+13.294 UI:
+  speed control
+
+13.304 Connection Lost
+13.305 Attempting to connect
+13.355 Sending telemetry, waiting for command
+13.356 Left Mining Motor : speed 0, counter 0
+13.357 Track front encoder ticks 0 L 0 R
+13.357 Track back encoder ticks 0 L 0 R
+13.357 Roll motor encoder ticks 0
+13.357 "The Box" limit ticks 1 1
+13.357 "The Box" is lowered
+13.357 Encoder Raw 0000000000000000
+13.357 Arduino not connected
+13.357 Arduino Heartbeat: 0
+13.357 UI:
+  speed control
+
+13.367 Connection Lost
+13.368 Attempting to connect
+13.418 Sending telemetry, waiting for command
+13.420 Left Mining Motor : speed 0, counter 0
+13.420 Track front encoder ticks 0 L 0 R
+13.420 Track back encoder ticks 0 L 0 R
+13.420 Roll motor encoder ticks 0
+13.420 "The Box" limit ticks 1 1
+13.420 "The Box" is lowered
+13.420 Encoder Raw 0000000000000000
+13.420 Arduino not connected
+13.421 Arduino Heartbeat: 0
+13.421 UI:
+  speed control
+
+13.431 Connection Lost
+13.431 Attempting to connect
+13.482 Sending telemetry, waiting for command
+13.483 Left Mining Motor : speed 0, counter 0
+13.483 Track front encoder ticks 0 L 0 R
+13.484 Track back encoder ticks 0 L 0 R
+13.484 Roll motor encoder ticks 0
+13.484 "The Box" limit ticks 1 1
+13.484 "The Box" is lowered
+13.484 Encoder Raw 0000000000000000
+13.484 Arduino not connected
+13.484 Arduino Heartbeat: 0
+13.484 UI:
+  speed control
+
+13.494 Connection Lost
+13.495 Attempting to connect
+13.545 Sending telemetry, waiting for command
+13.547 Left Mining Motor : speed 0, counter 0
+13.547 Track front encoder ticks 0 L 0 R
+13.547 Track back encoder ticks 0 L 0 R
+13.547 Roll motor encoder ticks 0
+13.547 "The Box" limit ticks 1 1
+13.547 "The Box" is lowered
+13.548 Encoder Raw 0000000000000000
+13.548 Arduino not connected
+13.548 Arduino Heartbeat: 0
+13.548 UI:
+  speed control
+
+13.558 Connection Lost
+13.559 Attempting to connect
+13.609 Sending telemetry, waiting for command
+13.611 Left Mining Motor : speed 0, counter 0
+13.611 Track front encoder ticks 0 L 0 R
+13.611 Track back encoder ticks 0 L 0 R
+13.611 Roll motor encoder ticks 0
+13.611 "The Box" limit ticks 1 1
+13.611 "The Box" is lowered
+13.611 Encoder Raw 0000000000000000
+13.611 Arduino not connected
+13.611 Arduino Heartbeat: 0
+13.611 UI:
+  speed control
+
+13.621 Connection Lost
+13.622 Attempting to connect
+13.672 Sending telemetry, waiting for command
+13.674 Left Mining Motor : speed 0, counter 0
+13.674 Track front encoder ticks 0 L 0 R
+13.674 Track back encoder ticks 0 L 0 R
+13.674 Roll motor encoder ticks 0
+13.674 "The Box" limit ticks 1 1
+13.674 "The Box" is lowered
+13.675 Encoder Raw 0000000000000000
+13.675 Arduino not connected
+13.675 Arduino Heartbeat: 0
+13.675 UI:
+  speed control
+
+13.685 Connection Lost
+13.686 Attempting to connect
+13.736 Sending telemetry, waiting for command
+13.737 Left Mining Motor : speed 0, counter 0
+13.738 Track front encoder ticks 0 L 0 R
+13.738 Track back encoder ticks 0 L 0 R
+13.738 Roll motor encoder ticks 0
+13.738 "The Box" limit ticks 1 1
+13.738 "The Box" is lowered
+13.738 Encoder Raw 0000000000000000
+13.738 Arduino not connected
+13.738 Arduino Heartbeat: 0
+13.738 UI:
+  speed control
+
+13.748 Connection Lost
+13.749 Attempting to connect
+13.800 Sending telemetry, waiting for command
+13.801 Left Mining Motor : speed 0, counter 0
+13.802 Track front encoder ticks 0 L 0 R
+13.802 Track back encoder ticks 0 L 0 R
+13.802 Roll motor encoder ticks 0
+13.802 "The Box" limit ticks 1 1
+13.802 "The Box" is lowered
+13.802 Encoder Raw 0000000000000000
+13.802 Arduino not connected
+13.802 Arduino Heartbeat: 0
+13.802 UI:
+  speed control
+
+13.812 Connection Lost
+13.813 Attempting to connect
+13.863 Sending telemetry, waiting for command
+13.865 Left Mining Motor : speed 0, counter 0
+13.865 Track front encoder ticks 0 L 0 R
+13.865 Track back encoder ticks 0 L 0 R
+13.865 Roll motor encoder ticks 0
+13.865 "The Box" limit ticks 1 1
+13.865 "The Box" is lowered
+13.865 Encoder Raw 0000000000000000
+13.865 Arduino not connected
+13.866 Arduino Heartbeat: 0
+13.866 UI:
+  speed control
+
+13.876 Connection Lost
+13.877 Attempting to connect
+13.927 Sending telemetry, waiting for command
+13.929 Left Mining Motor : speed 0, counter 0
+13.929 Track front encoder ticks 0 L 0 R
+13.929 Track back encoder ticks 0 L 0 R
+13.929 Roll motor encoder ticks 0
+13.929 "The Box" limit ticks 1 1
+13.929 "The Box" is lowered
+13.929 Encoder Raw 0000000000000000
+13.930 Arduino not connected
+13.930 Arduino Heartbeat: 0
+13.930 UI:
+  speed control
+
+13.940 Connection Lost
+13.941 Attempting to connect
+13.991 Sending telemetry, waiting for command
+13.993 Left Mining Motor : speed 0, counter 0
+13.993 Track front encoder ticks 0 L 0 R
+13.994 Track back encoder ticks 0 L 0 R
+13.994 Roll motor encoder ticks 0
+13.994 "The Box" limit ticks 1 1
+13.994 "The Box" is lowered
+13.994 Encoder Raw 0000000000000000
+13.994 Arduino not connected
+13.994 Arduino Heartbeat: 0
+13.994 UI:
+  speed control
+
+14.004 Connection Lost
+14.005 Attempting to connect
+14.055 Sending telemetry, waiting for command
+14.057 Left Mining Motor : speed 0, counter 0
+14.057 Track front encoder ticks 0 L 0 R
+14.057 Track back encoder ticks 0 L 0 R
+14.057 Roll motor encoder ticks 0
+14.057 "The Box" limit ticks 1 1
+14.057 "The Box" is lowered
+14.057 Encoder Raw 0000000000000000
+14.057 Arduino not connected
+14.057 Arduino Heartbeat: 0
+14.057 UI:
+  speed control
+
+14.068 Connection Lost
+14.069 Attempting to connect
+14.119 Sending telemetry, waiting for command
+14.121 Left Mining Motor : speed 0, counter 0
+14.121 Track front encoder ticks 0 L 0 R
+14.121 Track back encoder ticks 0 L 0 R
+14.121 Roll motor encoder ticks 0
+14.121 "The Box" limit ticks 1 1
+14.121 "The Box" is lowered
+14.121 Encoder Raw 0000000000000000
+14.121 Arduino not connected
+14.121 Arduino Heartbeat: 0
+14.121 UI:
+  speed control
+
+14.132 Connection Lost
+14.133 Attempting to connect
+14.183 Sending telemetry, waiting for command
+14.184 Left Mining Motor : speed 0, counter 0
+14.185 Track front encoder ticks 0 L 0 R
+14.185 Track back encoder ticks 0 L 0 R
+14.185 Roll motor encoder ticks 0
+14.185 "The Box" limit ticks 1 1
+14.185 "The Box" is lowered
+14.185 Encoder Raw 0000000000000000
+14.185 Arduino not connected
+14.185 Arduino Heartbeat: 0
+14.185 UI:
+  speed control
+
+14.195 Connection Lost
+14.196 Attempting to connect
+14.247 Sending telemetry, waiting for command
+14.249 Left Mining Motor : speed 0, counter 0
+14.249 Track front encoder ticks 0 L 0 R
+14.249 Track back encoder ticks 0 L 0 R
+14.249 Roll motor encoder ticks 0
+14.249 "The Box" limit ticks 1 1
+14.249 "The Box" is lowered
+14.249 Encoder Raw 0000000000000000
+14.249 Arduino not connected
+14.249 Arduino Heartbeat: 0
+14.249 UI:
+  speed control
+
+14.260 Connection Lost
+14.260 Attempting to connect
+14.311 Sending telemetry, waiting for command
+14.312 Left Mining Motor : speed 0, counter 0
+14.312 Track front encoder ticks 0 L 0 R
+14.312 Track back encoder ticks 0 L 0 R
+14.312 Roll motor encoder ticks 0
+14.313 "The Box" limit ticks 1 1
+14.313 "The Box" is lowered
+14.313 Encoder Raw 0000000000000000
+14.313 Arduino not connected
+14.313 Arduino Heartbeat: 0
+14.313 UI:
+  speed control
+
+14.323 Connection Lost
+14.324 Attempting to connect
+14.374 Sending telemetry, waiting for command
+14.376 Left Mining Motor : speed 0, counter 0
+14.376 Track front encoder ticks 0 L 0 R
+14.376 Track back encoder ticks 0 L 0 R
+14.376 Roll motor encoder ticks 0
+14.376 "The Box" limit ticks 1 1
+14.376 "The Box" is lowered
+14.376 Encoder Raw 0000000000000000
+14.376 Arduino not connected
+14.376 Arduino Heartbeat: 0
+14.376 UI:
+  speed control
+
+14.386 Connection Lost
+14.387 Attempting to connect
+14.438 Sending telemetry, waiting for command
+14.439 Left Mining Motor : speed 0, counter 0
+14.439 Track front encoder ticks 0 L 0 R
+14.439 Track back encoder ticks 0 L 0 R
+14.439 Roll motor encoder ticks 0
+14.440 "The Box" limit ticks 1 1
+14.440 "The Box" is lowered
+14.440 Encoder Raw 0000000000000000
+14.440 Arduino not connected
+14.440 Arduino Heartbeat: 0
+14.440 UI:
+  speed control
+
+14.450 Connection Lost
+14.451 Attempting to connect
+14.501 Sending telemetry, waiting for command
+14.502 Left Mining Motor : speed 0, counter 0
+14.503 Track front encoder ticks 0 L 0 R
+14.503 Track back encoder ticks 0 L 0 R
+14.503 Roll motor encoder ticks 0
+14.503 "The Box" limit ticks 1 1
+14.503 "The Box" is lowered
+14.503 Encoder Raw 0000000000000000
+14.503 Arduino not connected
+14.503 Arduino Heartbeat: 0
+14.503 UI:
+  speed control
+
+14.513 Connection Lost
+14.514 Attempting to connect
+14.564 Sending telemetry, waiting for command
+14.566 Left Mining Motor : speed 0, counter 0
+14.566 Track front encoder ticks 0 L 0 R
+14.566 Track back encoder ticks 0 L 0 R
+14.566 Roll motor encoder ticks 0
+14.566 "The Box" limit ticks 1 1
+14.566 "The Box" is lowered
+14.566 Encoder Raw 0000000000000000
+14.566 Arduino not connected
+14.566 Arduino Heartbeat: 0
+14.566 UI:
+  speed control
+
+14.576 Connection Lost
+14.577 Attempting to connect
+14.627 Sending telemetry, waiting for command
+14.629 Left Mining Motor : speed 0, counter 0
+14.629 Track front encoder ticks 0 L 0 R
+14.629 Track back encoder ticks 0 L 0 R
+14.629 Roll motor encoder ticks 0
+14.629 "The Box" limit ticks 1 1
+14.629 "The Box" is lowered
+14.629 Encoder Raw 0000000000000000
+14.629 Arduino not connected
+14.629 Arduino Heartbeat: 0
+14.629 UI:
+  speed control
+
+14.640 Connection Lost
+14.640 Attempting to connect
+14.690 Sending telemetry, waiting for command
+14.692 Left Mining Motor : speed 0, counter 0
+14.692 Track front encoder ticks 0 L 0 R
+14.692 Track back encoder ticks 0 L 0 R
+14.692 Roll motor encoder ticks 0
+14.692 "The Box" limit ticks 1 1
+14.692 "The Box" is lowered
+14.692 Encoder Raw 0000000000000000
+14.692 Arduino not connected
+14.692 Arduino Heartbeat: 0
+14.692 UI:
+  speed control
+
+14.703 Connection Lost
+14.703 Attempting to connect
+14.754 Sending telemetry, waiting for command
+14.755 Left Mining Motor : speed 0, counter 0
+14.755 Track front encoder ticks 0 L 0 R
+14.755 Track back encoder ticks 0 L 0 R
+14.755 Roll motor encoder ticks 0
+14.755 "The Box" limit ticks 1 1
+14.755 "The Box" is lowered
+14.756 Encoder Raw 0000000000000000
+14.756 Arduino not connected
+14.756 Arduino Heartbeat: 0
+14.756 UI:
+  speed control
+
+14.766 Connection Lost
+14.767 Attempting to connect
+14.817 Sending telemetry, waiting for command
+14.818 Left Mining Motor : speed 0, counter 0
+14.818 Track front encoder ticks 0 L 0 R
+14.818 Track back encoder ticks 0 L 0 R
+14.819 Roll motor encoder ticks 0
+14.819 "The Box" limit ticks 1 1
+14.819 "The Box" is lowered
+14.819 Encoder Raw 0000000000000000
+14.819 Arduino not connected
+14.819 Arduino Heartbeat: 0
+14.819 UI:
+  speed control
+
+14.829 Connection Lost
+14.830 Attempting to connect
+14.880 Sending telemetry, waiting for command
+14.881 Left Mining Motor : speed 0, counter 0
+14.882 Track front encoder ticks 0 L 0 R
+14.882 Track back encoder ticks 0 L 0 R
+14.882 Roll motor encoder ticks 0
+14.882 "The Box" limit ticks 1 1
+14.882 "The Box" is lowered
+14.882 Encoder Raw 0000000000000000
+14.882 Arduino not connected
+14.882 Arduino Heartbeat: 0
+14.882 UI:
+  speed control
+
+14.892 Connection Lost
+14.893 Attempting to connect
+14.944 Sending telemetry, waiting for command
+14.945 Left Mining Motor : speed 0, counter 0
+14.945 Track front encoder ticks 0 L 0 R
+14.945 Track back encoder ticks 0 L 0 R
+14.945 Roll motor encoder ticks 0
+14.946 "The Box" limit ticks 1 1
+14.946 "The Box" is lowered
+14.946 Encoder Raw 0000000000000000
+14.946 Arduino not connected
+14.946 Arduino Heartbeat: 0
+14.946 UI:
+  speed control
+
+14.956 Connection Lost
+14.957 Attempting to connect
+15.007 Sending telemetry, waiting for command
+15.009 Left Mining Motor : speed 0, counter 0
+15.009 Track front encoder ticks 0 L 0 R
+15.009 Track back encoder ticks 0 L 0 R
+15.009 Roll motor encoder ticks 0
+15.009 "The Box" limit ticks 1 1
+15.009 "The Box" is lowered
+15.009 Encoder Raw 0000000000000000
+15.009 Arduino not connected
+15.009 Arduino Heartbeat: 0
+15.009 UI:
+  speed control
+
+15.019 Connection Lost
+15.020 Attempting to connect
+15.070 Sending telemetry, waiting for command
+15.072 Left Mining Motor : speed 0, counter 0
+15.072 Track front encoder ticks 0 L 0 R
+15.072 Track back encoder ticks 0 L 0 R
+15.072 Roll motor encoder ticks 0
+15.072 "The Box" limit ticks 1 1
+15.073 "The Box" is lowered
+15.073 Encoder Raw 0000000000000000
+15.073 Arduino not connected
+15.073 Arduino Heartbeat: 0
+15.073 UI:
+  speed control
+
+15.083 Connection Lost
+15.084 Attempting to connect
+15.134 Sending telemetry, waiting for command
+15.136 Left Mining Motor : speed 0, counter 0
+15.136 Track front encoder ticks 0 L 0 R
+15.136 Track back encoder ticks 0 L 0 R
+15.136 Roll motor encoder ticks 0
+15.136 "The Box" limit ticks 1 1
+15.136 "The Box" is lowered
+15.136 Encoder Raw 0000000000000000
+15.136 Arduino not connected
+15.136 Arduino Heartbeat: 0
+15.137 UI:
+  speed control
+
+15.147 Connection Lost
+15.148 Attempting to connect
+15.198 Sending telemetry, waiting for command
+15.200 Left Mining Motor : speed 0, counter 0
+15.200 Track front encoder ticks 0 L 0 R
+15.200 Track back encoder ticks 0 L 0 R
+15.200 Roll motor encoder ticks 0
+15.200 "The Box" limit ticks 1 1
+15.200 "The Box" is lowered
+15.200 Encoder Raw 0000000000000000
+15.200 Arduino not connected
+15.200 Arduino Heartbeat: 0
+15.200 UI:
+  speed control
+
+15.211 Connection Lost
+15.211 Attempting to connect
+15.261 Sending telemetry, waiting for command
+15.263 Left Mining Motor : speed 0, counter 0
+15.263 Track front encoder ticks 0 L 0 R
+15.263 Track back encoder ticks 0 L 0 R
+15.264 Roll motor encoder ticks 0
+15.264 "The Box" limit ticks 1 1
+15.264 "The Box" is lowered
+15.264 Encoder Raw 0000000000000000
+15.264 Arduino not connected
+15.264 Arduino Heartbeat: 0
+15.264 UI:
+  speed control
+
+15.274 Connection Lost
+15.276 Attempting to connect
+15.326 Sending telemetry, waiting for command
+15.328 Left Mining Motor : speed 0, counter 0
+15.328 Track front encoder ticks 0 L 0 R
+15.328 Track back encoder ticks 0 L 0 R
+15.328 Roll motor encoder ticks 0
+15.328 "The Box" limit ticks 1 1
+15.328 "The Box" is lowered
+15.328 Encoder Raw 0000000000000000
+15.328 Arduino not connected
+15.328 Arduino Heartbeat: 0
+15.328 UI:
+  speed control
+
+15.338 Connection Lost
+15.339 Attempting to connect
+15.389 Sending telemetry, waiting for command
+15.391 Left Mining Motor : speed 0, counter 0
+15.391 Track front encoder ticks 0 L 0 R
+15.391 Track back encoder ticks 0 L 0 R
+15.391 Roll motor encoder ticks 0
+15.392 "The Box" limit ticks 1 1
+15.392 "The Box" is lowered
+15.392 Encoder Raw 0000000000000000
+15.392 Arduino not connected
+15.392 Arduino Heartbeat: 0
+15.392 UI:
+  speed control
+
+15.402 Connection Lost
+15.403 Attempting to connect
+15.453 Sending telemetry, waiting for command
+15.455 Left Mining Motor : speed 0, counter 0
+15.455 Track front encoder ticks 0 L 0 R
+15.455 Track back encoder ticks 0 L 0 R
+15.455 Roll motor encoder ticks 0
+15.455 "The Box" limit ticks 1 1
+15.455 "The Box" is lowered
+15.455 Encoder Raw 0000000000000000
+15.455 Arduino not connected
+15.455 Arduino Heartbeat: 0
+15.455 UI:
+  speed control
+
+15.465 Connection Lost
+15.466 Attempting to connect
+15.516 Sending telemetry, waiting for command
+15.518 Left Mining Motor : speed 0, counter 0
+15.518 Track front encoder ticks 0 L 0 R
+15.518 Track back encoder ticks 0 L 0 R
+15.518 Roll motor encoder ticks 0
+15.518 "The Box" limit ticks 1 1
+15.518 "The Box" is lowered
+15.518 Encoder Raw 0000000000000000
+15.518 Arduino not connected
+15.518 Arduino Heartbeat: 0
+15.518 UI:
+  speed control
+
+15.529 Connection Lost
+15.529 Attempting to connect
+15.580 Sending telemetry, waiting for command
+15.581 Left Mining Motor : speed 0, counter 0
+15.581 Track front encoder ticks 0 L 0 R
+15.581 Track back encoder ticks 0 L 0 R
+15.582 Roll motor encoder ticks 0
+15.582 "The Box" limit ticks 1 1
+15.582 "The Box" is lowered
+15.582 Encoder Raw 0000000000000000
+15.582 Arduino not connected
+15.582 Arduino Heartbeat: 0
+15.582 UI:
+  speed control
+
+15.592 Connection Lost
+15.593 Attempting to connect
+15.643 Sending telemetry, waiting for command
+15.645 Left Mining Motor : speed 0, counter 0
+15.645 Track front encoder ticks 0 L 0 R
+15.645 Track back encoder ticks 0 L 0 R
+15.645 Roll motor encoder ticks 0
+15.645 "The Box" limit ticks 1 1
+15.645 "The Box" is lowered
+15.645 Encoder Raw 0000000000000000
+15.645 Arduino not connected
+15.645 Arduino Heartbeat: 0
+15.645 UI:
+  speed control
+
+15.655 Connection Lost
+15.656 Attempting to connect
+15.706 Sending telemetry, waiting for command
+15.708 Left Mining Motor : speed 0, counter 0
+15.708 Track front encoder ticks 0 L 0 R
+15.708 Track back encoder ticks 0 L 0 R
+15.708 Roll motor encoder ticks 0
+15.708 "The Box" limit ticks 1 1
+15.708 "The Box" is lowered
+15.709 Encoder Raw 0000000000000000
+15.709 Arduino not connected
+15.709 Arduino Heartbeat: 0
+15.709 UI:
+  speed control
+
+15.719 Connection Lost
+15.720 Attempting to connect
+15.770 Sending telemetry, waiting for command
+15.772 Left Mining Motor : speed 0, counter 0
+15.772 Track front encoder ticks 0 L 0 R
+15.772 Track back encoder ticks 0 L 0 R
+15.772 Roll motor encoder ticks 0
+15.772 "The Box" limit ticks 1 1
+15.772 "The Box" is lowered
+15.772 Encoder Raw 0000000000000000
+15.772 Arduino not connected
+15.772 Arduino Heartbeat: 0
+15.773 UI:
+  speed control
+
+15.783 Connection Lost
+15.783 Attempting to connect
+15.834 Sending telemetry, waiting for command
+15.835 Left Mining Motor : speed 0, counter 0
+15.836 Track front encoder ticks 0 L 0 R
+15.836 Track back encoder ticks 0 L 0 R
+15.836 Roll motor encoder ticks 0
+15.836 "The Box" limit ticks 1 1
+15.836 "The Box" is lowered
+15.836 Encoder Raw 0000000000000000
+15.836 Arduino not connected
+15.836 Arduino Heartbeat: 0
+15.836 UI:
+  speed control
+
+15.846 Connection Lost
+15.847 Attempting to connect
+15.898 Sending telemetry, waiting for command
+15.899 Left Mining Motor : speed 0, counter 0
+15.899 Track front encoder ticks 0 L 0 R
+15.899 Track back encoder ticks 0 L 0 R
+15.899 Roll motor encoder ticks 0
+15.899 "The Box" limit ticks 1 1
+15.899 "The Box" is lowered
+15.900 Encoder Raw 0000000000000000
+15.900 Arduino not connected
+15.900 Arduino Heartbeat: 0
+15.900 UI:
+  speed control
+
+15.910 Connection Lost
+15.911 Attempting to connect
+15.961 Sending telemetry, waiting for command
+15.962 Left Mining Motor : speed 0, counter 0
+15.962 Track front encoder ticks 0 L 0 R
+15.963 Track back encoder ticks 0 L 0 R
+15.963 Roll motor encoder ticks 0
+15.963 "The Box" limit ticks 1 1
+15.963 "The Box" is lowered
+15.963 Encoder Raw 0000000000000000
+15.963 Arduino not connected
+15.963 Arduino Heartbeat: 0
+15.963 UI:
+  speed control
+
+15.973 Connection Lost
+15.974 Attempting to connect
+16.024 Sending telemetry, waiting for command
+16.026 Left Mining Motor : speed 0, counter 0
+16.026 Track front encoder ticks 0 L 0 R
+16.026 Track back encoder ticks 0 L 0 R
+16.026 Roll motor encoder ticks 0
+16.026 "The Box" limit ticks 1 1
+16.026 "The Box" is lowered
+16.026 Encoder Raw 0000000000000000
+16.026 Arduino not connected
+16.026 Arduino Heartbeat: 0
+16.026 UI:
+  speed control
+
+16.036 Connection Lost
+16.037 Attempting to connect
+16.087 Sending telemetry, waiting for command
+16.089 Left Mining Motor : speed 0, counter 0
+16.089 Track front encoder ticks 0 L 0 R
+16.089 Track back encoder ticks 0 L 0 R
+16.089 Roll motor encoder ticks 0
+16.089 "The Box" limit ticks 1 1
+16.090 "The Box" is lowered
+16.090 Encoder Raw 0000000000000000
+16.090 Arduino not connected
+16.090 Arduino Heartbeat: 0
+16.090 UI:
+  speed control
+
+16.100 Connection Lost
+16.101 Attempting to connect
+16.151 Sending telemetry, waiting for command
+16.153 Left Mining Motor : speed 0, counter 0
+16.153 Track front encoder ticks 0 L 0 R
+16.153 Track back encoder ticks 0 L 0 R
+16.153 Roll motor encoder ticks 0
+16.153 "The Box" limit ticks 1 1
+16.153 "The Box" is lowered
+16.153 Encoder Raw 0000000000000000
+16.153 Arduino not connected
+16.153 Arduino Heartbeat: 0
+16.153 UI:
+  speed control
+
+16.163 Connection Lost
+16.164 Attempting to connect
+16.214 Sending telemetry, waiting for command
+16.216 Left Mining Motor : speed 0, counter 0
+16.216 Track front encoder ticks 0 L 0 R
+16.217 Track back encoder ticks 0 L 0 R
+16.217 Roll motor encoder ticks 0
+16.217 "The Box" limit ticks 1 1
+16.217 "The Box" is lowered
+16.217 Encoder Raw 0000000000000000
+16.217 Arduino not connected
+16.217 Arduino Heartbeat: 0
+16.217 UI:
+  speed control
+
+16.227 Connection Lost
+16.228 Attempting to connect
+16.278 Sending telemetry, waiting for command
+16.280 Left Mining Motor : speed 0, counter 0
+16.280 Track front encoder ticks 0 L 0 R
+16.280 Track back encoder ticks 0 L 0 R
+16.280 Roll motor encoder ticks 0
+16.280 "The Box" limit ticks 1 1
+16.280 "The Box" is lowered
+16.280 Encoder Raw 0000000000000000
+16.280 Arduino not connected
+16.281 Arduino Heartbeat: 0
+16.281 UI:
+  speed control
+
+16.291 Connection Lost
+16.292 Attempting to connect
+16.342 Sending telemetry, waiting for command
+16.344 Left Mining Motor : speed 0, counter 0
+16.344 Track front encoder ticks 0 L 0 R
+16.344 Track back encoder ticks 0 L 0 R
+16.344 Roll motor encoder ticks 0
+16.344 "The Box" limit ticks 1 1
+16.344 "The Box" is lowered
+16.344 Encoder Raw 0000000000000000
+16.344 Arduino not connected
+16.344 Arduino Heartbeat: 0
+16.344 UI:
+  speed control
+
+16.354 Connection Lost
+16.355 Attempting to connect
+16.406 Sending telemetry, waiting for command
+16.407 Left Mining Motor : speed 0, counter 0
+16.407 Track front encoder ticks 0 L 0 R
+16.407 Track back encoder ticks 0 L 0 R
+16.407 Roll motor encoder ticks 0
+16.407 "The Box" limit ticks 1 1
+16.407 "The Box" is lowered
+16.407 Encoder Raw 0000000000000000
+16.407 Arduino not connected
+16.408 Arduino Heartbeat: 0
+16.408 UI:
+  speed control
+
+16.418 Connection Lost
+16.418 Attempting to connect
+16.469 Sending telemetry, waiting for command
+16.470 Left Mining Motor : speed 0, counter 0
+16.470 Track front encoder ticks 0 L 0 R
+16.470 Track back encoder ticks 0 L 0 R
+16.470 Roll motor encoder ticks 0
+16.470 "The Box" limit ticks 1 1
+16.471 "The Box" is lowered
+16.471 Encoder Raw 0000000000000000
+16.471 Arduino not connected
+16.471 Arduino Heartbeat: 0
+16.471 UI:
+  speed control
+
+16.481 Connection Lost
+16.482 Attempting to connect
+16.532 Sending telemetry, waiting for command
+16.533 Left Mining Motor : speed 0, counter 0
+16.534 Track front encoder ticks 0 L 0 R
+16.534 Track back encoder ticks 0 L 0 R
+16.534 Roll motor encoder ticks 0
+16.534 "The Box" limit ticks 1 1
+16.534 "The Box" is lowered
+16.534 Encoder Raw 0000000000000000
+16.534 Arduino not connected
+16.534 Arduino Heartbeat: 0
+16.534 UI:
+  speed control
+
+16.544 Connection Lost
+16.545 Attempting to connect
+16.595 Sending telemetry, waiting for command
+16.597 Left Mining Motor : speed 0, counter 0
+16.597 Track front encoder ticks 0 L 0 R
+16.597 Track back encoder ticks 0 L 0 R
+16.597 Roll motor encoder ticks 0
+16.597 "The Box" limit ticks 1 1
+16.597 "The Box" is lowered
+16.597 Encoder Raw 0000000000000000
+16.597 Arduino not connected
+16.597 Arduino Heartbeat: 0
+16.597 UI:
+  speed control
+
+16.608 Connection Lost
+16.608 Attempting to connect
+16.659 Sending telemetry, waiting for command
+16.660 Left Mining Motor : speed 0, counter 0
+16.660 Track front encoder ticks 0 L 0 R
+16.660 Track back encoder ticks 0 L 0 R
+16.660 Roll motor encoder ticks 0
+16.660 "The Box" limit ticks 1 1
+16.661 "The Box" is lowered
+16.661 Encoder Raw 0000000000000000
+16.661 Arduino not connected
+16.661 Arduino Heartbeat: 0
+16.661 UI:
+  speed control
+
+16.671 Connection Lost
+16.673 Attempting to connect
+16.723 Sending telemetry, waiting for command
+16.725 Left Mining Motor : speed 0, counter 0
+16.725 Track front encoder ticks 0 L 0 R
+16.725 Track back encoder ticks 0 L 0 R
+16.725 Roll motor encoder ticks 0
+16.725 "The Box" limit ticks 1 1
+16.725 "The Box" is lowered
+16.725 Encoder Raw 0000000000000000
+16.725 Arduino not connected
+16.725 Arduino Heartbeat: 0
+16.725 UI:
+  speed control
+
+16.736 Connection Lost
+16.737 Attempting to connect
+16.787 Sending telemetry, waiting for command
+16.788 Left Mining Motor : speed 0, counter 0
+16.788 Track front encoder ticks 0 L 0 R
+16.789 Track back encoder ticks 0 L 0 R
+16.789 Roll motor encoder ticks 0
+16.789 "The Box" limit ticks 1 1
+16.789 "The Box" is lowered
+16.789 Encoder Raw 0000000000000000
+16.789 Arduino not connected
+16.789 Arduino Heartbeat: 0
+16.789 UI:
+  speed control
+
+16.799 Connection Lost
+16.800 Attempting to connect
+16.850 Sending telemetry, waiting for command
+16.851 Left Mining Motor : speed 0, counter 0
+16.852 Track front encoder ticks 0 L 0 R
+16.852 Track back encoder ticks 0 L 0 R
+16.852 Roll motor encoder ticks 0
+16.852 "The Box" limit ticks 1 1
+16.852 "The Box" is lowered
+16.852 Encoder Raw 0000000000000000
+16.852 Arduino not connected
+16.852 Arduino Heartbeat: 0
+16.852 UI:
+  speed control
+
+16.862 Connection Lost
+16.863 Attempting to connect
+16.914 Sending telemetry, waiting for command
+16.915 Left Mining Motor : speed 0, counter 0
+16.915 Track front encoder ticks 0 L 0 R
+16.915 Track back encoder ticks 0 L 0 R
+16.916 Roll motor encoder ticks 0
+16.916 "The Box" limit ticks 1 1
+16.916 "The Box" is lowered
+16.916 Encoder Raw 0000000000000000
+16.916 Arduino not connected
+16.916 Arduino Heartbeat: 0
+16.916 UI:
+  speed control
+
+16.926 Connection Lost
+16.927 Attempting to connect
+16.977 Sending telemetry, waiting for command
+16.978 Left Mining Motor : speed 0, counter 0
+16.979 Track front encoder ticks 0 L 0 R
+16.979 Track back encoder ticks 0 L 0 R
+16.979 Roll motor encoder ticks 0
+16.979 "The Box" limit ticks 1 1
+16.979 "The Box" is lowered
+16.979 Encoder Raw 0000000000000000
+16.979 Arduino not connected
+16.979 Arduino Heartbeat: 0
+16.979 UI:
+  speed control
+
+16.989 Connection Lost
+16.990 Attempting to connect
+17.040 Sending telemetry, waiting for command
+17.042 Left Mining Motor : speed 0, counter 0
+17.042 Track front encoder ticks 0 L 0 R
+17.042 Track back encoder ticks 0 L 0 R
+17.042 Roll motor encoder ticks 0
+17.042 "The Box" limit ticks 1 1
+17.042 "The Box" is lowered
+17.042 Encoder Raw 0000000000000000
+17.042 Arduino not connected
+17.042 Arduino Heartbeat: 0
+17.042 UI:
+  speed control
+
+17.052 Connection Lost
+17.053 Attempting to connect
+17.103 Sending telemetry, waiting for command
+17.105 Left Mining Motor : speed 0, counter 0
+17.105 Track front encoder ticks 0 L 0 R
+17.105 Track back encoder ticks 0 L 0 R
+17.105 Roll motor encoder ticks 0
+17.105 "The Box" limit ticks 1 1
+17.105 "The Box" is lowered
+17.105 Encoder Raw 0000000000000000
+17.105 Arduino not connected
+17.105 Arduino Heartbeat: 0
+17.105 UI:
+  speed control
+
+17.116 Connection Lost
+17.116 Attempting to connect
+17.167 Sending telemetry, waiting for command
+17.168 Left Mining Motor : speed 0, counter 0
+17.168 Track front encoder ticks 0 L 0 R
+17.168 Track back encoder ticks 0 L 0 R
+17.168 Roll motor encoder ticks 0
+17.168 "The Box" limit ticks 1 1
+17.168 "The Box" is lowered
+17.168 Encoder Raw 0000000000000000
+17.168 Arduino not connected
+17.169 Arduino Heartbeat: 0
+17.169 UI:
+  speed control
+
+17.179 Connection Lost
+17.180 Attempting to connect
+17.230 Sending telemetry, waiting for command
+17.231 Left Mining Motor : speed 0, counter 0
+17.231 Track front encoder ticks 0 L 0 R
+17.231 Track back encoder ticks 0 L 0 R
+17.231 Roll motor encoder ticks 0
+17.232 "The Box" limit ticks 1 1
+17.232 "The Box" is lowered
+17.232 Encoder Raw 0000000000000000
+17.232 Arduino not connected
+17.232 Arduino Heartbeat: 0
+17.232 UI:
+  speed control
+
+17.242 Connection Lost
+17.243 Attempting to connect
+17.293 Sending telemetry, waiting for command
+17.295 Left Mining Motor : speed 0, counter 0
+17.295 Track front encoder ticks 0 L 0 R
+17.295 Track back encoder ticks 0 L 0 R
+17.295 Roll motor encoder ticks 0
+17.295 "The Box" limit ticks 1 1
+17.295 "The Box" is lowered
+17.295 Encoder Raw 0000000000000000
+17.295 Arduino not connected
+17.295 Arduino Heartbeat: 0
+17.295 UI:
+  speed control
+
+17.305 Connection Lost
+17.306 Attempting to connect
+17.356 Sending telemetry, waiting for command
+17.358 Left Mining Motor : speed 0, counter 0
+17.358 Track front encoder ticks 0 L 0 R
+17.358 Track back encoder ticks 0 L 0 R
+17.358 Roll motor encoder ticks 0
+17.358 "The Box" limit ticks 1 1
+17.358 "The Box" is lowered
+17.358 Encoder Raw 0000000000000000
+17.358 Arduino not connected
+17.358 Arduino Heartbeat: 0
+17.358 UI:
+  speed control
+
+17.369 Connection Lost
+17.369 Attempting to connect
+17.420 Sending telemetry, waiting for command
+17.421 Left Mining Motor : speed 0, counter 0
+17.421 Track front encoder ticks 0 L 0 R
+17.421 Track back encoder ticks 0 L 0 R
+17.421 Roll motor encoder ticks 0
+17.421 "The Box" limit ticks 1 1
+17.421 "The Box" is lowered
+17.421 Encoder Raw 0000000000000000
+17.421 Arduino not connected
+17.422 Arduino Heartbeat: 0
+17.422 UI:
+  speed control
+
+17.432 Connection Lost
+17.433 Attempting to connect
+17.483 Sending telemetry, waiting for command
+17.484 Left Mining Motor : speed 0, counter 0
+17.484 Track front encoder ticks 0 L 0 R
+17.484 Track back encoder ticks 0 L 0 R
+17.484 Roll motor encoder ticks 0
+17.484 "The Box" limit ticks 1 1
+17.485 "The Box" is lowered
+17.485 Encoder Raw 0000000000000000
+17.485 Arduino not connected
+17.485 Arduino Heartbeat: 0
+17.485 UI:
+  speed control
+
+17.495 Connection Lost
+17.497 Attempting to connect
+17.547 Sending telemetry, waiting for command
+17.548 Left Mining Motor : speed 0, counter 0
+17.549 Track front encoder ticks 0 L 0 R
+17.549 Track back encoder ticks 0 L 0 R
+17.549 Roll motor encoder ticks 0
+17.549 "The Box" limit ticks 1 1
+17.549 "The Box" is lowered
+17.549 Encoder Raw 0000000000000000
+17.549 Arduino not connected
+17.549 Arduino Heartbeat: 0
+17.549 UI:
+  speed control
+
+17.559 Connection Lost
+17.560 Attempting to connect
+17.610 Sending telemetry, waiting for command
+17.612 Left Mining Motor : speed 0, counter 0
+17.612 Track front encoder ticks 0 L 0 R
+17.612 Track back encoder ticks 0 L 0 R
+17.612 Roll motor encoder ticks 0
+17.612 "The Box" limit ticks 1 1
+17.612 "The Box" is lowered
+17.612 Encoder Raw 0000000000000000
+17.612 Arduino not connected
+17.612 Arduino Heartbeat: 0
+17.612 UI:
+  speed control
+
+17.622 Connection Lost
+17.623 Attempting to connect
+17.673 Sending telemetry, waiting for command
+17.675 Left Mining Motor : speed 0, counter 0
+17.675 Track front encoder ticks 0 L 0 R
+17.675 Track back encoder ticks 0 L 0 R
+17.675 Roll motor encoder ticks 0
+17.675 "The Box" limit ticks 1 1
+17.676 "The Box" is lowered
+17.676 Encoder Raw 0000000000000000
+17.676 Arduino not connected
+17.676 Arduino Heartbeat: 0
+17.676 UI:
+  speed control
+
+17.686 Connection Lost
+17.687 Attempting to connect
+17.737 Sending telemetry, waiting for command
+17.739 Left Mining Motor : speed 0, counter 0
+17.739 Track front encoder ticks 0 L 0 R
+17.739 Track back encoder ticks 0 L 0 R
+17.739 Roll motor encoder ticks 0
+17.739 "The Box" limit ticks 1 1
+17.739 "The Box" is lowered
+17.739 Encoder Raw 0000000000000000
+17.739 Arduino not connected
+17.739 Arduino Heartbeat: 0
+17.740 UI:
+  speed control
+
+17.750 Connection Lost
+17.751 Attempting to connect
+17.801 Sending telemetry, waiting for command
+17.803 Left Mining Motor : speed 0, counter 0
+17.803 Track front encoder ticks 0 L 0 R
+17.803 Track back encoder ticks 0 L 0 R
+17.803 Roll motor encoder ticks 0
+17.803 "The Box" limit ticks 1 1
+17.804 "The Box" is lowered
+17.804 Encoder Raw 0000000000000000
+17.804 Arduino not connected
+17.804 Arduino Heartbeat: 0
+17.804 UI:
+  speed control
+
+17.814 Connection Lost
+17.815 Attempting to connect
+17.865 Sending telemetry, waiting for command
+17.868 Left Mining Motor : speed 0, counter 0
+17.868 Track front encoder ticks 0 L 0 R
+17.868 Track back encoder ticks 0 L 0 R
+17.869 Roll motor encoder ticks 0
+17.869 "The Box" limit ticks 1 1
+17.869 "The Box" is lowered
+17.869 Encoder Raw 0000000000000000
+17.869 Arduino not connected
+17.870 Arduino Heartbeat: 0
+17.870 UI:
+  speed control
+
+17.880 Connection Lost
+17.881 Attempting to connect
+17.932 Sending telemetry, waiting for command
+17.934 Left Mining Motor : speed 0, counter 0
+17.935 Track front encoder ticks 0 L 0 R
+17.935 Track back encoder ticks 0 L 0 R
+17.935 Roll motor encoder ticks 0
+17.935 "The Box" limit ticks 1 1
+17.936 "The Box" is lowered
+17.936 Encoder Raw 0000000000000000
+17.936 Arduino not connected
+17.936 Arduino Heartbeat: 0
+17.936 UI:
+  speed control
+
+17.946 Connection Lost
+17.947 Attempting to connect
+17.997 Sending telemetry, waiting for command
+17.999 Left Mining Motor : speed 0, counter 0
+17.999 Track front encoder ticks 0 L 0 R
+17.999 Track back encoder ticks 0 L 0 R
+17.999 Roll motor encoder ticks 0
+17.999 "The Box" limit ticks 1 1
+18.000 "The Box" is lowered
+18.000 Encoder Raw 0000000000000000
+18.000 Arduino not connected
+18.000 Arduino Heartbeat: 0
+18.000 UI:
+  speed control
+
+18.010 Connection Lost
+18.011 Attempting to connect
+18.061 Sending telemetry, waiting for command
+18.063 Left Mining Motor : speed 0, counter 0
+18.063 Track front encoder ticks 0 L 0 R
+18.063 Track back encoder ticks 0 L 0 R
+18.063 Roll motor encoder ticks 0
+18.063 "The Box" limit ticks 1 1
+18.063 "The Box" is lowered
+18.063 Encoder Raw 0000000000000000
+18.064 Arduino not connected
+18.064 Arduino Heartbeat: 0
+18.064 UI:
+  speed control
+
+18.074 Connection Lost
+18.075 Attempting to connect
+18.125 Sending telemetry, waiting for command
+18.126 Left Mining Motor : speed 0, counter 0
+18.127 Track front encoder ticks 0 L 0 R
+18.127 Track back encoder ticks 0 L 0 R
+18.127 Roll motor encoder ticks 0
+18.127 "The Box" limit ticks 1 1
+18.127 "The Box" is lowered
+18.127 Encoder Raw 0000000000000000
+18.127 Arduino not connected
+18.127 Arduino Heartbeat: 0
+18.127 UI:
+  speed control
+
+18.137 Connection Lost
+18.138 Attempting to connect
+18.188 Sending telemetry, waiting for command
+18.190 Left Mining Motor : speed 0, counter 0
+18.190 Track front encoder ticks 0 L 0 R
+18.190 Track back encoder ticks 0 L 0 R
+18.190 Roll motor encoder ticks 0
+18.190 "The Box" limit ticks 1 1
+18.191 "The Box" is lowered
+18.191 Encoder Raw 0000000000000000
+18.191 Arduino not connected
+18.191 Arduino Heartbeat: 0
+18.191 UI:
+  speed control
+
+18.202 Connection Lost
+18.203 Attempting to connect
+18.253 Sending telemetry, waiting for command
+18.255 Left Mining Motor : speed 0, counter 0
+18.255 Track front encoder ticks 0 L 0 R
+18.255 Track back encoder ticks 0 L 0 R
+18.255 Roll motor encoder ticks 0
+18.255 "The Box" limit ticks 1 1
+18.255 "The Box" is lowered
+18.255 Encoder Raw 0000000000000000
+18.255 Arduino not connected
+18.256 Arduino Heartbeat: 0
+18.256 UI:
+  speed control
+
+18.266 Connection Lost
+18.267 Attempting to connect
+18.317 Sending telemetry, waiting for command
+18.318 Left Mining Motor : speed 0, counter 0
+18.319 Track front encoder ticks 0 L 0 R
+18.319 Track back encoder ticks 0 L 0 R
+18.319 Roll motor encoder ticks 0
+18.319 "The Box" limit ticks 1 1
+18.319 "The Box" is lowered
+18.319 Encoder Raw 0000000000000000
+18.319 Arduino not connected
+18.319 Arduino Heartbeat: 0
+18.319 UI:
+  speed control
+
+18.329 Connection Lost
+18.330 Attempting to connect
+18.381 Sending telemetry, waiting for command
+18.382 Left Mining Motor : speed 0, counter 0
+18.382 Track front encoder ticks 0 L 0 R
+18.382 Track back encoder ticks 0 L 0 R
+18.383 Roll motor encoder ticks 0
+18.383 "The Box" limit ticks 1 1
+18.383 "The Box" is lowered
+18.383 Encoder Raw 0000000000000000
+18.383 Arduino not connected
+18.383 Arduino Heartbeat: 0
+18.383 UI:
+  speed control
+
+18.393 Connection Lost
+18.394 Attempting to connect
+18.444 Sending telemetry, waiting for command
+18.446 Left Mining Motor : speed 0, counter 0
+18.446 Track front encoder ticks 0 L 0 R
+18.446 Track back encoder ticks 0 L 0 R
+18.446 Roll motor encoder ticks 0
+18.447 "The Box" limit ticks 1 1
+18.447 "The Box" is lowered
+18.447 Encoder Raw 0000000000000000
+18.447 Arduino not connected
+18.447 Arduino Heartbeat: 0
+18.447 UI:
+  speed control
+
+18.457 Connection Lost
+18.458 Attempting to connect
+18.508 Sending telemetry, waiting for command
+18.510 Left Mining Motor : speed 0, counter 0
+18.510 Track front encoder ticks 0 L 0 R
+18.510 Track back encoder ticks 0 L 0 R
+18.510 Roll motor encoder ticks 0
+18.510 "The Box" limit ticks 1 1
+18.510 "The Box" is lowered
+18.510 Encoder Raw 0000000000000000
+18.510 Arduino not connected
+18.510 Arduino Heartbeat: 0
+18.510 UI:
+  speed control
+
+18.521 Connection Lost
+18.521 Attempting to connect
+18.572 Sending telemetry, waiting for command
+18.573 Left Mining Motor : speed 0, counter 0
+18.574 Track front encoder ticks 0 L 0 R
+18.574 Track back encoder ticks 0 L 0 R
+18.574 Roll motor encoder ticks 0
+18.574 "The Box" limit ticks 1 1
+18.574 "The Box" is lowered
+18.574 Encoder Raw 0000000000000000
+18.574 Arduino not connected
+18.574 Arduino Heartbeat: 0
+18.574 UI:
+  speed control
+
+18.585 Connection Lost
+18.586 Attempting to connect
+18.636 Sending telemetry, waiting for command
+18.637 Left Mining Motor : speed 0, counter 0
+18.638 Track front encoder ticks 0 L 0 R
+18.638 Track back encoder ticks 0 L 0 R
+18.638 Roll motor encoder ticks 0
+18.638 "The Box" limit ticks 1 1
+18.638 "The Box" is lowered
+18.638 Encoder Raw 0000000000000000
+18.638 Arduino not connected
+18.638 Arduino Heartbeat: 0
+18.638 UI:
+  speed control
+
+18.648 Connection Lost
+18.649 Attempting to connect
+18.700 Sending telemetry, waiting for command
+18.701 Left Mining Motor : speed 0, counter 0
+18.701 Track front encoder ticks 0 L 0 R
+18.701 Track back encoder ticks 0 L 0 R
+18.701 Roll motor encoder ticks 0
+18.702 "The Box" limit ticks 1 1
+18.702 "The Box" is lowered
+18.702 Encoder Raw 0000000000000000
+18.702 Arduino not connected
+18.702 Arduino Heartbeat: 0
+18.702 UI:
+  speed control
+
+18.712 Connection Lost
+18.713 Attempting to connect
+18.763 Sending telemetry, waiting for command
+18.764 Left Mining Motor : speed 0, counter 0
+18.765 Track front encoder ticks 0 L 0 R
+18.765 Track back encoder ticks 0 L 0 R
+18.765 Roll motor encoder ticks 0
+18.765 "The Box" limit ticks 1 1
+18.765 "The Box" is lowered
+18.765 Encoder Raw 0000000000000000
+18.765 Arduino not connected
+18.765 Arduino Heartbeat: 0
+18.765 UI:
+  speed control
+
+18.775 Connection Lost
+18.776 Attempting to connect
+18.826 Sending telemetry, waiting for command
+18.828 Left Mining Motor : speed 0, counter 0
+18.828 Track front encoder ticks 0 L 0 R
+18.828 Track back encoder ticks 0 L 0 R
+18.828 Roll motor encoder ticks 0
+18.828 "The Box" limit ticks 1 1
+18.828 "The Box" is lowered
+18.829 Encoder Raw 0000000000000000
+18.829 Arduino not connected
+18.829 Arduino Heartbeat: 0
+18.829 UI:
+  speed control
+
+18.839 Connection Lost
+18.840 Attempting to connect
+18.890 Sending telemetry, waiting for command
+18.892 Left Mining Motor : speed 0, counter 0
+18.892 Track front encoder ticks 0 L 0 R
+18.892 Track back encoder ticks 0 L 0 R
+18.892 Roll motor encoder ticks 0
+18.892 "The Box" limit ticks 1 1
+18.892 "The Box" is lowered
+18.892 Encoder Raw 0000000000000000
+18.892 Arduino not connected
+18.893 Arduino Heartbeat: 0
+18.893 UI:
+  speed control
+
+18.903 Connection Lost
+18.904 Attempting to connect
+18.954 Sending telemetry, waiting for command
+18.955 Left Mining Motor : speed 0, counter 0
+18.956 Track front encoder ticks 0 L 0 R
+18.956 Track back encoder ticks 0 L 0 R
+18.956 Roll motor encoder ticks 0
+18.956 "The Box" limit ticks 1 1
+18.956 "The Box" is lowered
+18.956 Encoder Raw 0000000000000000
+18.956 Arduino not connected
+18.956 Arduino Heartbeat: 0
+18.956 UI:
+  speed control
+
+18.966 Connection Lost
+18.967 Attempting to connect
+19.017 Sending telemetry, waiting for command
+19.019 Left Mining Motor : speed 0, counter 0
+19.019 Track front encoder ticks 0 L 0 R
+19.019 Track back encoder ticks 0 L 0 R
+19.019 Roll motor encoder ticks 0
+19.019 "The Box" limit ticks 1 1
+19.019 "The Box" is lowered
+19.019 Encoder Raw 0000000000000000
+19.019 Arduino not connected
+19.019 Arduino Heartbeat: 0
+19.020 UI:
+  speed control
+
+19.030 Connection Lost
+19.031 Attempting to connect
+19.081 Sending telemetry, waiting for command
+19.083 Left Mining Motor : speed 0, counter 0
+19.083 Track front encoder ticks 0 L 0 R
+19.083 Track back encoder ticks 0 L 0 R
+19.083 Roll motor encoder ticks 0
+19.083 "The Box" limit ticks 1 1
+19.083 "The Box" is lowered
+19.083 Encoder Raw 0000000000000000
+19.083 Arduino not connected
+19.083 Arduino Heartbeat: 0
+19.083 UI:
+  speed control
+
+19.093 Connection Lost
+19.094 Attempting to connect
+19.144 Sending telemetry, waiting for command
+19.146 Left Mining Motor : speed 0, counter 0
+19.146 Track front encoder ticks 0 L 0 R
+19.146 Track back encoder ticks 0 L 0 R
+19.146 Roll motor encoder ticks 0
+19.146 "The Box" limit ticks 1 1
+19.146 "The Box" is lowered
+19.146 Encoder Raw 0000000000000000
+19.146 Arduino not connected
+19.147 Arduino Heartbeat: 0
+19.147 UI:
+  speed control
+
+19.157 Connection Lost
+19.158 Attempting to connect
+19.208 Sending telemetry, waiting for command
+19.209 Left Mining Motor : speed 0, counter 0
+19.210 Track front encoder ticks 0 L 0 R
+19.210 Track back encoder ticks 0 L 0 R
+19.210 Roll motor encoder ticks 0
+19.210 "The Box" limit ticks 1 1
+19.210 "The Box" is lowered
+19.210 Encoder Raw 0000000000000000
+19.210 Arduino not connected
+19.210 Arduino Heartbeat: 0
+19.210 UI:
+  speed control
+
+19.220 Connection Lost
+19.221 Attempting to connect
+19.272 Sending telemetry, waiting for command
+19.273 Left Mining Motor : speed 0, counter 0
+19.273 Track front encoder ticks 0 L 0 R
+19.273 Track back encoder ticks 0 L 0 R
+19.273 Roll motor encoder ticks 0
+19.273 "The Box" limit ticks 1 1
+19.274 "The Box" is lowered
+19.274 Encoder Raw 0000000000000000
+19.274 Arduino not connected
+19.274 Arduino Heartbeat: 0
+19.274 UI:
+  speed control
+
+19.284 Connection Lost
+19.285 Attempting to connect
+19.335 Sending telemetry, waiting for command
+19.336 Left Mining Motor : speed 0, counter 0
+19.337 Track front encoder ticks 0 L 0 R
+19.337 Track back encoder ticks 0 L 0 R
+19.337 Roll motor encoder ticks 0
+19.337 "The Box" limit ticks 1 1
+19.337 "The Box" is lowered
+19.337 Encoder Raw 0000000000000000
+19.337 Arduino not connected
+19.337 Arduino Heartbeat: 0
+19.337 UI:
+  speed control
+
+19.347 Connection Lost
+19.348 Attempting to connect
+19.398 Sending telemetry, waiting for command
+19.400 Left Mining Motor : speed 0, counter 0
+19.400 Track front encoder ticks 0 L 0 R
+19.400 Track back encoder ticks 0 L 0 R
+19.400 Roll motor encoder ticks 0
+19.400 "The Box" limit ticks 1 1
+19.400 "The Box" is lowered
+19.400 Encoder Raw 0000000000000000
+19.400 Arduino not connected
+19.400 Arduino Heartbeat: 0
+19.400 UI:
+  speed control
+
+19.410 Connection Lost
+19.411 Attempting to connect
+19.461 Sending telemetry, waiting for command
+19.463 Left Mining Motor : speed 0, counter 0
+19.463 Track front encoder ticks 0 L 0 R
+19.464 Track back encoder ticks 0 L 0 R
+19.464 Roll motor encoder ticks 0
+19.464 "The Box" limit ticks 1 1
+19.464 "The Box" is lowered
+19.464 Encoder Raw 0000000000000000
+19.464 Arduino not connected
+19.464 Arduino Heartbeat: 0
+19.464 UI:
+  speed control
+
+19.474 Connection Lost
+19.475 Attempting to connect
+19.525 Sending telemetry, waiting for command
+19.527 Left Mining Motor : speed 0, counter 0
+19.527 Track front encoder ticks 0 L 0 R
+19.527 Track back encoder ticks 0 L 0 R
+19.528 Roll motor encoder ticks 0
+19.528 "The Box" limit ticks 1 1
+19.528 "The Box" is lowered
+19.528 Encoder Raw 0000000000000000
+19.528 Arduino not connected
+19.528 Arduino Heartbeat: 0
+19.528 UI:
+  speed control
+
+19.538 Connection Lost
+19.539 Attempting to connect
+19.589 Sending telemetry, waiting for command
+19.591 Left Mining Motor : speed 0, counter 0
+19.591 Track front encoder ticks 0 L 0 R
+19.591 Track back encoder ticks 0 L 0 R
+19.591 Roll motor encoder ticks 0
+19.592 "The Box" limit ticks 1 1
+19.592 "The Box" is lowered
+19.592 Encoder Raw 0000000000000000
+19.592 Arduino not connected
+19.592 Arduino Heartbeat: 0
+19.592 UI:
+  speed control
+
+19.602 Connection Lost
+19.603 Attempting to connect
+19.653 Sending telemetry, waiting for command
+19.655 Left Mining Motor : speed 0, counter 0
+19.655 Track front encoder ticks 0 L 0 R
+19.655 Track back encoder ticks 0 L 0 R
+19.655 Roll motor encoder ticks 0
+19.655 "The Box" limit ticks 1 1
+19.655 "The Box" is lowered
+19.655 Encoder Raw 0000000000000000
+19.655 Arduino not connected
+19.656 Arduino Heartbeat: 0
+19.656 UI:
+  speed control
+
+19.666 Connection Lost
+19.667 Attempting to connect
+19.717 Sending telemetry, waiting for command
+19.718 Left Mining Motor : speed 0, counter 0
+19.719 Track front encoder ticks 0 L 0 R
+19.719 Track back encoder ticks 0 L 0 R
+19.719 Roll motor encoder ticks 0
+19.719 "The Box" limit ticks 1 1
+19.719 "The Box" is lowered
+19.719 Encoder Raw 0000000000000000
+19.719 Arduino not connected
+19.719 Arduino Heartbeat: 0
+19.719 UI:
+  speed control
+
+19.729 Connection Lost
+19.730 Attempting to connect
+19.781 Sending telemetry, waiting for command
+19.782 Left Mining Motor : speed 0, counter 0
+19.782 Track front encoder ticks 0 L 0 R
+19.782 Track back encoder ticks 0 L 0 R
+19.782 Roll motor encoder ticks 0
+19.782 "The Box" limit ticks 1 1
+19.782 "The Box" is lowered
+19.782 Encoder Raw 0000000000000000
+19.782 Arduino not connected
+19.782 Arduino Heartbeat: 0
+19.783 UI:
+  speed control
+
+19.793 Connection Lost
+19.793 Attempting to connect
+19.844 Sending telemetry, waiting for command
+19.845 Left Mining Motor : speed 0, counter 0
+19.846 Track front encoder ticks 0 L 0 R
+19.846 Track back encoder ticks 0 L 0 R
+19.846 Roll motor encoder ticks 0
+19.846 "The Box" limit ticks 1 1
+19.846 "The Box" is lowered
+19.846 Encoder Raw 0000000000000000
+19.846 Arduino not connected
+19.846 Arduino Heartbeat: 0
+19.846 UI:
+  speed control
+
+19.856 Connection Lost
+19.857 Attempting to connect
+19.907 Sending telemetry, waiting for command
+19.909 Left Mining Motor : speed 0, counter 0
+19.909 Track front encoder ticks 0 L 0 R
+19.909 Track back encoder ticks 0 L 0 R
+19.909 Roll motor encoder ticks 0
+19.910 "The Box" limit ticks 1 1
+19.910 "The Box" is lowered
+19.910 Encoder Raw 0000000000000000
+19.910 Arduino not connected
+19.910 Arduino Heartbeat: 0
+19.910 UI:
+  speed control
+
+19.920 Connection Lost
+19.921 Attempting to connect
+19.971 Sending telemetry, waiting for command
+19.973 Left Mining Motor : speed 0, counter 0
+19.973 Track front encoder ticks 0 L 0 R
+19.973 Track back encoder ticks 0 L 0 R
+19.973 Roll motor encoder ticks 0
+19.973 "The Box" limit ticks 1 1
+19.973 "The Box" is lowered
+19.973 Encoder Raw 0000000000000000
+19.973 Arduino not connected
+19.973 Arduino Heartbeat: 0
+19.973 UI:
+  speed control
+
+19.983 Connection Lost
+19.984 Attempting to connect
+20.034 Sending telemetry, waiting for command
+20.036 Left Mining Motor : speed 0, counter 0
+20.036 Track front encoder ticks 0 L 0 R
+20.036 Track back encoder ticks 0 L 0 R
+20.036 Roll motor encoder ticks 0
+20.036 "The Box" limit ticks 1 1
+20.036 "The Box" is lowered
+20.036 Encoder Raw 0000000000000000
+20.036 Arduino not connected
+20.037 Arduino Heartbeat: 0
+20.037 UI:
+  speed control
+
+20.047 Connection Lost
+20.048 Attempting to connect
+20.098 Sending telemetry, waiting for command
+20.099 Left Mining Motor : speed 0, counter 0
+20.099 Track front encoder ticks 0 L 0 R
+20.099 Track back encoder ticks 0 L 0 R
+20.099 Roll motor encoder ticks 0
+20.099 "The Box" limit ticks 1 1
+20.100 "The Box" is lowered
+20.100 Encoder Raw 0000000000000000
+20.100 Arduino not connected
+20.100 Arduino Heartbeat: 0
+20.100 UI:
+  speed control
+
+20.110 Connection Lost
+20.112 Attempting to connect
+20.162 Sending telemetry, waiting for command
+20.165 Left Mining Motor : speed 0, counter 0
+20.165 Track front encoder ticks 0 L 0 R
+20.165 Track back encoder ticks 0 L 0 R
+20.166 Roll motor encoder ticks 0
+20.166 "The Box" limit ticks 1 1
+20.166 "The Box" is lowered
+20.166 Encoder Raw 0000000000000000
+20.166 Arduino not connected
+20.166 Arduino Heartbeat: 0
+20.166 UI:
+  speed control
+
+20.177 Connection Lost
+20.178 Attempting to connect
+20.228 Sending telemetry, waiting for command
+20.230 Left Mining Motor : speed 0, counter 0
+20.230 Track front encoder ticks 0 L 0 R
+20.230 Track back encoder ticks 0 L 0 R
+20.230 Roll motor encoder ticks 0
+20.230 "The Box" limit ticks 1 1
+20.230 "The Box" is lowered
+20.230 Encoder Raw 0000000000000000
+20.230 Arduino not connected
+20.230 Arduino Heartbeat: 0
+20.230 UI:
+  speed control
+
+20.241 Connection Lost
+20.241 Attempting to connect
+20.292 Sending telemetry, waiting for command
+20.293 Left Mining Motor : speed 0, counter 0
+20.293 Track front encoder ticks 0 L 0 R
+20.293 Track back encoder ticks 0 L 0 R
+20.293 Roll motor encoder ticks 0
+20.293 "The Box" limit ticks 1 1
+20.293 "The Box" is lowered
+20.293 Encoder Raw 0000000000000000
+20.293 Arduino not connected
+20.293 Arduino Heartbeat: 0
+20.294 UI:
+  speed control
+
+20.304 Connection Lost
+20.304 Attempting to connect
+20.355 Sending telemetry, waiting for command
+20.356 Left Mining Motor : speed 0, counter 0
+20.356 Track front encoder ticks 0 L 0 R
+20.356 Track back encoder ticks 0 L 0 R
+20.356 Roll motor encoder ticks 0
+20.356 "The Box" limit ticks 1 1
+20.356 "The Box" is lowered
+20.356 Encoder Raw 0000000000000000
+20.356 Arduino not connected
+20.356 Arduino Heartbeat: 0
+20.356 UI:
+  speed control
+
+20.367 Connection Lost
+20.368 Attempting to connect
+20.418 Sending telemetry, waiting for command
+20.420 Left Mining Motor : speed 0, counter 0
+20.420 Track front encoder ticks 0 L 0 R
+20.420 Track back encoder ticks 0 L 0 R
+20.420 Roll motor encoder ticks 0
+20.420 "The Box" limit ticks 1 1
+20.420 "The Box" is lowered
+20.420 Encoder Raw 0000000000000000
+20.420 Arduino not connected
+20.420 Arduino Heartbeat: 0
+20.420 UI:
+  speed control
+
+20.430 Connection Lost
+20.431 Attempting to connect
+20.481 Sending telemetry, waiting for command
+20.483 Left Mining Motor : speed 0, counter 0
+20.483 Track front encoder ticks 0 L 0 R
+20.483 Track back encoder ticks 0 L 0 R
+20.483 Roll motor encoder ticks 0
+20.483 "The Box" limit ticks 1 1
+20.484 "The Box" is lowered
+20.484 Encoder Raw 0000000000000000
+20.484 Arduino not connected
+20.484 Arduino Heartbeat: 0
+20.484 UI:
+  speed control
+
+20.494 Connection Lost
+20.495 Attempting to connect
+20.545 Sending telemetry, waiting for command
+20.547 Left Mining Motor : speed 0, counter 0
+20.547 Track front encoder ticks 0 L 0 R
+20.547 Track back encoder ticks 0 L 0 R
+20.547 Roll motor encoder ticks 0
+20.547 "The Box" limit ticks 1 1
+20.547 "The Box" is lowered
+20.547 Encoder Raw 0000000000000000
+20.547 Arduino not connected
+20.547 Arduino Heartbeat: 0
+20.547 UI:
+  speed control
+
+20.557 Connection Lost
+20.558 Attempting to connect
+20.608 Sending telemetry, waiting for command
+20.610 Left Mining Motor : speed 0, counter 0
+20.610 Track front encoder ticks 0 L 0 R
+20.610 Track back encoder ticks 0 L 0 R
+20.610 Roll motor encoder ticks 0
+20.610 "The Box" limit ticks 1 1
+20.610 "The Box" is lowered
+20.610 Encoder Raw 0000000000000000
+20.611 Arduino not connected
+20.611 Arduino Heartbeat: 0
+20.611 UI:
+  speed control
+
+20.621 Connection Lost
+20.622 Attempting to connect
+20.673 Sending telemetry, waiting for command
+20.674 Left Mining Motor : speed 0, counter 0
+20.674 Track front encoder ticks 0 L 0 R
+20.674 Track back encoder ticks 0 L 0 R
+20.674 Roll motor encoder ticks 0
+20.674 "The Box" limit ticks 1 1
+20.674 "The Box" is lowered
+20.674 Encoder Raw 0000000000000000
+20.674 Arduino not connected
+20.675 Arduino Heartbeat: 0
+20.675 UI:
+  speed control
+
+20.685 Connection Lost
+20.686 Attempting to connect
+20.736 Sending telemetry, waiting for command
+20.738 Left Mining Motor : speed 0, counter 0
+20.738 Track front encoder ticks 0 L 0 R
+20.738 Track back encoder ticks 0 L 0 R
+20.738 Roll motor encoder ticks 0
+20.738 "The Box" limit ticks 1 1
+20.738 "The Box" is lowered
+20.738 Encoder Raw 0000000000000000
+20.738 Arduino not connected
+20.738 Arduino Heartbeat: 0
+20.738 UI:
+  speed control
+
+20.749 Connection Lost
+20.749 Attempting to connect
+20.800 Sending telemetry, waiting for command
+20.801 Left Mining Motor : speed 0, counter 0
+20.801 Track front encoder ticks 0 L 0 R
+20.801 Track back encoder ticks 0 L 0 R
+20.801 Roll motor encoder ticks 0
+20.802 "The Box" limit ticks 1 1
+20.802 "The Box" is lowered
+20.802 Encoder Raw 0000000000000000
+20.802 Arduino not connected
+20.802 Arduino Heartbeat: 0
+20.802 UI:
+  speed control
+
+20.812 Connection Lost
+20.813 Attempting to connect
+20.863 Sending telemetry, waiting for command
+20.865 Left Mining Motor : speed 0, counter 0
+20.865 Track front encoder ticks 0 L 0 R
+20.865 Track back encoder ticks 0 L 0 R
+20.865 Roll motor encoder ticks 0
+20.865 "The Box" limit ticks 1 1
+20.865 "The Box" is lowered
+20.865 Encoder Raw 0000000000000000
+20.865 Arduino not connected
+20.866 Arduino Heartbeat: 0
+20.866 UI:
+  speed control
+
+20.876 Connection Lost
+20.877 Attempting to connect
+20.927 Sending telemetry, waiting for command
+20.928 Left Mining Motor : speed 0, counter 0
+20.929 Track front encoder ticks 0 L 0 R
+20.929 Track back encoder ticks 0 L 0 R
+20.929 Roll motor encoder ticks 0
+20.929 "The Box" limit ticks 1 1
+20.929 "The Box" is lowered
+20.929 Encoder Raw 0000000000000000
+20.929 Arduino not connected
+20.929 Arduino Heartbeat: 0
+20.929 UI:
+  speed control
+
+20.939 Connection Lost
+20.940 Attempting to connect
+20.990 Sending telemetry, waiting for command
+20.992 Left Mining Motor : speed 0, counter 0
+20.992 Track front encoder ticks 0 L 0 R
+20.992 Track back encoder ticks 0 L 0 R
+20.992 Roll motor encoder ticks 0
+20.992 "The Box" limit ticks 1 1
+20.992 "The Box" is lowered
+20.992 Encoder Raw 0000000000000000
+20.992 Arduino not connected
+20.992 Arduino Heartbeat: 0
+20.992 UI:
+  speed control
+
+21.003 Connection Lost
+21.003 Attempting to connect
+21.054 Sending telemetry, waiting for command
+21.055 Left Mining Motor : speed 0, counter 0
+21.056 Track front encoder ticks 0 L 0 R
+21.056 Track back encoder ticks 0 L 0 R
+21.056 Roll motor encoder ticks 0
+21.056 "The Box" limit ticks 1 1
+21.056 "The Box" is lowered
+21.056 Encoder Raw 0000000000000000
+21.056 Arduino not connected
+21.056 Arduino Heartbeat: 0
+21.056 UI:
+  speed control
+
+21.067 Connection Lost
+21.067 Attempting to connect
+21.118 Sending telemetry, waiting for command
+21.119 Left Mining Motor : speed 0, counter 0
+21.119 Track front encoder ticks 0 L 0 R
+21.120 Track back encoder ticks 0 L 0 R
+21.120 Roll motor encoder ticks 0
+21.120 "The Box" limit ticks 1 1
+21.120 "The Box" is lowered
+21.120 Encoder Raw 0000000000000000
+21.120 Arduino not connected
+21.120 Arduino Heartbeat: 0
+21.120 UI:
+  speed control
+
+21.130 Connection Lost
+21.131 Attempting to connect
+21.181 Sending telemetry, waiting for command
+21.183 Left Mining Motor : speed 0, counter 0
+21.183 Track front encoder ticks 0 L 0 R
+21.183 Track back encoder ticks 0 L 0 R
+21.184 Roll motor encoder ticks 0
+21.184 "The Box" limit ticks 1 1
+21.184 "The Box" is lowered
+21.184 Encoder Raw 0000000000000000
+21.184 Arduino not connected
+21.184 Arduino Heartbeat: 0
+21.184 UI:
+  speed control
+
+21.194 Connection Lost
+21.195 Attempting to connect
+21.245 Sending telemetry, waiting for command
+21.247 Left Mining Motor : speed 0, counter 0
+21.247 Track front encoder ticks 0 L 0 R
+21.247 Track back encoder ticks 0 L 0 R
+21.247 Roll motor encoder ticks 0
+21.248 "The Box" limit ticks 1 1
+21.248 "The Box" is lowered
+21.248 Encoder Raw 0000000000000000
+21.248 Arduino not connected
+21.248 Arduino Heartbeat: 0
+21.248 UI:
+  speed control
+
+21.258 Connection Lost
+21.259 Attempting to connect
+21.309 Sending telemetry, waiting for command
+21.310 Left Mining Motor : speed 0, counter 0
+21.311 Track front encoder ticks 0 L 0 R
+21.311 Track back encoder ticks 0 L 0 R
+21.311 Roll motor encoder ticks 0
+21.311 "The Box" limit ticks 1 1
+21.311 "The Box" is lowered
+21.311 Encoder Raw 0000000000000000
+21.311 Arduino not connected
+21.311 Arduino Heartbeat: 0
+21.311 UI:
+  speed control
+
+21.321 Connection Lost
+21.322 Attempting to connect
+21.372 Sending telemetry, waiting for command
+21.374 Left Mining Motor : speed 0, counter 0
+21.374 Track front encoder ticks 0 L 0 R
+21.374 Track back encoder ticks 0 L 0 R
+21.374 Roll motor encoder ticks 0
+21.374 "The Box" limit ticks 1 1
+21.374 "The Box" is lowered
+21.374 Encoder Raw 0000000000000000
+21.374 Arduino not connected
+21.374 Arduino Heartbeat: 0
+21.374 UI:
+  speed control
+
+21.385 Connection Lost
+21.385 Attempting to connect
+21.436 Sending telemetry, waiting for command
+21.437 Left Mining Motor : speed 0, counter 0
+21.437 Track front encoder ticks 0 L 0 R
+21.437 Track back encoder ticks 0 L 0 R
+21.438 Roll motor encoder ticks 0
+21.438 "The Box" limit ticks 1 1
+21.438 "The Box" is lowered
+21.438 Encoder Raw 0000000000000000
+21.438 Arduino not connected
+21.438 Arduino Heartbeat: 0
+21.438 UI:
+  speed control
+
+21.448 Connection Lost
+21.449 Attempting to connect
+21.499 Sending telemetry, waiting for command
+21.501 Left Mining Motor : speed 0, counter 0
+21.501 Track front encoder ticks 0 L 0 R
+21.501 Track back encoder ticks 0 L 0 R
+21.501 Roll motor encoder ticks 0
+21.501 "The Box" limit ticks 1 1
+21.501 "The Box" is lowered
+21.501 Encoder Raw 0000000000000000
+21.501 Arduino not connected
+21.501 Arduino Heartbeat: 0
+21.502 UI:
+  speed control
+
+21.512 Connection Lost
+21.513 Attempting to connect
+21.563 Sending telemetry, waiting for command
+21.564 Left Mining Motor : speed 0, counter 0
+21.564 Track front encoder ticks 0 L 0 R
+21.565 Track back encoder ticks 0 L 0 R
+21.565 Roll motor encoder ticks 0
+21.565 "The Box" limit ticks 1 1
+21.565 "The Box" is lowered
+21.565 Encoder Raw 0000000000000000
+21.565 Arduino not connected
+21.565 Arduino Heartbeat: 0
+21.565 UI:
+  speed control
+
+21.575 Connection Lost
+21.576 Attempting to connect
+21.626 Sending telemetry, waiting for command
+21.628 Left Mining Motor : speed 0, counter 0
+21.628 Track front encoder ticks 0 L 0 R
+21.628 Track back encoder ticks 0 L 0 R
+21.628 Roll motor encoder ticks 0
+21.628 "The Box" limit ticks 1 1
+21.628 "The Box" is lowered
+21.628 Encoder Raw 0000000000000000
+21.628 Arduino not connected
+21.628 Arduino Heartbeat: 0
+21.628 UI:
+  speed control
+
+21.638 Connection Lost
+21.639 Attempting to connect
+21.689 Sending telemetry, waiting for command
+21.691 Left Mining Motor : speed 0, counter 0
+21.691 Track front encoder ticks 0 L 0 R
+21.691 Track back encoder ticks 0 L 0 R
+21.691 Roll motor encoder ticks 0
+21.691 "The Box" limit ticks 1 1
+21.691 "The Box" is lowered
+21.691 Encoder Raw 0000000000000000
+21.691 Arduino not connected
+21.691 Arduino Heartbeat: 0
+21.691 UI:
+  speed control
+
+21.702 Connection Lost
+21.702 Attempting to connect
+21.753 Sending telemetry, waiting for command
+21.754 Left Mining Motor : speed 0, counter 0
+21.754 Track front encoder ticks 0 L 0 R
+21.754 Track back encoder ticks 0 L 0 R
+21.754 Roll motor encoder ticks 0
+21.754 "The Box" limit ticks 1 1
+21.754 "The Box" is lowered
+21.754 Encoder Raw 0000000000000000
+21.754 Arduino not connected
+21.755 Arduino Heartbeat: 0
+21.755 UI:
+  speed control
+
+21.765 Connection Lost
+21.765 Attempting to connect
+21.816 Sending telemetry, waiting for command
+21.817 Left Mining Motor : speed 0, counter 0
+21.817 Track front encoder ticks 0 L 0 R
+21.817 Track back encoder ticks 0 L 0 R
+21.817 Roll motor encoder ticks 0
+21.817 "The Box" limit ticks 1 1
+21.817 "The Box" is lowered
+21.818 Encoder Raw 0000000000000000
+21.818 Arduino not connected
+21.818 Arduino Heartbeat: 0
+21.818 UI:
+  speed control
+
+21.828 Connection Lost
+21.829 Attempting to connect
+21.879 Sending telemetry, waiting for command
+21.880 Left Mining Motor : speed 0, counter 0
+21.880 Track front encoder ticks 0 L 0 R
+21.881 Track back encoder ticks 0 L 0 R
+21.881 Roll motor encoder ticks 0
+21.881 "The Box" limit ticks 1 1
+21.881 "The Box" is lowered
+21.881 Encoder Raw 0000000000000000
+21.881 Arduino not connected
+21.881 Arduino Heartbeat: 0
+21.881 UI:
+  speed control
+
+21.891 Connection Lost
+21.892 Attempting to connect
+21.942 Sending telemetry, waiting for command
+21.944 Left Mining Motor : speed 0, counter 0
+21.944 Track front encoder ticks 0 L 0 R
+21.944 Track back encoder ticks 0 L 0 R
+21.944 Roll motor encoder ticks 0
+21.944 "The Box" limit ticks 1 1
+21.944 "The Box" is lowered
+21.944 Encoder Raw 0000000000000000
+21.944 Arduino not connected
+21.944 Arduino Heartbeat: 0
+21.944 UI:
+  speed control
+
+21.954 Connection Lost
+21.955 Attempting to connect
+22.005 Sending telemetry, waiting for command
+22.007 Left Mining Motor : speed 0, counter 0
+22.007 Track front encoder ticks 0 L 0 R
+22.007 Track back encoder ticks 0 L 0 R
+22.007 Roll motor encoder ticks 0
+22.007 "The Box" limit ticks 1 1
+22.007 "The Box" is lowered
+22.007 Encoder Raw 0000000000000000
+22.007 Arduino not connected
+22.007 Arduino Heartbeat: 0
+22.007 UI:
+  speed control
+
+22.017 Connection Lost
+22.018 Attempting to connect
+22.068 Sending telemetry, waiting for command
+22.070 Left Mining Motor : speed 0, counter 0
+22.070 Track front encoder ticks 0 L 0 R
+22.070 Track back encoder ticks 0 L 0 R
+22.070 Roll motor encoder ticks 0
+22.070 "The Box" limit ticks 1 1
+22.070 "The Box" is lowered
+22.070 Encoder Raw 0000000000000000
+22.070 Arduino not connected
+22.071 Arduino Heartbeat: 0
+22.071 UI:
+  speed control
+
+22.081 Connection Lost
+22.082 Attempting to connect
+22.132 Sending telemetry, waiting for command
+22.134 Left Mining Motor : speed 0, counter 0
+22.134 Track front encoder ticks 0 L 0 R
+22.134 Track back encoder ticks 0 L 0 R
+22.134 Roll motor encoder ticks 0
+22.134 "The Box" limit ticks 1 1
+22.134 "The Box" is lowered
+22.134 Encoder Raw 0000000000000000
+22.134 Arduino not connected
+22.134 Arduino Heartbeat: 0
+22.134 UI:
+  speed control
+
+22.145 Connection Lost
+22.145 Attempting to connect
+22.196 Sending telemetry, waiting for command
+22.197 Left Mining Motor : speed 0, counter 0
+22.197 Track front encoder ticks 0 L 0 R
+22.197 Track back encoder ticks 0 L 0 R
+22.197 Roll motor encoder ticks 0
+22.197 "The Box" limit ticks 1 1
+22.197 "The Box" is lowered
+22.197 Encoder Raw 0000000000000000
+22.198 Arduino not connected
+22.198 Arduino Heartbeat: 0
+22.198 UI:
+  speed control
+
+22.208 Connection Lost
+22.209 Attempting to connect
+22.259 Sending telemetry, waiting for command
+22.260 Left Mining Motor : speed 0, counter 0
+22.260 Track front encoder ticks 0 L 0 R
+22.261 Track back encoder ticks 0 L 0 R
+22.261 Roll motor encoder ticks 0
+22.261 "The Box" limit ticks 1 1
+22.261 "The Box" is lowered
+22.261 Encoder Raw 0000000000000000
+22.261 Arduino not connected
+22.261 Arduino Heartbeat: 0
+22.261 UI:
+  speed control
+
+22.271 Connection Lost
+22.272 Attempting to connect
+22.322 Sending telemetry, waiting for command
+22.323 Left Mining Motor : speed 0, counter 0
+22.324 Track front encoder ticks 0 L 0 R
+22.324 Track back encoder ticks 0 L 0 R
+22.324 Roll motor encoder ticks 0
+22.324 "The Box" limit ticks 1 1
+22.324 "The Box" is lowered
+22.324 Encoder Raw 0000000000000000
+22.324 Arduino not connected
+22.324 Arduino Heartbeat: 0
+22.324 UI:
+  speed control
+
+22.334 Connection Lost
+22.335 Attempting to connect
+22.385 Sending telemetry, waiting for command
+22.387 Left Mining Motor : speed 0, counter 0
+22.387 Track front encoder ticks 0 L 0 R
+22.387 Track back encoder ticks 0 L 0 R
+22.387 Roll motor encoder ticks 0
+22.387 "The Box" limit ticks 1 1
+22.387 "The Box" is lowered
+22.387 Encoder Raw 0000000000000000
+22.388 Arduino not connected
+22.388 Arduino Heartbeat: 0
+22.388 UI:
+  speed control
+
+22.398 Connection Lost
+22.399 Attempting to connect
+22.449 Sending telemetry, waiting for command
+22.450 Left Mining Motor : speed 0, counter 0
+22.451 Track front encoder ticks 0 L 0 R
+22.451 Track back encoder ticks 0 L 0 R
+22.451 Roll motor encoder ticks 0
+22.451 "The Box" limit ticks 1 1
+22.451 "The Box" is lowered
+22.451 Encoder Raw 0000000000000000
+22.451 Arduino not connected
+22.451 Arduino Heartbeat: 0
+22.451 UI:
+  speed control
+
+22.462 Connection Lost
+22.462 Attempting to connect
+22.513 Sending telemetry, waiting for command
+22.515 Left Mining Motor : speed 0, counter 0
+22.515 Track front encoder ticks 0 L 0 R
+22.515 Track back encoder ticks 0 L 0 R
+22.515 Roll motor encoder ticks 0
+22.515 "The Box" limit ticks 1 1
+22.515 "The Box" is lowered
+22.515 Encoder Raw 0000000000000000
+22.515 Arduino not connected
+22.516 Arduino Heartbeat: 0
+22.516 UI:
+  speed control
+
+22.526 Connection Lost
+22.528 Attempting to connect
+22.578 Sending telemetry, waiting for command
+22.580 Left Mining Motor : speed 0, counter 0
+22.580 Track front encoder ticks 0 L 0 R
+22.580 Track back encoder ticks 0 L 0 R
+22.580 Roll motor encoder ticks 0
+22.580 "The Box" limit ticks 1 1
+22.580 "The Box" is lowered
+22.580 Encoder Raw 0000000000000000
+22.580 Arduino not connected
+22.581 Arduino Heartbeat: 0
+22.581 UI:
+  speed control
+
+22.591 Connection Lost
+22.592 Attempting to connect
+22.642 Sending telemetry, waiting for command
+22.644 Left Mining Motor : speed 0, counter 0
+22.644 Track front encoder ticks 0 L 0 R
+22.644 Track back encoder ticks 0 L 0 R
+22.644 Roll motor encoder ticks 0
+22.644 "The Box" limit ticks 1 1
+22.644 "The Box" is lowered
+22.644 Encoder Raw 0000000000000000
+22.644 Arduino not connected
+22.645 Arduino Heartbeat: 0
+22.645 UI:
+  speed control
+
+22.655 Connection Lost
+22.656 Attempting to connect
+22.706 Sending telemetry, waiting for command
+22.707 Left Mining Motor : speed 0, counter 0
+22.707 Track front encoder ticks 0 L 0 R
+22.707 Track back encoder ticks 0 L 0 R
+22.708 Roll motor encoder ticks 0
+22.708 "The Box" limit ticks 1 1
+22.708 "The Box" is lowered
+22.708 Encoder Raw 0000000000000000
+22.708 Arduino not connected
+22.708 Arduino Heartbeat: 0
+22.708 UI:
+  speed control
+
+22.718 Connection Lost
+22.719 Attempting to connect
+22.769 Sending telemetry, waiting for command
+22.771 Left Mining Motor : speed 0, counter 0
+22.771 Track front encoder ticks 0 L 0 R
+22.771 Track back encoder ticks 0 L 0 R
+22.771 Roll motor encoder ticks 0
+22.771 "The Box" limit ticks 1 1
+22.771 "The Box" is lowered
+22.771 Encoder Raw 0000000000000000
+22.772 Arduino not connected
+22.772 Arduino Heartbeat: 0
+22.772 UI:
+  speed control
+
+22.782 Connection Lost
+22.783 Attempting to connect
+22.833 Sending telemetry, waiting for command
+22.834 Left Mining Motor : speed 0, counter 0
+22.834 Track front encoder ticks 0 L 0 R
+22.835 Track back encoder ticks 0 L 0 R
+22.835 Roll motor encoder ticks 0
+22.835 "The Box" limit ticks 1 1
+22.835 "The Box" is lowered
+22.835 Encoder Raw 0000000000000000
+22.835 Arduino not connected
+22.835 Arduino Heartbeat: 0
+22.835 UI:
+  speed control
+
+22.845 Connection Lost
+22.846 Attempting to connect
+22.896 Sending telemetry, waiting for command
+22.898 Left Mining Motor : speed 0, counter 0
+22.898 Track front encoder ticks 0 L 0 R
+22.898 Track back encoder ticks 0 L 0 R
+22.898 Roll motor encoder ticks 0
+22.898 "The Box" limit ticks 1 1
+22.899 "The Box" is lowered
+22.899 Encoder Raw 0000000000000000
+22.899 Arduino not connected
+22.899 Arduino Heartbeat: 0
+22.899 UI:
+  speed control
+
+22.909 Connection Lost
+22.910 Attempting to connect
+22.960 Sending telemetry, waiting for command
+22.962 Left Mining Motor : speed 0, counter 0
+22.962 Track front encoder ticks 0 L 0 R
+22.962 Track back encoder ticks 0 L 0 R
+22.962 Roll motor encoder ticks 0
+22.962 "The Box" limit ticks 1 1
+22.962 "The Box" is lowered
+22.963 Encoder Raw 0000000000000000
+22.963 Arduino not connected
+22.963 Arduino Heartbeat: 0
+22.963 UI:
+  speed control
+
+22.973 Connection Lost
+22.974 Attempting to connect
+23.024 Sending telemetry, waiting for command
+23.026 Left Mining Motor : speed 0, counter 0
+23.026 Track front encoder ticks 0 L 0 R
+23.026 Track back encoder ticks 0 L 0 R
+23.026 Roll motor encoder ticks 0
+23.026 "The Box" limit ticks 1 1
+23.026 "The Box" is lowered
+23.026 Encoder Raw 0000000000000000
+23.026 Arduino not connected
+23.026 Arduino Heartbeat: 0
+23.026 UI:
+  speed control
+
+23.036 Connection Lost
+23.037 Attempting to connect
+23.088 Sending telemetry, waiting for command
+23.089 Left Mining Motor : speed 0, counter 0
+23.089 Track front encoder ticks 0 L 0 R
+23.090 Track back encoder ticks 0 L 0 R
+23.090 Roll motor encoder ticks 0
+23.090 "The Box" limit ticks 1 1
+23.090 "The Box" is lowered
+23.090 Encoder Raw 0000000000000000
+23.090 Arduino not connected
+23.090 Arduino Heartbeat: 0
+23.090 UI:
+  speed control
+
+23.100 Connection Lost
+23.101 Attempting to connect
+23.151 Sending telemetry, waiting for command
+23.154 Left Mining Motor : speed 0, counter 0
+23.155 Track front encoder ticks 0 L 0 R
+23.155 Track back encoder ticks 0 L 0 R
+23.155 Roll motor encoder ticks 0
+23.155 "The Box" limit ticks 1 1
+23.156 "The Box" is lowered
+23.156 Encoder Raw 0000000000000000
+23.156 Arduino not connected
+23.156 Arduino Heartbeat: 0
+23.156 UI:
+  speed control
+
+23.167 Connection Lost
+23.167 Attempting to connect
+23.218 Sending telemetry, waiting for command
+23.219 Left Mining Motor : speed 0, counter 0
+23.220 Track front encoder ticks 0 L 0 R
+23.220 Track back encoder ticks 0 L 0 R
+23.220 Roll motor encoder ticks 0
+23.220 "The Box" limit ticks 1 1
+23.220 "The Box" is lowered
+23.220 Encoder Raw 0000000000000000
+23.220 Arduino not connected
+23.220 Arduino Heartbeat: 0
+23.220 UI:
+  speed control
+
+23.230 Connection Lost
+23.231 Attempting to connect
+23.281 Sending telemetry, waiting for command
+23.283 Left Mining Motor : speed 0, counter 0
+23.283 Track front encoder ticks 0 L 0 R
+23.283 Track back encoder ticks 0 L 0 R
+23.283 Roll motor encoder ticks 0
+23.283 "The Box" limit ticks 1 1
+23.283 "The Box" is lowered
+23.283 Encoder Raw 0000000000000000
+23.283 Arduino not connected
+23.283 Arduino Heartbeat: 0
+23.283 UI:
+  speed control
+
+23.293 Connection Lost
+23.294 Attempting to connect
+23.344 Sending telemetry, waiting for command
+23.346 Left Mining Motor : speed 0, counter 0
+23.346 Track front encoder ticks 0 L 0 R
+23.346 Track back encoder ticks 0 L 0 R
+23.346 Roll motor encoder ticks 0
+23.346 "The Box" limit ticks 1 1
+23.346 "The Box" is lowered
+23.347 Encoder Raw 0000000000000000
+23.347 Arduino not connected
+23.347 Arduino Heartbeat: 0
+23.347 UI:
+  speed control
+
+23.357 Connection Lost
+23.358 Attempting to connect
+23.408 Sending telemetry, waiting for command
+23.410 Left Mining Motor : speed 0, counter 0
+23.410 Track front encoder ticks 0 L 0 R
+23.410 Track back encoder ticks 0 L 0 R
+23.410 Roll motor encoder ticks 0
+23.410 "The Box" limit ticks 1 1
+23.410 "The Box" is lowered
+23.410 Encoder Raw 0000000000000000
+23.410 Arduino not connected
+23.410 Arduino Heartbeat: 0
+23.410 UI:
+  speed control
+
+23.420 Connection Lost
+23.421 Attempting to connect
+23.471 Sending telemetry, waiting for command
+23.473 Left Mining Motor : speed 0, counter 0
+23.473 Track front encoder ticks 0 L 0 R
+23.473 Track back encoder ticks 0 L 0 R
+23.473 Roll motor encoder ticks 0
+23.473 "The Box" limit ticks 1 1
+23.473 "The Box" is lowered
+23.473 Encoder Raw 0000000000000000
+23.473 Arduino not connected
+23.473 Arduino Heartbeat: 0
+23.473 UI:
+  speed control
+
+23.484 Connection Lost
+23.484 Attempting to connect
+23.535 Sending telemetry, waiting for command
+23.536 Left Mining Motor : speed 0, counter 0
+23.536 Track front encoder ticks 0 L 0 R
+23.536 Track back encoder ticks 0 L 0 R
+23.536 Roll motor encoder ticks 0
+23.536 "The Box" limit ticks 1 1
+23.537 "The Box" is lowered
+23.537 Encoder Raw 0000000000000000
+23.537 Arduino not connected
+23.537 Arduino Heartbeat: 0
+23.537 UI:
+  speed control
+
+23.547 Connection Lost
+23.548 Attempting to connect
+23.598 Sending telemetry, waiting for command
+23.599 Left Mining Motor : speed 0, counter 0
+23.600 Track front encoder ticks 0 L 0 R
+23.600 Track back encoder ticks 0 L 0 R
+23.600 Roll motor encoder ticks 0
+23.600 "The Box" limit ticks 1 1
+23.600 "The Box" is lowered
+23.600 Encoder Raw 0000000000000000
+23.600 Arduino not connected
+23.600 Arduino Heartbeat: 0
+23.600 UI:
+  speed control
+
+23.610 Connection Lost
+23.611 Attempting to connect
+23.661 Sending telemetry, waiting for command
+23.663 Left Mining Motor : speed 0, counter 0
+23.663 Track front encoder ticks 0 L 0 R
+23.663 Track back encoder ticks 0 L 0 R
+23.663 Roll motor encoder ticks 0
+23.663 "The Box" limit ticks 1 1
+23.663 "The Box" is lowered
+23.663 Encoder Raw 0000000000000000
+23.663 Arduino not connected
+23.664 Arduino Heartbeat: 0
+23.664 UI:
+  speed control
+
+23.674 Connection Lost
+23.675 Attempting to connect
+23.725 Sending telemetry, waiting for command
+23.727 Left Mining Motor : speed 0, counter 0
+23.727 Track front encoder ticks 0 L 0 R
+23.727 Track back encoder ticks 0 L 0 R
+23.727 Roll motor encoder ticks 0
+23.727 "The Box" limit ticks 1 1
+23.727 "The Box" is lowered
+23.727 Encoder Raw 0000000000000000
+23.727 Arduino not connected
+23.728 Arduino Heartbeat: 0
+23.728 UI:
+  speed control
+
+23.738 Connection Lost
+23.739 Attempting to connect
+23.789 Sending telemetry, waiting for command
+23.791 Left Mining Motor : speed 0, counter 0
+23.791 Track front encoder ticks 0 L 0 R
+23.791 Track back encoder ticks 0 L 0 R
+23.791 Roll motor encoder ticks 0
+23.791 "The Box" limit ticks 1 1
+23.791 "The Box" is lowered
+23.791 Encoder Raw 0000000000000000
+23.791 Arduino not connected
+23.791 Arduino Heartbeat: 0
+23.791 UI:
+  speed control
+
+23.802 Connection Lost
+23.802 Attempting to connect
+23.853 Sending telemetry, waiting for command
+23.854 Left Mining Motor : speed 0, counter 0
+23.854 Track front encoder ticks 0 L 0 R
+23.854 Track back encoder ticks 0 L 0 R
+23.855 Roll motor encoder ticks 0
+23.855 "The Box" limit ticks 1 1
+23.855 "The Box" is lowered
+23.855 Encoder Raw 0000000000000000
+23.855 Arduino not connected
+23.855 Arduino Heartbeat: 0
+23.855 UI:
+  speed control
+
+23.865 Connection Lost
+23.866 Attempting to connect
+23.916 Sending telemetry, waiting for command
+23.917 Left Mining Motor : speed 0, counter 0
+23.918 Track front encoder ticks 0 L 0 R
+23.918 Track back encoder ticks 0 L 0 R
+23.918 Roll motor encoder ticks 0
+23.918 "The Box" limit ticks 1 1
+23.918 "The Box" is lowered
+23.918 Encoder Raw 0000000000000000
+23.918 Arduino not connected
+23.918 Arduino Heartbeat: 0
+23.918 UI:
+  speed control
+
+23.928 Connection Lost
+23.929 Attempting to connect
+23.979 Sending telemetry, waiting for command
+23.981 Left Mining Motor : speed 0, counter 0
+23.981 Track front encoder ticks 0 L 0 R
+23.981 Track back encoder ticks 0 L 0 R
+23.981 Roll motor encoder ticks 0
+23.982 "The Box" limit ticks 1 1
+23.982 "The Box" is lowered
+23.982 Encoder Raw 0000000000000000
+23.982 Arduino not connected
+23.982 Arduino Heartbeat: 0
+23.982 UI:
+  speed control
+
+23.992 Connection Lost
+23.993 Attempting to connect
+24.043 Sending telemetry, waiting for command
+24.045 Left Mining Motor : speed 0, counter 0
+24.045 Track front encoder ticks 0 L 0 R
+24.045 Track back encoder ticks 0 L 0 R
+24.045 Roll motor encoder ticks 0
+24.045 "The Box" limit ticks 1 1
+24.045 "The Box" is lowered
+24.045 Encoder Raw 0000000000000000
+24.045 Arduino not connected
+24.045 Arduino Heartbeat: 0
+24.045 UI:
+  speed control
+
+24.056 Connection Lost
+24.057 Attempting to connect
+24.107 Sending telemetry, waiting for command
+24.108 Left Mining Motor : speed 0, counter 0
+24.108 Track front encoder ticks 0 L 0 R
+24.109 Track back encoder ticks 0 L 0 R
+24.109 Roll motor encoder ticks 0
+24.109 "The Box" limit ticks 1 1
+24.109 "The Box" is lowered
+24.109 Encoder Raw 0000000000000000
+24.109 Arduino not connected
+24.109 Arduino Heartbeat: 0
+24.109 UI:
+  speed control
+
+24.119 Connection Lost
+24.120 Attempting to connect
+24.170 Sending telemetry, waiting for command
+24.172 Left Mining Motor : speed 0, counter 0
+24.172 Track front encoder ticks 0 L 0 R
+24.172 Track back encoder ticks 0 L 0 R
+24.172 Roll motor encoder ticks 0
+24.172 "The Box" limit ticks 1 1
+24.172 "The Box" is lowered
+24.172 Encoder Raw 0000000000000000
+24.172 Arduino not connected
+24.172 Arduino Heartbeat: 0
+24.172 UI:
+  speed control
+
+24.183 Connection Lost
+24.183 Attempting to connect
+24.234 Sending telemetry, waiting for command
+24.235 Left Mining Motor : speed 0, counter 0
+24.235 Track front encoder ticks 0 L 0 R
+24.235 Track back encoder ticks 0 L 0 R
+24.235 Roll motor encoder ticks 0
+24.235 "The Box" limit ticks 1 1
+24.235 "The Box" is lowered
+24.236 Encoder Raw 0000000000000000
+24.236 Arduino not connected
+24.236 Arduino Heartbeat: 0
+24.236 UI:
+  speed control
+
+24.246 Connection Lost
+24.247 Attempting to connect
+24.297 Sending telemetry, waiting for command
+24.298 Left Mining Motor : speed 0, counter 0
+24.298 Track front encoder ticks 0 L 0 R
+24.299 Track back encoder ticks 0 L 0 R
+24.299 Roll motor encoder ticks 0
+24.299 "The Box" limit ticks 1 1
+24.299 "The Box" is lowered
+24.299 Encoder Raw 0000000000000000
+24.299 Arduino not connected
+24.299 Arduino Heartbeat: 0
+24.299 UI:
+  speed control
+
+24.309 Connection Lost
+24.310 Attempting to connect
+24.360 Sending telemetry, waiting for command
+24.362 Left Mining Motor : speed 0, counter 0
+24.362 Track front encoder ticks 0 L 0 R
+24.362 Track back encoder ticks 0 L 0 R
+24.362 Roll motor encoder ticks 0
+24.362 "The Box" limit ticks 1 1
+24.362 "The Box" is lowered
+24.362 Encoder Raw 0000000000000000
+24.362 Arduino not connected
+24.362 Arduino Heartbeat: 0
+24.362 UI:
+  speed control
+
+24.372 Connection Lost
+24.373 Attempting to connect
+24.423 Sending telemetry, waiting for command
+24.425 Left Mining Motor : speed 0, counter 0
+24.425 Track front encoder ticks 0 L 0 R
+24.425 Track back encoder ticks 0 L 0 R
+24.425 Roll motor encoder ticks 0
+24.425 "The Box" limit ticks 1 1
+24.425 "The Box" is lowered
+24.425 Encoder Raw 0000000000000000
+24.426 Arduino not connected
+24.426 Arduino Heartbeat: 0
+24.426 UI:
+  speed control
+
+24.436 Connection Lost
+24.437 Attempting to connect
+24.487 Sending telemetry, waiting for command
+24.488 Left Mining Motor : speed 0, counter 0
+24.488 Track front encoder ticks 0 L 0 R
+24.488 Track back encoder ticks 0 L 0 R
+24.489 Roll motor encoder ticks 0
+24.489 "The Box" limit ticks 1 1
+24.489 "The Box" is lowered
+24.489 Encoder Raw 0000000000000000
+24.489 Arduino not connected
+24.489 Arduino Heartbeat: 0
+24.489 UI:
+  speed control
+
+24.499 Connection Lost
+24.500 Attempting to connect
+24.550 Sending telemetry, waiting for command
+24.552 Left Mining Motor : speed 0, counter 0
+24.552 Track front encoder ticks 0 L 0 R
+24.552 Track back encoder ticks 0 L 0 R
+24.552 Roll motor encoder ticks 0
+24.552 "The Box" limit ticks 1 1
+24.552 "The Box" is lowered
+24.552 Encoder Raw 0000000000000000
+24.552 Arduino not connected
+24.553 Arduino Heartbeat: 0
+24.553 UI:
+  speed control
+
+24.563 Connection Lost
+24.564 Attempting to connect
+24.614 Sending telemetry, waiting for command
+24.615 Left Mining Motor : speed 0, counter 0
+24.615 Track front encoder ticks 0 L 0 R
+24.615 Track back encoder ticks 0 L 0 R
+24.616 Roll motor encoder ticks 0
+24.616 "The Box" limit ticks 1 1
+24.616 "The Box" is lowered
+24.616 Encoder Raw 0000000000000000
+24.616 Arduino not connected
+24.616 Arduino Heartbeat: 0
+24.616 UI:
+  speed control
+
+24.626 Connection Lost
+24.627 Attempting to connect
+24.677 Sending telemetry, waiting for command
+24.679 Left Mining Motor : speed 0, counter 0
+24.679 Track front encoder ticks 0 L 0 R
+24.679 Track back encoder ticks 0 L 0 R
+24.679 Roll motor encoder ticks 0
+24.679 "The Box" limit ticks 1 1
+24.679 "The Box" is lowered
+24.679 Encoder Raw 0000000000000000
+24.679 Arduino not connected
+24.679 Arduino Heartbeat: 0
+24.679 UI:
+  speed control
+
+24.689 Connection Lost
+24.690 Attempting to connect
+24.740 Sending telemetry, waiting for command
+24.742 Left Mining Motor : speed 0, counter 0
+24.742 Track front encoder ticks 0 L 0 R
+24.742 Track back encoder ticks 0 L 0 R
+24.742 Roll motor encoder ticks 0
+24.742 "The Box" limit ticks 1 1
+24.742 "The Box" is lowered
+24.742 Encoder Raw 0000000000000000
+24.742 Arduino not connected
+24.742 Arduino Heartbeat: 0
+24.742 UI:
+  speed control
+
+24.753 Connection Lost
+24.753 Attempting to connect
+24.804 Sending telemetry, waiting for command
+24.805 Left Mining Motor : speed 0, counter 0
+24.805 Track front encoder ticks 0 L 0 R
+24.805 Track back encoder ticks 0 L 0 R
+24.805 Roll motor encoder ticks 0
+24.805 "The Box" limit ticks 1 1
+24.805 "The Box" is lowered
+24.806 Encoder Raw 0000000000000000
+24.806 Arduino not connected
+24.806 Arduino Heartbeat: 0
+24.806 UI:
+  speed control
+
+24.816 Connection Lost
+24.817 Attempting to connect
+24.867 Sending telemetry, waiting for command
+24.868 Left Mining Motor : speed 0, counter 0
+24.868 Track front encoder ticks 0 L 0 R
+24.869 Track back encoder ticks 0 L 0 R
+24.869 Roll motor encoder ticks 0
+24.869 "The Box" limit ticks 1 1
+24.869 "The Box" is lowered
+24.869 Encoder Raw 0000000000000000
+24.869 Arduino not connected
+24.869 Arduino Heartbeat: 0
+24.869 UI:
+  speed control
+
+24.879 Connection Lost
+24.880 Attempting to connect
+24.930 Sending telemetry, waiting for command
+24.932 Left Mining Motor : speed 0, counter 0
+24.932 Track front encoder ticks 0 L 0 R
+24.932 Track back encoder ticks 0 L 0 R
+24.932 Roll motor encoder ticks 0
+24.932 "The Box" limit ticks 1 1
+24.932 "The Box" is lowered
+24.932 Encoder Raw 0000000000000000
+24.932 Arduino not connected
+24.932 Arduino Heartbeat: 0
+24.932 UI:
+  speed control
+
+24.942 Connection Lost
+24.943 Attempting to connect
+24.993 Sending telemetry, waiting for command
+24.995 Left Mining Motor : speed 0, counter 0
+24.995 Track front encoder ticks 0 L 0 R
+24.995 Track back encoder ticks 0 L 0 R
+24.995 Roll motor encoder ticks 0
+24.995 "The Box" limit ticks 1 1
+24.995 "The Box" is lowered
+24.995 Encoder Raw 0000000000000000
+24.995 Arduino not connected
+24.995 Arduino Heartbeat: 0
+24.996 UI:
+  speed control
+
+25.006 Connection Lost
+25.006 Attempting to connect
+25.057 Sending telemetry, waiting for command
+25.058 Left Mining Motor : speed 0, counter 0
+25.058 Track front encoder ticks 0 L 0 R
+25.058 Track back encoder ticks 0 L 0 R
+25.058 Roll motor encoder ticks 0
+25.059 "The Box" limit ticks 1 1
+25.059 "The Box" is lowered
+25.059 Encoder Raw 0000000000000000
+25.059 Arduino not connected
+25.059 Arduino Heartbeat: 0
+25.059 UI:
+  speed control
+
+25.069 Connection Lost
+25.070 Attempting to connect
+25.120 Sending telemetry, waiting for command
+25.121 Left Mining Motor : speed 0, counter 0
+25.122 Track front encoder ticks 0 L 0 R
+25.122 Track back encoder ticks 0 L 0 R
+25.122 Roll motor encoder ticks 0
+25.122 "The Box" limit ticks 1 1
+25.122 "The Box" is lowered
+25.122 Encoder Raw 0000000000000000
+25.122 Arduino not connected
+25.122 Arduino Heartbeat: 0
+25.122 UI:
+  speed control
+
+25.132 Connection Lost
+25.133 Attempting to connect
+25.183 Sending telemetry, waiting for command
+25.185 Left Mining Motor : speed 0, counter 0
+25.185 Track front encoder ticks 0 L 0 R
+25.185 Track back encoder ticks 0 L 0 R
+25.185 Roll motor encoder ticks 0
+25.185 "The Box" limit ticks 1 1
+25.185 "The Box" is lowered
+25.185 Encoder Raw 0000000000000000
+25.186 Arduino not connected
+25.186 Arduino Heartbeat: 0
+25.186 UI:
+  speed control
+
+25.196 Connection Lost
+25.197 Attempting to connect
+25.247 Sending telemetry, waiting for command
+25.248 Left Mining Motor : speed 0, counter 0
+25.248 Track front encoder ticks 0 L 0 R
+25.248 Track back encoder ticks 0 L 0 R
+25.249 Roll motor encoder ticks 0
+25.249 "The Box" limit ticks 1 1
+25.249 "The Box" is lowered
+25.249 Encoder Raw 0000000000000000
+25.249 Arduino not connected
+25.249 Arduino Heartbeat: 0
+25.249 UI:
+  speed control
+
+25.259 Connection Lost
+25.260 Attempting to connect
+25.310 Sending telemetry, waiting for command
+25.312 Left Mining Motor : speed 0, counter 0
+25.312 Track front encoder ticks 0 L 0 R
+25.312 Track back encoder ticks 0 L 0 R
+25.312 Roll motor encoder ticks 0
+25.312 "The Box" limit ticks 1 1
+25.312 "The Box" is lowered
+25.312 Encoder Raw 0000000000000000
+25.312 Arduino not connected
+25.313 Arduino Heartbeat: 0
+25.313 UI:
+  speed control
+
+25.323 Connection Lost
+25.324 Attempting to connect
+25.374 Sending telemetry, waiting for command
+25.375 Left Mining Motor : speed 0, counter 0
+25.375 Track front encoder ticks 0 L 0 R
+25.375 Track back encoder ticks 0 L 0 R
+25.376 Roll motor encoder ticks 0
+25.376 "The Box" limit ticks 1 1
+25.376 "The Box" is lowered
+25.376 Encoder Raw 0000000000000000
+25.376 Arduino not connected
+25.376 Arduino Heartbeat: 0
+25.376 UI:
+  speed control
+
+25.386 Connection Lost
+25.387 Attempting to connect
+25.437 Sending telemetry, waiting for command
+25.439 Left Mining Motor : speed 0, counter 0
+25.439 Track front encoder ticks 0 L 0 R
+25.439 Track back encoder ticks 0 L 0 R
+25.439 Roll motor encoder ticks 0
+25.439 "The Box" limit ticks 1 1
+25.439 "The Box" is lowered
+25.439 Encoder Raw 0000000000000000
+25.439 Arduino not connected
+25.439 Arduino Heartbeat: 0
+25.439 UI:
+  speed control
+
+25.450 Connection Lost
+1296.759 Resetusb return code: 2
+
+1296.760 Attempting to connect
+1296.810 Sending telemetry, waiting for command

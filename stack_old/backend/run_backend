@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Run from backend directory
+cd `dirname $0`
+
+# Kill off other old copies of this script first:
+./stop_backend
+
+# Save off old log file
+mv log.txt old_logs/log.`date +"%Y__%H_%M_%S"
+mv timing.log old_logs/timing.`date +"%Y__%H_%M_%S"
+
+touch stdout.log
+(while [ true ]
+do
+	echo "run_backend on "`date` >> run.log
+	./backend >> stdout.log
+	echo "Backend was killed off.  Restarting."
+	sleep 1
+done) &
+echo "See output with: tail -f stdout.log &"
+
+echo "Backend script started."
