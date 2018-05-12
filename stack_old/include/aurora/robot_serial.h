@@ -17,12 +17,12 @@ public:
 	int _timeout;
 	void connect();
 	void update(robot_base &robot);
-	uint32_t Mcountdiff, DL1diff, DR1diff, DL2diff, DR2diff;
+	uint32_t McountLdiff, McountRdiff, DL1diff, DR1diff, DL2diff, DR2diff;
 	int16_t Rdiff; // Deltas for encoders
 
 	robot_serial() :pkt(Serial) {
 		_timeout=100; //< hack, to get connect at startup
-		Mcountdiff = DL1diff = DR1diff = DL2diff = DR2diff = 0;
+		McountLdiff = McountRdiff= DL1diff = DR1diff = DL2diff = DR2diff = 0;
 		Rdiff=box_raise_max/2;
 	}
 };
@@ -88,7 +88,8 @@ void robot_serial::update(robot_base &robot){
 
 					// got valid sensor report: arduino is OK
 					robot.status.arduino=1;
-					robot.sensor.Mcount += Mcountdiff;
+					robot.sensor.McountL += McountLdiff;
+					robot.sensor.McountR += McountRdiff;
 					robot.sensor.DL1count += DL1diff;
 					robot.sensor.DL2count += DL2diff;
 					robot.sensor.DR1count += DR1diff;
@@ -117,7 +118,8 @@ void robot_serial::update(robot_base &robot){
 		robotPrintln("Connection Lost");
 
 		// Save old encoder counts, so we don't lose position when Arduino drops
-		Mcountdiff = robot.sensor.Mcount;
+		McountLdiff = robot.sensor.McountL;
+		McountRdiff = robot.sensor.McountR;
 		DL1diff = robot.sensor.DL1count;
 		DL2diff = robot.sensor.DL2count;
 		DR1diff = robot.sensor.DR1count;

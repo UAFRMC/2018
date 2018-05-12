@@ -17,7 +17,7 @@ namespace aurora {
 int bts_enable_pin=22;
 // Hardware pin wiring (for Mega)
 BTS_motor_t motor_mining(10,11,200);
-BTS_motor_t motor_box(12,3,255); //Bag rolling motor
+BTS_motor_t motor_box(12,3,255); // Box raise/lower motor
 BTS_motor_t motor_drive_left(8,9,60);
 BTS_motor_t motor_drive_right(5,4,60);
 BTS_motor_t motor_side_linears(7,6,255);
@@ -89,7 +89,11 @@ enum
 {
   NUM_AVERAGES=2
 };
-speed_controller_t<NUM_AVERAGES> encoder_M(4,0,0,encoder_bus_2[3],80,motor_mining); // Mining head left side motor
+//speed_controller_t<NUM_AVERAGES> encoder_M(4,0,0,encoder_bus_2[3],80,motor_mining); // Mining head left side motor
+
+speed_controller_t<NUM_AVERAGES> encoder_mining_left(4,0,0,encoder_bus_2[3],80,motor_mining);
+speed_controller_t<NUM_AVERAGES> encoder_mining_right(4,0,0,encoder_bus_1[4],80,motor_mining);
+
 speed_controller_t<NUM_AVERAGES> encoder_R(4,0,0,encoder_bus_1[6],80,motor_box); // Encoder for roll motor
 speed_controller_t<NUM_AVERAGES> encoder_DL1(4,0,0,encoder_bus_2[5],13,motor_drive_left);  //Left front wheel encoder
 speed_controller_t<NUM_AVERAGES> encoder_DL2(4,0,0,encoder_bus_2[8],13,motor_drive_left);  //Left back wheel encoder
@@ -118,7 +122,7 @@ void read_sensors(void) {
   robot.sensor.battery=0; 
   low_latency_ops();
 
-  robot.sensor.Mstall=encoder_M.stalled;
+  robot.sensor.Mstall=encoder_mining_left.stalled || encoder_mining_right.stalled;
   robot.sensor.DRstall=encoder_DL1.stalled;
   robot.sensor.DLstall=encoder_DR1.stalled;
   robot.sensor.limit_top=limit_top.count_mono;
@@ -175,13 +179,28 @@ void send_motors(void)
   int roll = encoder_R.update(robot.power.roll,robot.power.torqueControl==0);
   send_motor_power(robot.power.roll,motor_box,encoder_R);
 
-  // automated mining at fixed rate
-  int mine=robot.power.mine;
-  //mine=encoder_M.update(mine,robot.power.mineMode!=0||robot.power.mineDump!=0);
-  mine=encoder_M.update(mine,robot.power.torqueControl==0,24);
-  send_motor_power(mine,motor_mining,encoder_M);
-  motor_front_linear.drive(robot.power.head_extend);
+  // ***** Automated mining at fixed rate ***** //
+  int mine_target=robot.power.mine;
 
+  // Update left and right speed controllers
+  int mine_target_left = encoder_mining_left.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
+  mine_target_left=encoder_mining_left.update(mine_target_left,robot.power.torqueControl==0,24);
+  int mine_target_right = encoder_mining_right.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
+  mine_target_right=encoder_mining_right.update(mine_target_right,robot.power.torqueControl==0,24);
+
+  // Send lowest speed set by speed controllers
+  int mine_target_final;
+  if(mine_target_left <= mine_target_right) {
+    mine_target_final = mine_target_left;
+  }
+  else {
+    mine_target_final = mine_target_right;
+  }
+  send_motor_power(mine_target_final,motor_mining,encoder_mining_left);
+  // ********** //
+
+  // Send power to linears
+  motor_front_linear.drive(robot.power.head_extend);
   motor_side_linears.drive(robot.power.dump);
 }
 
@@ -217,17 +236,20 @@ void low_latency_ops() {
   unsigned long micro=micros();
   milli=micro>>10; // approximately == milliseconds
 
-  
-
   //Encoder for mining motor
-  encoder_M.read();
-  // robot.sensor.Mspeed=encoder_M.period;
-  robot.sensor.Mcount=encoder_M.count_mono;
+//  encoder_M.read();
+//  // robot.sensor.Mspeed=encoder_M.period;
+//  robot.sensor.Mcount=encoder_M.count_mono;
+
+  // Read encoders for left and right mining motors.
+  encoder_mining_left.read();
+  robot.sensor.McountL = encoder_mining_left.count_mono;
+  encoder_mining_right.read();
+  robot.sensor.McountR = encoder_mining_right.count_mono;
 
   //Encoder for roll motor
   encoder_R.read();
   robot.sensor.Rcount=encoder_R.count_dir;
-
 
   //Encoder stuff for left drive track
   encoder_DL1.read();
@@ -255,7 +277,6 @@ void low_latency_ops() {
 
 
 }; // end namespace aurora
-
 
 void setup()
 {

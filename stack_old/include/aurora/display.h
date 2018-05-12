@@ -222,7 +222,7 @@ void robot_display_setup(const robot_base &robot) {
 	// Graphical illustration of Mcount:
 	vec2 mine1=mine_tip;
 	vec2 mine0=dump_tip;
-	float Mprogress=((robot.sensor.Mcount+119)%120)/120.0*0.8;
+	float Mprogress=((robot.sensor.McountL+119)%120)/120.0*0.8;
 	vec2 Mprog=mine1+Mprogress*(mine0-mine1);
 	glColor4f(1.0,0.0,0.0,1.0);
 	glVertex2fv(Mprog);
@@ -290,7 +290,7 @@ void robot_display_setup(const robot_base &robot) {
 // Output telemetry as text (for log, mostly)
 	glColor3f(1.0,1.0,1.0);
 
-	robotPrintln("Left Mining Motor : speed %d, counter %d",robot.sensor.Mspeed, robot.sensor.Mcount);
+	robotPrintln("Left/Right Mining Motor Counts: %d, %d",robot.sensor.McountL, robot.sensor.McountR);
 	robotPrintln("Track front encoder ticks %d L %d R", robot.sensor.DL1count, robot.sensor.DR1count);
 	robotPrintln("Track back encoder ticks %d L %d R", robot.sensor.DL2count, robot.sensor.DR2count);
 	robotPrintln("Roll motor encoder ticks %d", robot.sensor.Rcount);

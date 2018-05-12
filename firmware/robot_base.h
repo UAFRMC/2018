@@ -46,8 +46,8 @@ public:
 	uint32_t stop:1; ///< EMERGENCY STOP button engaged
   uint32_t heartbeat:3;
 
-	uint32_t Mspeed:8; /// Current milliseconds per encoder tick for mining head left motor (255==stopped)
-	uint32_t Mcount:8; /// Encoder tick count for mining head left motor
+	uint32_t McountL:8; /// Current milliseconds per encoder tick for mining head left motor (255==stopped)
+	uint32_t McountR:8; /// Encoder tick count for mining head left motor
 
 	uint32_t DL1count:8; /// Encoder tick count for front left drive wheel
 	uint32_t DL2count:8; /// Encoder tick count for back left drive wheel
@@ -95,8 +95,8 @@ public:
 	unsigned char roll:7; //Roll bag
 	unsigned char paddingRoll:1;
 
-	unsigned char head_extend:7; // Extend mining head linear
-	unsigned char padding_extend:1; 
+  unsigned char head_extend:7; // Extend mining head linear
+  unsigned char padding_extend:1; 
 
 	robot_power() { stop(); }
 	void stop(void) {

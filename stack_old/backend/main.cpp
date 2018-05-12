@@ -825,7 +825,7 @@ void robot_manager_t::update(void) {
 	if (simulate_only) { // build fake arduino data
 		robot.status.arduino=1; // pretend it's connected
 		robot.sensor.bucket=sim.bucket*(950-179)+179;
-		robot.sensor.Mcount=0xff&(int)sim.Mcount;
+		robot.sensor.McountL=0xff&(int)sim.Mcount;
 		robot.sensor.Rcount=0xffff&(int)sim.Rcount;
 	} else { // real arduino
 		robot_sensors_arduino old_sensor=robot.sensor;
