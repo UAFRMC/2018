@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Kill off other old copies of the control script first:
+echo "Stopping video."
+killall -o 1s run_video camera
+
+

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+cd `dirname $0`
+
+# Kill off other old copies of this script first:
+./stop_video
+
+# Make sure "vidcaps" directory exists
+mkdir -p vidcaps
+
+# Fire up options for different camera numbers:
+(while [ true ]
+do
+	echo "run_video on "`date` >> log
+	./camera -cam 1 >> log
+	./camera -cam 2 >> log
+	echo "Camera was killed off.  Restarting."
+	sleep 1
+done) &
+
+echo "Run script started."

@@ -11,7 +11,7 @@
 #include "gridnav/gridnav_RMC.h"
 
 #include "osl/quadric.h"
-#include "../firmware/robot.h"
+#include "../../firmware/robot_base.h"
 #include "aurora/robot.cpp"
 #include "aurora/display.h"
 #include "aurora/network.h"
@@ -131,7 +131,7 @@ public:
 class robot_manager_t
 {
 public:
-	robot_current robot; // overall integrated current state
+	robot_base robot; // overall integrated current state
 
 	robot_locator locator; // localization
 	robot_telemetry telemetry; // next-sent telemetry value
@@ -336,7 +336,7 @@ private:
 vec2 dump_drive_loc(0,100);
 
 // Return true if the mining head is stalled (according to our sensors
-bool is_stalled(const robot_current &robot) {
+bool is_stalled(const robot_base &robot) {
 	return robot.sensor.Mstall;
 }
 
