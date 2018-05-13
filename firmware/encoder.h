@@ -29,6 +29,8 @@ class encoder_t{
      count_mono=0;
      count_dir=0;
      last_dir=0;
+     old_value=0;
+     value=0;
      last_change=milli;
      period=1000;
    }

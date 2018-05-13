@@ -315,12 +315,14 @@ void robot_display_setup(const robot_base &robot) {
 
 
 	std::string encoder_str("Encoder Raw ");
-	for(int ii=16-1;ii>=0;--ii)
+	for(int ii=12-1;ii>=0;--ii)
 	{
 		if((robot.sensor.encoder_raw&(1<<ii))!=0)
 			encoder_str+="1";
 		else
 			encoder_str+="0";
+		if(ii==6)
+			encoder_str += " ";
 	}
 	robotPrintln(encoder_str.c_str());
 

@@ -91,17 +91,19 @@ enum
 };
 //speed_controller_t<NUM_AVERAGES> encoder_M(4,0,0,encoder_bus_2[3],80,motor_mining); // Mining head left side motor
 
-speed_controller_t<NUM_AVERAGES> encoder_mining_left(4,0,0,encoder_bus_2[3],80,motor_mining);
-speed_controller_t<NUM_AVERAGES> encoder_mining_right(4,0,0,encoder_bus_1[4],80,motor_mining);
+speed_controller_t<NUM_AVERAGES> encoder_mining_left(4,0,0,encoder_raw_pins[4],80,motor_mining);
+speed_controller_t<NUM_AVERAGES> encoder_mining_right(4,0,0,encoder_raw_pins[11],80,motor_mining);
 
-speed_controller_t<NUM_AVERAGES> encoder_R(4,0,0,encoder_bus_1[6],80,motor_box); // Encoder for roll motor
-speed_controller_t<NUM_AVERAGES> encoder_DL1(4,0,0,encoder_bus_2[5],13,motor_drive_left);  //Left front wheel encoder
-speed_controller_t<NUM_AVERAGES> encoder_DL2(4,0,0,encoder_bus_2[8],13,motor_drive_left);  //Left back wheel encoder
-speed_controller_t<NUM_AVERAGES> encoder_DR1(4,0,0,encoder_bus_2[4],13,motor_drive_right); //Right front wheel encoder
-speed_controller_t<NUM_AVERAGES> encoder_DR2(4,0,0,encoder_bus_2[7],13,motor_drive_right);  //Right back wheel encoder
+speed_controller_t<NUM_AVERAGES> encoder_R(4,0,0,encoder_raw_pins[6],80,motor_box); // Encoder for roll motor
 
-encoder_t limit_top(encoder_bus_1[3]);
-encoder_t limit_bottom(encoder_bus_1[5]);
+// Only one drive encoder per side
+speed_controller_t<NUM_AVERAGES> encoder_DL1(4,0,0,encoder_raw_pins[5],13,motor_drive_left);  //Left front wheel encoder
+speed_controller_t<NUM_AVERAGES> encoder_DL2(4,0,0,encoder_raw_pins[5],13,motor_drive_left);  //Left back wheel encoder
+speed_controller_t<NUM_AVERAGES> encoder_DR1(4,0,0,encoder_raw_pins[8],13,motor_drive_right); //Right front wheel encoder
+speed_controller_t<NUM_AVERAGES> encoder_DR2(4,0,0,encoder_raw_pins[8],13,motor_drive_right);  //Right back wheel encoder
+
+encoder_t limit_top(encoder_raw_pins[3]);
+encoder_t limit_bottom(encoder_raw_pins[5]);
 
 
 
