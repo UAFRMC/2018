@@ -103,7 +103,7 @@ speed_controller_t<NUM_AVERAGES> encoder_DR1(4,0,0,encoder_raw_pins[8],13,motor_
 speed_controller_t<NUM_AVERAGES> encoder_DR2(4,0,0,encoder_raw_pins[8],13,motor_drive_right);  //Right back wheel encoder
 
 encoder_t limit_top(encoder_raw_pins[3]);
-encoder_t limit_bottom(encoder_raw_pins[5]);
+encoder_t limit_bottom(encoder_raw_pins[2]);
 
 
 
