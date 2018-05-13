@@ -807,9 +807,9 @@ void robot_manager_t::update(void) {
 		can_raise_down=false;
 
 	//Detect limit switches and reset encoder offset if needed
-	if(robot.sensor.limit_top%2==0)
+	if(robot.sensor.limit_top%2!=0)
 		can_raise_up=false;
-	if(robot.sensor.limit_bottom%2==0)
+	if(robot.sensor.limit_bottom%2!=0)
 		can_raise_down=false;
 
 	//Stop raise/lower if limit detected
@@ -835,12 +835,12 @@ void robot_manager_t::update(void) {
 		robot.sensor.bucket=sim.bucket*(950-179)+179;
 
 		//Reset encoder offset if needed
-		if(robot.sensor.limit_top%2==0)
+		if(robot.sensor.limit_top%2!=0)
 		{
 			arduino.Rdiff+=box_raise_max-robot.sensor.Rcount;
 			robot.sensor.Rcount=box_raise_max;
 		}
-		if(robot.sensor.limit_bottom%2==0)
+		if(robot.sensor.limit_bottom%2!=0)
 		{
 			arduino.Rdiff-=robot.sensor.Rcount;
 			robot.sensor.Rcount=0;
