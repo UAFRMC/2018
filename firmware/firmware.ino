@@ -16,7 +16,7 @@ namespace aurora {
 
 int bts_enable_pin=22;
 // Hardware pin wiring (for Mega)
-BTS_motor_t motor_mining(10,11,200);
+BTS_motor_t motor_mining(10,11,255);
 BTS_motor_t motor_box(12,3,255); // Box raise/lower motor
 BTS_motor_t motor_drive_left(8,9,60);
 BTS_motor_t motor_drive_right(5,4,60);
@@ -185,12 +185,14 @@ void send_motors(void)
   int mine_target=robot.power.mine;
 
   // Update left and right speed controllers
-  int mine_target_left = encoder_mining_left.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
-  mine_target_left=encoder_mining_left.update(mine_target_left,robot.power.torqueControl==0,24);
-  int mine_target_right = encoder_mining_right.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
-  mine_target_right=encoder_mining_right.update(mine_target_right,robot.power.torqueControl==0,24);
+  const int mining_rpm_scalar = 24;
+  //int mine_target_left = encoder_mining_left.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
+  int mine_target_left=encoder_mining_left.update(mine_target,robot.power.torqueControl==0,mining_rpm_scalar);
+  //int mine_target_right = encoder_mining_right.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
+  int mine_target_right=encoder_mining_right.update(mine_target,robot.power.torqueControl==0,mining_rpm_scalar);
 
   // Send lowest speed set by speed controllers
+  // TODO: FIX FOR BACKWARDS DRIVE
   int mine_target_final;
   if(mine_target_left <= mine_target_right) {
     mine_target_final = mine_target_left;
