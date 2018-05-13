@@ -9,7 +9,7 @@
 #include <cmath>
 
 #include "osl/quadric.h"
-#include "../firmware/robot.h"
+#include "../../firmware/robot_base.h"
 #include "aurora/robot.cpp"
 #include "aurora/display.h" /* for graphics */
 #include "aurora/network.h"
@@ -27,7 +27,7 @@
 class robot_manager_t 
 {
 public:
-	robot_current robot; // overall integrated current state
+	robot_base robot; // overall integrated current state
 	
 	robot_telemetry telemetry; // last-known telemetry value
 	byte last_telemetry_count;
