@@ -80,6 +80,7 @@ CommunicationChannel BlinkyL(BlinkyLport);
 CommunicationChannel BlinkyR(BlinkyRport);
 
 const int encoder_raw_pin_count=12;
+
 const int encoder_raw_pins[encoder_raw_pin_count]={48,34,50,32,52,30, 42,40,44,38,46,36};
 
 const int encoder_bus_1[9]={0,0,0, 48,34,50,32,52,30}; //bus 1-4
@@ -124,7 +125,7 @@ void read_sensors(void) {
   robot.sensor.battery=0; 
   low_latency_ops();
 
-  robot.sensor.Mstall=encoder_mining_left.stalled || encoder_mining_right.stalled;
+  robot.sensor.Mstall=encoder_mining_right.stalled; //encoder_mining_left.stalled || encoder_mining_right.stalled;
   robot.sensor.DRstall=encoder_DL1.stalled;
   robot.sensor.DLstall=encoder_DR1.stalled;
   robot.sensor.limit_top=limit_top.count_mono;
@@ -185,7 +186,7 @@ void send_motors(void)
   int mine_target=robot.power.mine;
 
   // Update left and right speed controllers
-  const int mining_rpm_scalar = 24;
+  const int mining_rpm_scalar = 100;
   //int mine_target_left = encoder_mining_left.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
   int mine_target_left=encoder_mining_left.update(mine_target,robot.power.torqueControl==0,mining_rpm_scalar);
   //int mine_target_right = encoder_mining_right.update(mine_target,robot.power.mineMode!=0||robot.power.mineDump!=0);
@@ -194,13 +195,13 @@ void send_motors(void)
   // Send lowest speed set by speed controllers
   // TODO: FIX FOR BACKWARDS DRIVE
   int mine_target_final;
-  if(mine_target_left <= mine_target_right) {
-    mine_target_final = mine_target_left;
-  }
-  else {
+  //if(mine_target_left <= mine_target_right) {
+  //  mine_target_final = mine_target_left;
+  //}
+  //else {
     mine_target_final = mine_target_right;
-  }
-  send_motor_power(mine_target_final,motor_mining,encoder_mining_left);
+  //}
+  send_motor_power(mine_target_final,motor_mining,encoder_mining_right);
   // ********** //
 
   // Send power to linears
